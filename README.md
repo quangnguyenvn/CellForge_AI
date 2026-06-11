@@ -181,6 +181,7 @@ For quick judging, the main outputs are checked into the repository:
 - **Evidence audit report:** [reports/real_audit_report.md](reports/real_audit_report.md)
 - **Arize trace report:** [reports/traces/phoenix_connection_report.md](reports/traces/phoenix_connection_report.md)
 - **Molecular/interface schematic:** [reports/figures/molecular_interface_schematic.svg](reports/figures/molecular_interface_schematic.svg)
+- **Subtitled 180-second demo video:** [reports/video_demo/cellforge_ai_demo_subtitled_180s.mp4](reports/video_demo/cellforge_ai_demo_subtitled_180s.mp4)
 - **Silent 180-second demo video for Clipchamp voice-over:** [reports/video_demo/cellforge_ai_demo_silent.mp4](reports/video_demo/cellforge_ai_demo_silent.mp4)
 
 The most important file for reviewers to read is:
