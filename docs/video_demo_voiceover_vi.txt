@@ -1,0 +1,29 @@
+Clipchamp voice setting:
+- Language: Vietnamese
+- Voice: male
+- Speed: medium
+- Duration target: 2 minutes 20 seconds to 2 minutes 45 seconds
+
+Voice-over script:
+
+Xin chào, đây là CellForge AI, một research agent tự kiểm chứng dành cho nghiên cứu vật liệu pin lithium-ion theo hướng xanh.
+
+Vấn đề là nghiên cứu pin đang có quá nhiều paper, quá nhiều claim thực nghiệm, và rất dễ tạo ra một ý tưởng nghe hay nhưng thiếu citation, thiếu kiểm chứng, hoặc bỏ qua contradiction. CellForge AI không chỉ là một chatbot tìm paper. Nó là một agent workflow có nhiều bước: ingest tài liệu, trích xuất claim, benchmark retrieval, tạo hypothesis, audit từng hypothesis, trace bằng Arize, rồi mới xuất research proposal package.
+
+Trong demo này, scope được narrow vào green electrode materials cho lithium-ion batteries. Agent đọc các extraction từ Gemini Document Understanding, tạo real evidence corpus, rồi đánh giá retrieval benchmark. Sau đó nó generate năm hướng nghiên cứu ứng viên.
+
+Điểm quan trọng là bước audit. Mỗi hypothesis được chấm citation coverage, claim grounding, contradiction coverage, evidence strength, novelty gap, feasibility, và hallucination risk. Đây là lý do CellForge AI khác với một RAG assistant thông thường: nó không chỉ trả lời, nó tự kiểm tra độ đáng tin của hướng nghiên cứu trước khi recommend.
+
+Ở Arize AX, ta thấy các trace spans của pipeline: evidence loading, retrieval agent, hypothesis generator, evidence auditor cho từng hypothesis, và self-introspection agent. Self-introspection chọn hypothesis H003 vì grounding tốt hơn và hallucination risk thấp hơn các hướng còn lại.
+
+H003 là: circular natural-graphite anodes with bio-based conductive surface repair. Ý tưởng là kết hợp non-thermal plasma purification cho graphite tự nhiên hoặc graphite tái chế, sau đó dùng bio-derived carbon coating để repair surface defects và ổn định SEI.
+
+CellForge cũng không bỏ qua rủi ro. Ví dụ PHBV binder có performance tốt, nhưng dùng chloroform và adhesion thấp hơn PVDF. Claim này được đưa vào contradiction và risk control, thay vì bị agent lờ đi.
+
+Sau audit, agent áp dụng human validation gate. Trong demo, bốn claim quan trọng được validated từ Gemini Document Understanding artifacts và internal consistency checks. Với paper thật, bước này sẽ cần human researcher đối chiếu PDF và publisher source trước khi submit journal.
+
+Cuối cùng, Gemini Pro preview tạo research brief, còn repo xuất manuscript draft và hình mô phỏng molecular interface. Output này không phải final publishable paper. Nó là evidence-backed research proposal package để con người kiểm chứng, chỉnh sửa, và phát triển thành paper.
+
+Ý nghĩa rộng hơn là workflow này không chỉ dùng cho battery domain. Cùng một pattern có thể áp dụng cho solar materials, catalysts, carbon capture, biomedical materials, và nhiều lĩnh vực research khác: retrieve evidence, extract claims, generate hypotheses, audit grounding, validate, rồi draft.
+
+CellForge AI bắt đầu với green battery materials vì tương lai của năng lượng, xe điện, và công nghiệp bền vững phụ thuộc rất nhiều vào vật liệu mới và quy trình sản xuất pin sạch hơn.

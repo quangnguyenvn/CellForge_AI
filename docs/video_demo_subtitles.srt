@@ -1,0 +1,43 @@
+1
+00:00:00,000 --> 00:00:14,000
+Xin chao, day la CellForge AI, mot research agent tu kiem chung danh cho nghien cuu vat lieu pin lithium-ion theo huong xanh.
+
+2
+00:00:14,000 --> 00:00:31,000
+Van de la nghien cuu pin co qua nhieu paper, qua nhieu claim thuc nghiem, va rat de tao ra mot y tuong nghe hay nhung thieu citation hoac bo qua contradiction.
+
+3
+00:00:31,000 --> 00:00:47,000
+CellForge AI khong chi la chatbot tim paper. No la agent workflow: ingest tai lieu, trich xuat claim, benchmark retrieval, tao hypothesis, audit, trace bang Arize, roi moi xuat proposal.
+
+4
+00:00:47,000 --> 00:01:04,000
+Trong demo nay, scope duoc narrow vao green electrode materials cho lithium-ion batteries. Agent doc Gemini extraction artifacts, tao real evidence corpus, va generate nam huong nghien cuu ung vien.
+
+5
+00:01:04,000 --> 00:01:22,000
+Diem quan trong la buoc audit. Moi hypothesis duoc cham citation coverage, claim grounding, contradiction coverage, evidence strength, novelty gap, feasibility, va hallucination risk.
+
+6
+00:01:22,000 --> 00:01:39,000
+O Arize AX, ta thay cac trace spans cua pipeline: retrieval, hypothesis generation, evaluator spans, va self-introspection. Agent chon H003 vi grounding tot hon va risk thap hon.
+
+7
+00:01:39,000 --> 00:01:56,000
+H003 la circular natural-graphite anodes with bio-based conductive surface repair: ket hop non-thermal plasma purification voi bio-derived carbon coating de on dinh SEI.
+
+8
+00:01:56,000 --> 00:02:12,000
+CellForge cung khong bo qua rui ro. PHBV binder co performance tot, nhung dung chloroform va adhesion thap hon PVDF. Claim nay duoc dua vao contradiction va risk control.
+
+9
+00:02:12,000 --> 00:02:28,000
+Sau audit, agent ap dung human validation gate. Trong demo, bon claim quan trong duoc validated tu Gemini Document Understanding artifacts va internal consistency checks.
+
+10
+00:02:28,000 --> 00:02:44,000
+Cuoi cung, Gemini Pro preview tao research brief, repo xuat manuscript draft va hinh mo phong molecular interface. Output nay khong phai final publishable paper.
+
+11
+00:02:44,000 --> 00:03:00,000
+Y nghia rong hon: pattern nay co the dung cho solar materials, catalysts, carbon capture, biomedical materials, va nhieu linh vuc research khac.
