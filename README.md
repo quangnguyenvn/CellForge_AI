@@ -169,3 +169,22 @@ The same approach can support other local researcher workflows beyond batteries:
 > retrieve evidence -> extract claims -> generate hypotheses -> audit grounding -> validate -> draft a research package.
 
 Battery materials are the first demo because cleaner batteries are central to the future of transportation, renewable energy storage, and sustainable industry.
+
+## [JUDGES] Final Demo Outputs
+
+For quick judging, the main outputs are checked into the repository:
+
+- **Final Gemini Pro preview research report:** [reports/gemini_research_brief.md](reports/gemini_research_brief.md)
+- **Gemini provider proof:** [reports/gemini_research_brief.json](reports/gemini_research_brief.json)
+- **Human validation report:** [reports/human_validation_report.md](reports/human_validation_report.md)
+- **Manuscript draft after validation gate:** [reports/manuscript_draft.md](reports/manuscript_draft.md)
+- **Evidence audit report:** [reports/real_audit_report.md](reports/real_audit_report.md)
+- **Arize trace report:** [reports/traces/phoenix_connection_report.md](reports/traces/phoenix_connection_report.md)
+- **Molecular/interface schematic:** [reports/figures/molecular_interface_schematic.svg](reports/figures/molecular_interface_schematic.svg)
+- **Silent 180-second demo video for Clipchamp voice-over:** [reports/video_demo/cellforge_ai_demo_silent.mp4](reports/video_demo/cellforge_ai_demo_silent.mp4)
+
+The most important file for reviewers to read is:
+
+> [reports/gemini_research_brief.md](reports/gemini_research_brief.md)
+
+That report is generated from audited evidence and should be read together with the validation and audit reports above.
