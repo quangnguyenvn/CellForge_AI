@@ -11,3 +11,5 @@ node_modules/
 .tmp_screening/
 data/real_papers/
 data/real_papers_priority/
+reports/video_demo/frames/
+reports/video_demo/frames.txt
