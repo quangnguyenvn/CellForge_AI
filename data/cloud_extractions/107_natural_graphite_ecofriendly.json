@@ -1,0 +1,118 @@
+{
+"title": "Natural graphite in making ecofriendly lithium-ion batteries: Challenges, current status, and future outlooks",
+"abstract_summary": "This review paper examines the role of natural graphite (NG) as a sustainable and cost-effective anode material for lithium-ion batteries compared to synthetic graphite. It analyzes green purification methods (such as non-thermal plasma and electrochemical methods) to eliminate the hazardous hydrofluoric acid (HF) conventionally used, compares the environmental footprints and costs of natural versus synthetic graphite, and evaluates current methodologies for recycling and reusing spent graphite anodes to promote a circular economy.",
+"paper_type": "Review Paper",
+"electrode_component": "anode",
+"green_strategy": "Utilization of natural graphite to replace energy-intensive synthetic graphite; development of green purification technologies (electrochemical and non-thermal plasma) to replace toxic hydrofluoric acid (HF) treatments; and recycling/regeneration of spent graphite anodes using mild organic acids and low-temperature annealing.",
+"battery_chemistry": "lithium-ion",
+"fabrication_method": "Green purification and recycling techniques including flotation, non-thermal plasma (NTP) treatment, electrochemical purification, and organic-acid leaching/polymer-coating of spent graphite.",
+"performance_metrics": [
+{
+"metric": "Raw material cost",
+"value": "$5000–10,000 per tonne",
+"condition": "Natural graphite production",
+"comparison_baseline": "$10,000–20,000 per tonne (for synthetic graphite)",
+"source_section_or_page": "Page 1, Introduction"
+},
+{
+"metric": "Purity of non-thermal plasma purified graphite",
+"value": "exceeding 99.99%",
+"condition": "Low bulk temperature non-thermal plasma (NTP) treatment",
+"comparison_baseline": "less than 90% (raw natural graphite ore)",
+"source_section_or_page": "Page 17, Section 4.1.7"
+},
+{
+"metric": "Reversible capacity of regenerated spent graphite",
+"value": "353 mAh/g",
+"condition": "At 0.1C rate, regenerated with a conductive HOS-PFM polymer coating",
+"comparison_baseline": "342 mAh/g (uncoated regenerated graphite)",
+"source_section_or_page": "Page 24-25, Section 6"
+},
+{
+"metric": "Coulombic efficiency of regenerated spent graphite",
+"value": "99.93%",
+"condition": "Regenerated with a conductive HOS-PFM polymer coating",
+"comparison_baseline": "99.60% (uncoated regenerated graphite)",
+"source_section_or_page": "Page 25, Section 6"
+},
+{
+"metric": "Reversible capacity of oxidized recycled graphite (RGO500)",
+"value": "130 mAh/g",
+"condition": "At 1C cycle rate, after controlled pyrolysis of recycled graphite (RGO500)",
+"comparison_baseline": "not stated in paper",
+"source_section_or_page": "Page 26, Section 6"
+},
+{
+"metric": "Initial Coulombic Efficiency (ICE) of oxidized recycled graphite (RGO500)",
+"value": "exceeding 92%",
+"condition": "Controlled pyrolysis of recycled graphite",
+"comparison_baseline": "~80% (untreated recycled graphite)",
+"source_section_or_page": "Page 26, Section 6"
+}
+],
+"limitations": [
+"Natural graphite exhibits lower initial Coulombic efficiency (85–90%) compared to synthetic graphite (90–95%) due to its high surface area and edge plane exposure.",
+"Conventional purification of natural graphite relies on highly toxic, corrosive hydrofluoric acid (HF), causing substantial environmental water contamination and high waste-treatment costs.",
+"Innovative green purification methods like non-thermal plasma and electrochemical treatments face limitations regarding scalability, high equipment costs, and operational throughput.",
+"Spent graphite recycling is often complicated by binder residues, solid-electrolyte interphase (SEI) contaminants, and transition metal impurities that degrade performance when reused."
+],
+"figure_or_table_evidence": [
+{
+"figure_or_table": "Table 4",
+"evidence_summary": "Provides a comprehensive side-by-side comparison of natural graphite versus synthetic graphite parameters, highlighting differences in crystallinity, processing complexity, cost, environmental impact, specific capacity, and initial Coulombic efficiency.",
+"exact_values_available": true,
+"needs_manual_digitization": false,
+"source_page": "11"
+},
+{
+"figure_or_table": "Fig. 12",
+"evidence_summary": "Presents a structured schematic comparing the main advantages and disadvantages of natural graphite purification methods (flotation, thermal, HF acid, alkali roasting, chlorination, electrochemical, and non-thermal plasma).",
+"exact_values_available": false,
+"needs_manual_digitization": false,
+"source_page": "17"
+},
+{
+"figure_or_table": "Fig. 18",
+"evidence_summary": "Schematically outlines the regeneration pathways of spent graphite from spent lithium-ion batteries using acid treatment (acetic acid), alkali treatment (KOH), and thermal gas treatment under N2.",
+"exact_values_available": false,
+"needs_manual_digitization": false,
+"source_page": "25"
+},
+{
+"figure_or_table": "Fig. 19",
+"evidence_summary": "Displays electrochemical testing and cycle performance of oxidized recycled graphite (RGO500) and untreated recycled graphite (RG). Chart (h) shows half-cell cycle stability at 1C, highlighting that RGO500 maintains ~130 mAh/g capacity over 300 cycles.",
+"exact_values_available": true,
+"needs_manual_digitization": false,
+"source_page": "26"
+}
+],
+"candidate_research_claims": [
+{
+"claim_text": "Non-thermal plasma (NTP) treatment serves as a chemical-free, low-temperature, and highly energy-efficient purification method capable of upgrading natural graphite purity to over 99.99%.",
+"battery_chemistry": "lithium-ion",
+"approach_type": "green purification of natural graphite",
+"metric": "carbon purity",
+"value": "exceeding 99.99%",
+"experimental_condition": "Low bulk temperature, non-thermal plasma activation",
+"evidence_type": "literature review / experimental reference",
+"limitation": "High equipment cost and difficulty in scaling up for large volume powder processing.",
+"citation_text": "It has been reported that NTP treatment can significantly enhance graphite purity to levels exceeding 99.99%, simultaneously reducing oxygen- and sulfur-containing surface functional groups.",
+"source_section_or_page": "Page 17, Section 4.1.7"
+},
+{
+"claim_text": "Spent graphite regenerated using a conductive polymer coating (HOS-PFM) achieves a high reversible capacity of 353 mAh/g at 0.1C with a Coulombic efficiency of 99.93% and improved capacity retention.",
+"battery_chemistry": "lithium-ion",
+"approach_type": "recycled graphite anode material",
+"metric": "reversible capacity",
+"value": "353 mAh/g",
+"experimental_condition": "0.1C charge/discharge rate, coated with conductive HOS-PFM polymer",
+"evidence_type": "experimental",
+"limitation": "Conductive polymer coating adds manufacturing steps and polymer costs to the recycling process.",
+"citation_text": "the polymer-coated graphite anode exhibited a reversible capacity of 353 mAh/g at 0.1C, compared to 342 mAh/g for uncoated regenerated graphite.",
+"source_section_or_page": "Page 24-25, Section 6"
+}
+],
+"confidence": 0.95,
+"needs_human_review": true,
+"human_review_reason": "This is a review paper where key performance metrics and claims are synthesized from various third-party primary research papers (e.g., studies by Miao et al. and Lu et al.), rather than representing a single internal experimental study."
+}

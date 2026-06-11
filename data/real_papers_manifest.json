@@ -1,0 +1,3735 @@
+{
+  "generated_at": "2026-06-10T07:51:07.924091+00:00",
+  "scope": "sustainable/green fabrication of high-performance lithium-ion battery electrode materials",
+  "summary": {
+    "total_pdfs": 124,
+    "decisions": {
+      "DROP": 16,
+      "KEEP": 3,
+      "MAYBE": 3,
+      "NEEDS_OCR": 102
+    },
+    "top_clusters": {
+      "cathode materials": 3,
+      "anode materials": 3,
+      "general electrode materials": 1,
+      "dry/solvent-free electrode processing": 1,
+      "bio-derived binders/materials": 1,
+      "binder engineering": 1
+    },
+    "text_readable": 18,
+    "needs_ocr_or_cloud": 105,
+    "empty_or_failed_downloads": 1
+  },
+  "papers": [
+    {
+      "file_name": "01.Building better batteries.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\01.Building better batteries.pdf",
+      "file_size_bytes": 1792388,
+      "title_from_pdf_text": "H O R I Z O N S Batteries are currently being developed to power an increasingly diverse range of applications, from cars to microchips.",
+      "abstract_or_summary_from_pdf_text": "H O R I Z O N S Batteries are currently being developed to power an increasingly diverse range of applications, from cars to microchips. How can scientists achieve the performance that each application demands? How will batteries be able to power the many other portable devices that will no doubt be developed in the coming years? And how can batteries become a sus- tainable technology for the future?",
+      "pages": 6,
+      "extracted_pages": 4,
+      "text_chars": 21726,
+      "metadata_text": "7.2 Horiz 03 Batteries.indd MH Colin NEW.indd",
+      "needs_ocr_or_cloud": false,
+      "decision": "KEEP",
+      "relevance_score": 18,
+      "paper_type": "experimental_or_methods",
+      "reasons": [
+        "battery/LIB relevance",
+        "electrode/material fabrication relevance",
+        "green/sustainable/process relevance",
+        "performance metrics present"
+      ],
+      "matches": {
+        "battery": [
+          "lithium-ion",
+          "lithium ion",
+          "battery"
+        ],
+        "electrode": [
+          "electrode"
+        ],
+        "green": [
+          "green",
+          "sustainable"
+        ],
+        "performance": [
+          "capacity"
+        ],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "02.Synthesis_and_Performance_Optimisation_of_Novel_El.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\02.Synthesis_and_Performance_Optimisation_of_Novel_El.pdf",
+      "file_size_bytes": 1158670,
+      "title_from_pdf_text": "Synthesis and Performance Optimisation of Novel Electrode Materials for Lithium-Ion Batteries Renjie Song Northwestern Polytechnical University, Shaanxi, China 2915281075@qq.com Abstract: This study focuses on the synthe",
+      "abstract_or_summary_from_pdf_text": "This study focuses on the synthesis and performance optimization of novel electrode materials for lithium-ion batteries. By analyzing the structural stability, interfacial reactions, and electrochemical properties of both cathode and anode materials, various optimization strategies such as gradient doping, nanocomposite design, and interface engineering were proposed. Multiple electrochemical testing methods, including constant current charge–discharge, cyclic voltammetry, and electrochemical impedance spectroscopy, were employed to comprehensively assess the effects of these strategies on material performance. The results indicate that gradient-doped cathode materials exhibit enhanced thermal stability and reduced capacity decay under high-temperature and high-voltage conditions; the nanocomposite anode design effectively alleviates the volume expansion of silicon-based materials, significantly reducing the expansion rate and improving cycling stability; and interface engineering markedly decreases the charge transfer impedance, thereby boosting battery power output. Full-cell evaluations demonstrate that the novel electrode materials achieve an energy density of 235 Wh·kg⁻¹, while maintaining high cycle life even under extreme temperature conditions. Furthermore, the study systematically analyzes key issues related to industrial-scale production, material compatibility, and sustainable development, discussing the feasibility of process optimization and environmentally friendly technologies for large-scale applications. Overall, this research not only provides theoretical ",
+      "pages": 14,
+      "extracted_pages": 4,
+      "text_chars": 15468,
+      "metadata_text": "",
+      "needs_ocr_or_cloud": false,
+      "decision": "KEEP",
+      "relevance_score": 33,
+      "paper_type": "experimental_or_methods",
+      "reasons": [
+        "battery/LIB relevance",
+        "electrode/material fabrication relevance",
+        "green/sustainable/process relevance",
+        "performance metrics present"
+      ],
+      "matches": {
+        "battery": [
+          "lithium-ion",
+          "lithium-ion battery",
+          "battery"
+        ],
+        "electrode": [
+          "electrode",
+          "anode",
+          "cathode",
+          "silicon"
+        ],
+        "green": [
+          "green",
+          "sustainable",
+          "environmental"
+        ],
+        "performance": [
+          "capacity",
+          "capacity retention",
+          "cycle",
+          "cycling",
+          "cycle life",
+          "impedance",
+          "energy density"
+        ],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "03.Application-of-silver-tin-dioxide-composite-cathode-_2018_Materials-Science-.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\03.Application-of-silver-tin-dioxide-composite-cathode-_2018_Materials-Science-.pdf",
+      "file_size_bytes": 2522377,
+      "title_from_pdf_text": "Application of silver-tin dioxide composite cathode catalyst for enhancing performance of microbial desalination cell G.",
+      "abstract_or_summary_from_pdf_text": "Application of silver-tin dioxide composite cathode catalyst for enhancing performance of microbial desalination cell G. For improving the performance, a carbon supported silver-tin dioxide (Ag-SnO2) composite was synthesized and used as cathode catalyst in a ﬁve- chambered MDC (MDC-1). The results were compared with MDC-2 having no catalyst on the cathode. Saline water with a NaCl concentration of 20 g/L was used to evaluate the desalination efﬁciency of both the MDCs.",
+      "pages": 8,
+      "extracted_pages": 4,
+      "text_chars": 22788,
+      "metadata_text": "",
+      "needs_ocr_or_cloud": false,
+      "decision": "DROP",
+      "relevance_score": 9,
+      "paper_type": "experimental_or_methods",
+      "reasons": [
+        "electrode/material fabrication relevance",
+        "green/sustainable/process relevance",
+        "performance metrics present",
+        "contains out-of-scope signals"
+      ],
+      "matches": {
+        "battery": [],
+        "electrode": [
+          "electrode",
+          "anode",
+          "cathode"
+        ],
+        "green": [
+          "sustainable"
+        ],
+        "performance": [
+          "power density"
+        ],
+        "out_of_scope": [
+          "desalination",
+          "catalyst"
+        ]
+      }
+    },
+    {
+      "file_name": "04.Capillarity-driven-assembly-of-single-walled-carbon-n_2018_Materials-Science.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\04.Capillarity-driven-assembly-of-single-walled-carbon-n_2018_Materials-Science.pdf",
+      "file_size_bytes": 1711267,
+      "title_from_pdf_text": "Capillarity-driven assembly of single-walled carbon nanotubes onto nickel wires for ﬂexible wire-shaped supercapacitors Pan Li, Yiming Li, Ziqiang Zhang, Jun Chen, Yi Li ⇑, Yanwen Ma ⇑ Key Laboratory for Organic Electron",
+      "abstract_or_summary_from_pdf_text": "Coating of carbon nanomaterials directly onto functional ﬁber is a facile strategy to prepare wire-shaped electrodes. However, it is still a critical challenge to maximize the adhesion of the nanomaterials onto aimed substrate ﬁber, while still maintain- ing the high speciﬁc area of the nanomaterials. Herein, both carbon nanotubes (CNTs) and graphene were coated onto the surface of nickel wires via capillary effect driven process. It was discovered that the one dimensional morphology of the CNTs not only beneﬁted the adhesion of CNTs on the relatively smooth surface of the nickel metal wire, but also strengthened the inﬁltration of the electrolyte among the CNTs.",
+      "pages": 6,
+      "extracted_pages": 4,
+      "text_chars": 19437,
+      "metadata_text": "",
+      "needs_ocr_or_cloud": false,
+      "decision": "DROP",
+      "relevance_score": 16,
+      "paper_type": "experimental_or_methods",
+      "reasons": [
+        "electrode/material fabrication relevance",
+        "performance metrics present"
+      ],
+      "matches": {
+        "battery": [],
+        "electrode": [
+          "electrode",
+          "active material",
+          "coating"
+        ],
+        "green": [],
+        "performance": [
+          "cycle",
+          "energy density",
+          "power density",
+          "electrochemical performance"
+        ],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "05.Catalytic-soot-oxidation-activity-of-Cr-doped-ceria--_2018_Materials-Science.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\05.Catalytic-soot-oxidation-activity-of-Cr-doped-ceria--_2018_Materials-Science.pdf",
+      "file_size_bytes": 1247853,
+      "title_from_pdf_text": "Catalytic soot oxidation activity of Cr-doped ceria (Ce1-xCrxO2-d) synthesized by sol-gel method with organic additives Satya Deepika Neelapala, Harshini Dasari ⇑ Department of Chemical Engineering, Manipal Institute of ",
+      "abstract_or_summary_from_pdf_text": "The structural and morphological properties were investigated by XRD, BET surface area, Raman and SEM analysis. Catalytic soot oxidation activity of the samples was analyzed by thermogravimetric analysis. XRD results established the evidence for the formation of Ce1-xCrxO2-d solid solutions and Cr2O3 formation had taken place when the dopant level is x \u0001 0.15. Pure ceria pos- sessed higher surface area when compared to Cr-doped samples due to agglomeration as evidenced by SEM analysis.",
+      "pages": 5,
+      "extracted_pages": 4,
+      "text_chars": 16718,
+      "metadata_text": "",
+      "needs_ocr_or_cloud": false,
+      "decision": "DROP",
+      "relevance_score": 0,
+      "paper_type": "review_or_overview",
+      "reasons": [
+        "green/sustainable/process relevance",
+        "contains out-of-scope signals"
+      ],
+      "matches": {
+        "battery": [],
+        "electrode": [],
+        "green": [
+          "environmental"
+        ],
+        "performance": [],
+        "out_of_scope": [
+          "soot oxidation",
+          "catalyst"
+        ]
+      }
+    },
+    {
+      "file_name": "06.Chemically-deposited-ultrathin---Ni-OH-2-nanosheet-us_2018_Materials-Science.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\06.Chemically-deposited-ultrathin---Ni-OH-2-nanosheet-us_2018_Materials-Science.pdf",
+      "file_size_bytes": 1847953,
+      "title_from_pdf_text": "Chemically deposited ultrathin a-Ni(OH)2 nanosheet using surfactant on Ni foam for high performance supercapacitor application P.E.",
+      "abstract_or_summary_from_pdf_text": "Chemically deposited ultrathin a-Ni(OH)2 nanosheet using surfactant on Ni foam for high performance supercapacitor application P.E. The surfactant added has not taken any part in the reaction but it acts as a morphology directive. Structural and morphological characterization of prepared materials are evaluated by X-ray diffraction (XRD), Fourier transform infrared spectroscopy (FTIR) and scanning electron microscopy (SEM). The nanostructured ‘‘a” phase of Ni(OH)2 is conﬁrmed by the XRD results.",
+      "pages": 5,
+      "extracted_pages": 4,
+      "text_chars": 16660,
+      "metadata_text": "",
+      "needs_ocr_or_cloud": false,
+      "decision": "DROP",
+      "relevance_score": 12,
+      "paper_type": "experimental_or_methods",
+      "reasons": [
+        "electrode/material fabrication relevance",
+        "performance metrics present"
+      ],
+      "matches": {
+        "battery": [],
+        "electrode": [
+          "electrode"
+        ],
+        "green": [],
+        "performance": [
+          "cycle",
+          "cycle life",
+          "power density",
+          "electrochemical performance"
+        ],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "07.Effect-of-TiO2-on-electrocatalytic-behavior-of-N_2018_Materials-Science-for-.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\07.Effect-of-TiO2-on-electrocatalytic-behavior-of-N_2018_Materials-Science-for-.pdf",
+      "file_size_bytes": 2549245,
+      "title_from_pdf_text": "Effect of TiO2 on electrocatalytic behavior of Ni-Mo alloy coating for hydrogen energy Akshatha R.",
+      "abstract_or_summary_from_pdf_text": "Effect of TiO2 on electrocatalytic behavior of Ni-Mo alloy coating for hydrogen energy Akshatha R. The experimental results explaining the increased electrocatalytic activity of Ni-Mo alloy coating on incorporation of TiO2 nanoparticles into its alloy matrix is reported here. The effect of addition of TiO2 on composition, mor- phology and phase structure of TiO2 – composite coating is studied with special emphasis on its electro- catalytic activity for hydrogen evolution reaction (HER) in 1.0 M KOH solution. The electrocatalytic activity of alloy coatings were validated using cyclic voltammetry (CV) and chronopotentiometry (CP) techniques.",
+      "pages": 9,
+      "extracted_pages": 4,
+      "text_chars": 18591,
+      "metadata_text": "",
+      "needs_ocr_or_cloud": false,
+      "decision": "DROP",
+      "relevance_score": 9,
+      "paper_type": "experimental_or_methods",
+      "reasons": [
+        "electrode/material fabrication relevance",
+        "green/sustainable/process relevance",
+        "contains out-of-scope signals"
+      ],
+      "matches": {
+        "battery": [],
+        "electrode": [
+          "electrode",
+          "cathode",
+          "coating"
+        ],
+        "green": [
+          "green"
+        ],
+        "performance": [],
+        "out_of_scope": [
+          "catalyst"
+        ]
+      }
+    },
+    {
+      "file_name": "08.Electrocatalytic-reduction-of-oxygen-on-Co3O4-_2018_Materials-Science-for-En.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\08.Electrocatalytic-reduction-of-oxygen-on-Co3O4-_2018_Materials-Science-for-En.pdf",
+      "file_size_bytes": 2127083,
+      "title_from_pdf_text": "Electrocatalytic reduction of oxygen on Co3O4: Effects of processing method Harsha P.",
+      "abstract_or_summary_from_pdf_text": "Electrocatalytic reduction of oxygen on Co3O4: Effects of processing method Harsha P. Malode b a Department of Chemistry, PES’S RSN College of Arts & Science, Farmagudi, Goa, India b Electrochemistry and Materials Group, Department of Chemistry, K. Institute of Technology, Afﬁliated to Visvesvaraya Technological University, Gokul, Hubballi 580030, Karnataka, India a r t i c l e i n f o Article history: Received 4 May 2018 Revised 27 June 2018 Accepted 27 June 2018 Available online 7 July 2018 Keywords: Co3O4 Oxygen reduction Precursor method Electrocatalysis Photocatalytic decomposition a b s t r a c t In this study, cathode materials for oxygen reduction reaction were produced. Co3O4 spinel oxides were synthesized by hydrazine based precursor method.",
+      "pages": 7,
+      "extracted_pages": 4,
+      "text_chars": 14405,
+      "metadata_text": "",
+      "needs_ocr_or_cloud": false,
+      "decision": "DROP",
+      "relevance_score": 4,
+      "paper_type": "experimental_or_methods",
+      "reasons": [
+        "electrode/material fabrication relevance",
+        "contains out-of-scope signals"
+      ],
+      "matches": {
+        "battery": [],
+        "electrode": [
+          "electrode",
+          "cathode",
+          "graphite"
+        ],
+        "green": [],
+        "performance": [],
+        "out_of_scope": [
+          "catalyst",
+          "electrocatalytic reduction"
+        ]
+      }
+    },
+    {
+      "file_name": "09.Electrode-materials-for-lithium-ion-b_2018_Materials-Science-for-Energy-Tech.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\09.Electrode-materials-for-lithium-ion-b_2018_Materials-Science-for-Energy-Tech.pdf",
+      "file_size_bytes": 1924046,
+      "title_from_pdf_text": "Electrode materials for lithium-ion batteries Amit Mishra a, Akansha Mehta a, Soumen Basu a,⇑, Shweta J.",
+      "abstract_or_summary_from_pdf_text": "Electrode materials for lithium-ion batteries Amit Mishra a, Akansha Mehta a, Soumen Basu a,⇑, Shweta J. Aminabhavi c a School of Chemistry and Biochemistry, Thapar Institute of Engineering & Technology, Patiala, Punjab 147004, India b Electrochemistry and Materials Group, Department of Chemistry, K. However, they suffer from many of the limitations for their use in electric means of transportation and other high level applications. This mini-review discusses the recent trends in electrode materials for Li-ion batteries.",
+      "pages": 6,
+      "extracted_pages": 4,
+      "text_chars": 18065,
+      "metadata_text": "",
+      "needs_ocr_or_cloud": false,
+      "decision": "KEEP",
+      "relevance_score": 20,
+      "paper_type": "review_or_overview",
+      "reasons": [
+        "battery/LIB relevance",
+        "electrode/material fabrication relevance",
+        "green/sustainable/process relevance",
+        "performance metrics present"
+      ],
+      "matches": {
+        "battery": [
+          "lithium-ion",
+          "lithium ion",
+          "li-ion",
+          "battery"
+        ],
+        "electrode": [
+          "electrode",
+          "anode",
+          "cathode",
+          "graphite",
+          "silicon",
+          "coating"
+        ],
+        "green": [
+          "green"
+        ],
+        "performance": [
+          "capacity"
+        ],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "10.Investigation-of-physicochemical-and-electrochemical-proper_2018_Materials-S.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\10.Investigation-of-physicochemical-and-electrochemical-proper_2018_Materials-S.pdf",
+      "file_size_bytes": 2345187,
+      "title_from_pdf_text": "Investigation of physicochemical and electrochemical properties of recast Naﬁon nanocomposite membranes using different loading of zirconia nanoparticles for proton exchange membrane fuel cell applications Mohammad Javad",
+      "abstract_or_summary_from_pdf_text": "Zirconia nanoparticles were synthesized by the microwave assisted gel combustion method. The synthesized nanoparticles were characterized by XRD and FESEM, and then added to the Naﬁon solution to prepare recast Naﬁon nanocomposite membranes (R-Naﬁon/ ZrO2) with different loading of ZrO2 nanoparticles. Membranes were prepared by recasting method and characterized in terms of water uptake, dimensional stability, ionic conductivity, chemical stability (Fenton test), tensile strength, and scanning electron microscope (SEM) techniques. The obtained results for nanocomposite membranes were compared to the ﬁller-free recast Naﬁon and commercial Naﬁon membranes.",
+      "pages": 9,
+      "extracted_pages": 4,
+      "text_chars": 21091,
+      "metadata_text": "",
+      "needs_ocr_or_cloud": false,
+      "decision": "DROP",
+      "relevance_score": 12,
+      "paper_type": "experimental_or_methods",
+      "reasons": [
+        "electrode/material fabrication relevance",
+        "green/sustainable/process relevance",
+        "performance metrics present",
+        "contains out-of-scope signals"
+      ],
+      "matches": {
+        "battery": [],
+        "electrode": [
+          "electrode",
+          "anode"
+        ],
+        "green": [
+          "green",
+          "environmental"
+        ],
+        "performance": [
+          "cycle"
+        ],
+        "out_of_scope": [
+          "catalyst"
+        ]
+      }
+    },
+    {
+      "file_name": "100. A sustainable δ-MnO₂ derived from Amazon rainforest Mn-ore tailings for.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\100. A sustainable δ-MnO₂ derived from Amazon rainforest Mn-ore tailings for.pdf",
+      "file_size_bytes": 13082177,
+      "title_from_pdf_text": "A sustainable δ-MnO₂ derived from Amazo...",
+      "abstract_or_summary_from_pdf_text": "A sustainable δ-MnO₂ derived from Amazo...",
+      "pages": 9,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "A sustainable δ-MnO₂ derived from Amazo... applications in lithium-ion batteries",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 5,
+      "paper_type": "unknown",
+      "reasons": [
+        "battery/LIB relevance",
+        "green/sustainable/process relevance",
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [
+          "lithium-ion"
+        ],
+        "electrode": [],
+        "green": [
+          "sustainable"
+        ],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "101. Flotation separation in lithium-ion battery recycling Challenges and.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\101. Flotation separation in lithium-ion battery recycling Challenges and.pdf",
+      "file_size_bytes": 22583024,
+      "title_from_pdf_text": "Flotation separation in lithium-ion bat...ycling_ Challenges and recent advances",
+      "abstract_or_summary_from_pdf_text": "Flotation separation in lithium-ion bat...ycling_ Challenges and recent advances",
+      "pages": 18,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "Flotation separation in lithium-ion bat...ycling_ Challenges and recent advances",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 3,
+      "paper_type": "review_or_overview",
+      "reasons": [
+        "battery/LIB relevance",
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [
+          "lithium-ion"
+        ],
+        "electrode": [],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "102. Electro-chemo-mechanical coupling in structural lithium-ion batteries.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\102. Electro-chemo-mechanical coupling in structural lithium-ion batteries.pdf",
+      "file_size_bytes": 11387321,
+      "title_from_pdf_text": "Electro-chemo-mechanical coupling in st...ental findings and numerical modelling",
+      "abstract_or_summary_from_pdf_text": "Electro-chemo-mechanical coupling in st...ental findings and numerical modelling",
+      "pages": 11,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "Electro-chemo-mechanical coupling in st...ental findings and numerical modelling",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 0,
+      "paper_type": "unknown",
+      "reasons": [
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [],
+        "electrode": [],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "103. Performance evaluation of a de-embedded de-alloyed Cu2.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\103. Performance evaluation of a de-embedded de-alloyed Cu2.pdf",
+      "file_size_bytes": 9631341,
+      "title_from_pdf_text": "Performance evaluation of a de-embedded...material used in lithium-ion batteries",
+      "abstract_or_summary_from_pdf_text": "Performance evaluation of a de-embedded...material used in lithium-ion batteries",
+      "pages": 8,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "Performance evaluation of a de-embedded...material used in lithium-ion batteries",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 4,
+      "paper_type": "experimental_or_methods",
+      "reasons": [
+        "battery/LIB relevance",
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [
+          "lithium-ion"
+        ],
+        "electrode": [],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "104. Lithium-ion battery swelling characterisation using high-resolution optical.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\104. Lithium-ion battery swelling characterisation using high-resolution optical.pdf",
+      "file_size_bytes": 13802572,
+      "title_from_pdf_text": "Lithium-ion battery swelling characteri...d surface profiler and thermal imaging",
+      "abstract_or_summary_from_pdf_text": "Lithium-ion battery swelling characteri...d surface profiler and thermal imaging",
+      "pages": 11,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "Lithium-ion battery swelling characteri...d surface profiler and thermal imaging",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 6,
+      "paper_type": "unknown",
+      "reasons": [
+        "battery/LIB relevance",
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [
+          "lithium-ion",
+          "lithium-ion battery",
+          "battery"
+        ],
+        "electrode": [],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "105. A Novel Multi-Scale Joint Approach for Estimating Lithium-ion Battery.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\105. A Novel Multi-Scale Joint Approach for Estimating Lithium-ion Battery.pdf",
+      "file_size_bytes": 17453275,
+      "title_from_pdf_text": "A Novel Multi-Scale Joint Approach for ...ring Hysteresis Effect and Temperature",
+      "abstract_or_summary_from_pdf_text": "A Novel Multi-Scale Joint Approach for ...ring Hysteresis Effect and Temperature",
+      "pages": 20,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "A Novel Multi-Scale Joint Approach for ...ring Hysteresis Effect and Temperature",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 0,
+      "paper_type": "unknown",
+      "reasons": [
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [],
+        "electrode": [],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "106. Multi-insights of understanding the interpenetrating electrode morphology.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\106. Multi-insights of understanding the interpenetrating electrode morphology.pdf",
+      "file_size_bytes": 11230192,
+      "title_from_pdf_text": "Multi-insights of understanding the int...ificantly enhanced lithium ion storage",
+      "abstract_or_summary_from_pdf_text": "Multi-insights of understanding the int...ificantly enhanced lithium ion storage",
+      "pages": 9,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "Multi-insights of understanding the int...ificantly enhanced lithium ion storage",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 2,
+      "paper_type": "unknown",
+      "reasons": [
+        "battery/LIB relevance",
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [
+          "lithium ion"
+        ],
+        "electrode": [],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "107. Natural graphite in making ecofriendly lithium-ion batteries_ Challenges.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\107. Natural graphite in making ecofriendly lithium-ion batteries_ Challenges.pdf",
+      "file_size_bytes": 46975131,
+      "title_from_pdf_text": "Natural graphite in making ecofriendly ...s, current status, and future outlooks",
+      "abstract_or_summary_from_pdf_text": "Natural graphite in making ecofriendly ...s, current status, and future outlooks",
+      "pages": 35,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "Natural graphite in making ecofriendly ...s, current status, and future outlooks",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 8,
+      "paper_type": "unknown",
+      "reasons": [
+        "electrode/material fabrication relevance",
+        "green/sustainable/process relevance",
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [],
+        "electrode": [
+          "graphite"
+        ],
+        "green": [
+          "ecofriendly",
+          "natural graphite"
+        ],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "108. Research on the temperature radius stratification model based on.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\108. Research on the temperature radius stratification model based on.pdf",
+      "file_size_bytes": 11091860,
+      "title_from_pdf_text": "Research on the temperature radius stra...orce coupling in Lithium-ion batteries",
+      "abstract_or_summary_from_pdf_text": "Research on the temperature radius stra...orce coupling in Lithium-ion batteries",
+      "pages": 10,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "Research on the temperature radius stra...orce coupling in Lithium-ion batteries",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 2,
+      "paper_type": "unknown",
+      "reasons": [
+        "battery/LIB relevance",
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [
+          "lithium-ion"
+        ],
+        "electrode": [],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "109. Synergistic design of O2_O3 composite Li-rich cathodes A novel strategy for high.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\109. Synergistic design of O2_O3 composite Li-rich cathodes A novel strategy for high.pdf",
+      "file_size_bytes": 22300563,
+      "title_from_pdf_text": "Synergistic design of O2_O3 composite L...",
+      "abstract_or_summary_from_pdf_text": "Synergistic design of O2_O3 composite L...",
+      "pages": 38,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "Synergistic design of O2_O3 composite L... for high-performance Li-ion batteries",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 4,
+      "paper_type": "experimental_or_methods",
+      "reasons": [
+        "battery/LIB relevance",
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [
+          "li-ion"
+        ],
+        "electrode": [],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "11.Magnetron-sputter-deposited-NiCu-alloy-catalysts-for_2018_Materials-Science-.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\11.Magnetron-sputter-deposited-NiCu-alloy-catalysts-for_2018_Materials-Science-.pdf",
+      "file_size_bytes": 1749938,
+      "title_from_pdf_text": "Magnetron sputter deposited NiCu alloy catalysts for production of hydrogen through electrolysis in alkaline water Mukesh Kumar a,b,⇑, Nagaraj P.",
+      "abstract_or_summary_from_pdf_text": "Magnetron sputter deposited NiCu alloy catalysts for production of hydrogen through electrolysis in alkaline water Mukesh Kumar a,b,⇑, Nagaraj P. Shetti c a Department of Physics, Faculty of Physical Sciences, Shree Guru Gobind Singh Tricentenary University, Gurgaon 122001, Delhi-NCR, India b Department of Metallurgical and Materials Engineering, Indian Institute of Technology, Kharagpur, 721302 West Bengal, India c Electrochemistry and Materials Group, Department of Chemistry, K. Nanocrystallinity, lattice parameters and grain size of the NiCu alloys have been measured by grazing incidence X-ray diffraction (GIXRD). Elemental and microstructural analysis of the NiCu alloy have been done by ﬁeld emission scan- ning electron microscopy (FESEM) as well as transmission electron microscopy (TEM).",
+      "pages": 6,
+      "extracted_pages": 4,
+      "text_chars": 17854,
+      "metadata_text": "",
+      "needs_ocr_or_cloud": false,
+      "decision": "DROP",
+      "relevance_score": 2,
+      "paper_type": "experimental_or_methods",
+      "reasons": [
+        "electrode/material fabrication relevance",
+        "contains out-of-scope signals"
+      ],
+      "matches": {
+        "battery": [],
+        "electrode": [
+          "electrode"
+        ],
+        "green": [],
+        "performance": [],
+        "out_of_scope": [
+          "catalyst"
+        ]
+      }
+    },
+    {
+      "file_name": "110. Poly(hydroxybutyrate-co-hydroxyvalerate) as a biodegradable binder in a.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\110. Poly(hydroxybutyrate-co-hydroxyvalerate) as a biodegradable binder in a.pdf",
+      "file_size_bytes": 8079927,
+      "title_from_pdf_text": "Poly(hydroxybutyrate- co -hydroxyvalera...ode material for lithium-ion batteries",
+      "abstract_or_summary_from_pdf_text": "Poly(hydroxybutyrate- co -hydroxyvalera...ode material for lithium-ion batteries",
+      "pages": 7,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "Poly(hydroxybutyrate- co -hydroxyvalera...ode material for lithium-ion batteries",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 5,
+      "paper_type": "unknown",
+      "reasons": [
+        "battery/LIB relevance",
+        "green/sustainable/process relevance",
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [
+          "lithium-ion"
+        ],
+        "electrode": [],
+        "green": [
+          "poly(hydroxybutyrate"
+        ],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "111. Novel titanium vanadate with superior Naþ transport kinetics for rapid.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\111. Novel titanium vanadate with superior Naþ transport kinetics for rapid.pdf",
+      "file_size_bytes": 4128397,
+      "title_from_pdf_text": "Novel titanium vanadate with superior N...d low-temperature sodium ion batteries",
+      "abstract_or_summary_from_pdf_text": "Novel titanium vanadate with superior N...d low-temperature sodium ion batteries",
+      "pages": 8,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "Novel titanium vanadate with superior N...d low-temperature sodium ion batteries",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 0,
+      "paper_type": "unknown",
+      "reasons": [
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [],
+        "electrode": [],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "112. The impact of novel modified lithium methacrylate trifluoroborate.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\112. The impact of novel modified lithium methacrylate trifluoroborate.pdf",
+      "file_size_bytes": 11002839,
+      "title_from_pdf_text": "The impact of novel modified lithium me...r high temperature operating condition",
+      "abstract_or_summary_from_pdf_text": "The impact of novel modified lithium me...r high temperature operating condition",
+      "pages": 10,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "The impact of novel modified lithium me...r high temperature operating condition",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 0,
+      "paper_type": "unknown",
+      "reasons": [
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [],
+        "electrode": [],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "113. Data-driven strategies for comprehending the kinetic degradation of.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\113. Data-driven strategies for comprehending the kinetic degradation of.pdf",
+      "file_size_bytes": 26198844,
+      "title_from_pdf_text": "Data-driven strategies for comprehendin...s in lithium-based batteries_ A review",
+      "abstract_or_summary_from_pdf_text": "Data-driven strategies for comprehendin...s in lithium-based batteries_ A review",
+      "pages": 20,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "Data-driven strategies for comprehendin...s in lithium-based batteries_ A review",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 1,
+      "paper_type": "review_or_overview",
+      "reasons": [
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [],
+        "electrode": [],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "114. Developinganovel lithium-ionbatteryanode.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\114. Developinganovel lithium-ionbatteryanode.pdf",
+      "file_size_bytes": 4073907,
+      "title_from_pdf_text": "Developing a novel lithium-ion battery ...",
+      "abstract_or_summary_from_pdf_text": "Developing a novel lithium-ion battery ...",
+      "pages": 13,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "Developing a novel lithium-ion battery ... diatom frustules plus Ag modification",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 6,
+      "paper_type": "unknown",
+      "reasons": [
+        "battery/LIB relevance",
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [
+          "lithium-ion",
+          "lithium-ion battery",
+          "battery"
+        ],
+        "electrode": [],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "115. Artificial intelligence.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\115. Artificial intelligence.pdf",
+      "file_size_bytes": 15460955,
+      "title_from_pdf_text": "Artificial intelligence driven in-silic...l organic lithium-ion battery cathodes",
+      "abstract_or_summary_from_pdf_text": "Artificial intelligence driven in-silic...l organic lithium-ion battery cathodes",
+      "pages": 13,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "Artificial intelligence driven in-silic...l organic lithium-ion battery cathodes",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 8,
+      "paper_type": "unknown",
+      "reasons": [
+        "battery/LIB relevance",
+        "electrode/material fabrication relevance",
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [
+          "lithium-ion",
+          "lithium-ion battery",
+          "battery"
+        ],
+        "electrode": [
+          "cathode"
+        ],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "116. The effects of different trigger methods on thermal runaway propagation in.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\116. The effects of different trigger methods on thermal runaway propagation in.pdf",
+      "file_size_bytes": 14452950,
+      "title_from_pdf_text": "The effects of different trigger method...",
+      "abstract_or_summary_from_pdf_text": "The effects of different trigger method...",
+      "pages": 11,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "The effects of different trigger method... lithium-ion pouch-cell battery module",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 4,
+      "paper_type": "unknown",
+      "reasons": [
+        "battery/LIB relevance",
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [
+          "lithium-ion",
+          "battery"
+        ],
+        "electrode": [],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "117. Beyond the thermal barrier_ Coupled effects of insulating materials.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\117. Beyond the thermal barrier_ Coupled effects of insulating materials.pdf",
+      "file_size_bytes": 12330897,
+      "title_from_pdf_text": "Beyond the thermal barrier_ Coupled eff...gas emissions in lithium-ion batteries",
+      "abstract_or_summary_from_pdf_text": "Beyond the thermal barrier_ Coupled eff...gas emissions in lithium-ion batteries",
+      "pages": 15,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "Beyond the thermal barrier_ Coupled eff...gas emissions in lithium-ion batteries",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 2,
+      "paper_type": "unknown",
+      "reasons": [
+        "battery/LIB relevance",
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [
+          "lithium-ion"
+        ],
+        "electrode": [],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "118. Improving lithium-ion battery performance through patterned growth of.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\118. Improving lithium-ion battery performance through patterned growth of.pdf",
+      "file_size_bytes": 15387952,
+      "title_from_pdf_text": "Improving lithium-ion battery performan...r vertically aligned silicon nanowires",
+      "abstract_or_summary_from_pdf_text": "Improving lithium-ion battery performan...r vertically aligned silicon nanowires",
+      "pages": 12,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "Improving lithium-ion battery performan...r vertically aligned silicon nanowires",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 8,
+      "paper_type": "unknown",
+      "reasons": [
+        "battery/LIB relevance",
+        "electrode/material fabrication relevance",
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [
+          "lithium-ion",
+          "lithium-ion battery",
+          "battery"
+        ],
+        "electrode": [
+          "silicon"
+        ],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "119. Synthesis of Novel Azophenylbenzotriazole and Its Application.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\119. Synthesis of Novel Azophenylbenzotriazole and Its Application.pdf",
+      "file_size_bytes": 4136032,
+      "title_from_pdf_text": "Synthesis of Novel Azophenylbenzotriazo...de Materials for Lithium Ion Batteries",
+      "abstract_or_summary_from_pdf_text": "Synthesis of Novel Azophenylbenzotriazo...de Materials for Lithium Ion Batteries",
+      "pages": 11,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "Synthesis of Novel Azophenylbenzotriazo...de Materials for Lithium Ion Batteries",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 4,
+      "paper_type": "experimental_or_methods",
+      "reasons": [
+        "battery/LIB relevance",
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [
+          "lithium ion"
+        ],
+        "electrode": [],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "12.Parametric-studies-of-methyl-esters-synthesis-from-Thum_2018_Materials-Scien.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\12.Parametric-studies-of-methyl-esters-synthesis-from-Thum_2018_Materials-Scien.pdf",
+      "file_size_bytes": 1232093,
+      "title_from_pdf_text": "Parametric studies of methyl esters synthesis from Thumba seed oil using heterogeneous catalyst under conventional stirring and ultrasonic cavitation Abhijeet D.",
+      "abstract_or_summary_from_pdf_text": "Parametric studies of methyl esters synthesis from Thumba seed oil using heterogeneous catalyst under conventional stirring and ultrasonic cavitation Abhijeet D. Biodiesel is one of the alternatives to petroleum fuels. The objective of present study is to produce biodiesel (Thumba methyl ester) from Thumba oil in presence acidic ion exchange resin i.e. Amberlyst 15 catalyst followed by results of experimental investigation carried out by the conventional stirring method as well as an ultrasonic cavitation method.",
+      "pages": 11,
+      "extracted_pages": 4,
+      "text_chars": 25420,
+      "metadata_text": "",
+      "needs_ocr_or_cloud": false,
+      "decision": "DROP",
+      "relevance_score": 5,
+      "paper_type": "experimental_or_methods",
+      "reasons": [
+        "battery/LIB relevance",
+        "green/sustainable/process relevance",
+        "contains out-of-scope signals"
+      ],
+      "matches": {
+        "battery": [
+          "lib"
+        ],
+        "electrode": [],
+        "green": [
+          "environmental"
+        ],
+        "performance": [],
+        "out_of_scope": [
+          "catalyst"
+        ]
+      }
+    },
+    {
+      "file_name": "120. Revisiting the forgotten fraction_ Review on mechanisms and process.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\120. Revisiting the forgotten fraction_ Review on mechanisms and process.pdf",
+      "file_size_bytes": 11105416,
+      "title_from_pdf_text": "Revisiting the forgotten fraction_ Revi...lytes from spent lithium‑ion batteries",
+      "abstract_or_summary_from_pdf_text": "Revisiting the forgotten fraction_ Revi...lytes from spent lithium‑ion batteries",
+      "pages": 9,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "Revisiting the forgotten fraction_ Revi...lytes from spent lithium‑ion batteries",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 0,
+      "paper_type": "unknown",
+      "reasons": [
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [],
+        "electrode": [],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "121. Remaining useful life prediction of lithium-ion batteries by leveraging.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\121. Remaining useful life prediction of lithium-ion batteries by leveraging.pdf",
+      "file_size_bytes": 13251155,
+      "title_from_pdf_text": "Remaining useful life prediction of lit...veraging end-of-charge characteristics",
+      "abstract_or_summary_from_pdf_text": "Remaining useful life prediction of lit...veraging end-of-charge characteristics",
+      "pages": 13,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "Remaining useful life prediction of lit...veraging end-of-charge characteristics",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": -2,
+      "paper_type": "unknown",
+      "reasons": [
+        "contains out-of-scope signals",
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [],
+        "electrode": [],
+        "green": [],
+        "performance": [],
+        "out_of_scope": [
+          "remaining useful life"
+        ]
+      }
+    },
+    {
+      "file_name": "122. MOF-clad FeTiO3_ Synergistic suppression of material decomposition and.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\122. MOF-clad FeTiO3_ Synergistic suppression of material decomposition and.pdf",
+      "file_size_bytes": 8678047,
+      "title_from_pdf_text": "MOF-clad FeTiO3_ Synergistic suppressio...y fading in lithium-ion battery anodes",
+      "abstract_or_summary_from_pdf_text": "MOF-clad FeTiO3_ Synergistic suppressio...y fading in lithium-ion battery anodes",
+      "pages": 8,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "MOF-clad FeTiO3_ Synergistic suppressio...y fading in lithium-ion battery anodes",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 8,
+      "paper_type": "unknown",
+      "reasons": [
+        "battery/LIB relevance",
+        "electrode/material fabrication relevance",
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [
+          "lithium-ion",
+          "lithium-ion battery",
+          "battery"
+        ],
+        "electrode": [
+          "anode"
+        ],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "123. One-step atmospheric microplasma synthesis of an NMC-type lithium-ion.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\123. One-step atmospheric microplasma synthesis of an NMC-type lithium-ion.pdf",
+      "file_size_bytes": 5466563,
+      "title_from_pdf_text": "One-step atmospheric microplasma synthe...n NMC-type lithium-ion battery cathode",
+      "abstract_or_summary_from_pdf_text": "One-step atmospheric microplasma synthe...n NMC-type lithium-ion battery cathode",
+      "pages": 7,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "One-step atmospheric microplasma synthe...n NMC-type lithium-ion battery cathode",
+      "needs_ocr_or_cloud": true,
+      "decision": "MAYBE",
+      "relevance_score": 16,
+      "paper_type": "unknown",
+      "reasons": [
+        "battery/LIB relevance",
+        "electrode/material fabrication relevance",
+        "green/sustainable/process relevance",
+        "metadata/title-only screening; needs OCR/cloud for abstract, tables, and figures"
+      ],
+      "matches": {
+        "battery": [
+          "lithium-ion",
+          "lithium-ion battery",
+          "battery"
+        ],
+        "electrode": [
+          "cathode",
+          "nmc"
+        ],
+        "green": [
+          "microplasma",
+          "one-step"
+        ],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "124. Novel core-shell Structure TiO2@TiN Spheres as High.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\124. Novel core-shell Structure TiO2@TiN Spheres as High.pdf",
+      "file_size_bytes": 2863250,
+      "title_from_pdf_text": "Novel core-shell Structure TiO2@TiN Sph...Anode Material for Lithium-Ion Battery",
+      "abstract_or_summary_from_pdf_text": "Novel core-shell Structure TiO2@TiN Sph...Anode Material for Lithium-Ion Battery",
+      "pages": 7,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "Novel core-shell Structure TiO2@TiN Sph...Anode Material for Lithium-Ion Battery",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 8,
+      "paper_type": "unknown",
+      "reasons": [
+        "battery/LIB relevance",
+        "electrode/material fabrication relevance",
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [
+          "lithium-ion",
+          "lithium-ion battery",
+          "battery"
+        ],
+        "electrode": [
+          "anode"
+        ],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "13.Phosphonate-ionic-liquid-immobilised-SBA-15-SPEEK-com_2018_Materials-Science.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\13.Phosphonate-ionic-liquid-immobilised-SBA-15-SPEEK-com_2018_Materials-Science.pdf",
+      "file_size_bytes": 3062493,
+      "title_from_pdf_text": "Phosphonate ionic liquid immobilised SBA-15/SPEEK composite membranes for high temperature proton exchange membrane fuel cells Vijayakumar Elumalai, Tapsaya Ganesh, Cathrene Selvakumar, Dharmalingam Sangeetha ⇑ Departmen",
+      "abstract_or_summary_from_pdf_text": "In the present study, a composite membrane prepared using phosphonate ionic liquid immobilised SBA-15 as ﬁller and SPEEK as matrix has been reported. The imidazolium ionic liquid namely 1-Methyl-3-(3- Trimethoxysilylpropyl) imidazolium chloride was grafted on SBA-15 followed by reacting with monosodium phosphate to afford phosphate ion (H2PO4 \u0001) containing SBA-15 (PIL-SBA-15). The structure of PIL-SBA-15 was conﬁrmed by solid state CP/MAS 13C and 31P NMR, FTIR, low angle XRD, BET and TEM analyses. SPEEK composite membranes with different concentrations (2, 4, 6 and 8 wt%) of PIL-SBA-15 was prepared by simple solution casting method.",
+      "pages": 9,
+      "extracted_pages": 4,
+      "text_chars": 17226,
+      "metadata_text": "",
+      "needs_ocr_or_cloud": false,
+      "decision": "DROP",
+      "relevance_score": 14,
+      "paper_type": "experimental_or_methods",
+      "reasons": [
+        "electrode/material fabrication relevance",
+        "performance metrics present"
+      ],
+      "matches": {
+        "battery": [],
+        "electrode": [
+          "electrode",
+          "anode",
+          "cathode"
+        ],
+        "green": [],
+        "performance": [
+          "capacity",
+          "power density",
+          "electrochemical performance"
+        ],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "14.Physico-chemical-properties-of-nanocrystalline-YSZ-pow_2018_Materials-Scienc.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\14.Physico-chemical-properties-of-nanocrystalline-YSZ-pow_2018_Materials-Scienc.pdf",
+      "file_size_bytes": 3594871,
+      "title_from_pdf_text": "Physico-chemical properties of nanocrystalline YSZ powders as a function of doping level and electrical properties after sintering C.",
+      "abstract_or_summary_from_pdf_text": "Physico-chemical properties of nanocrystalline YSZ powders as a function of doping level and electrical properties after sintering C. XRD analyses showed that the particles were in the cubic structure conﬁrming the stabilization of this crystal structure in nanocrystals. The analyses further showed that all the interatomic distances in the materials increased with increasing doping. The relative densities of the sintered materials showed a minimum at around 8% doping.",
+      "pages": 10,
+      "extracted_pages": 4,
+      "text_chars": 15880,
+      "metadata_text": "",
+      "needs_ocr_or_cloud": false,
+      "decision": "DROP",
+      "relevance_score": 6,
+      "paper_type": "experimental_or_methods",
+      "reasons": [
+        "electrode/material fabrication relevance"
+      ],
+      "matches": {
+        "battery": [],
+        "electrode": [
+          "electrode",
+          "anode"
+        ],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "15.Production-and-characterization-of-agro-based-briquett_2018_Materials-Scienc.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\15.Production-and-characterization-of-agro-based-briquett_2018_Materials-Scienc.pdf",
+      "file_size_bytes": 1946520,
+      "title_from_pdf_text": "Production and characterization of agro-based briquettes and estimation of caloriﬁc value by regression analysis: An energy application Umesh B.",
+      "abstract_or_summary_from_pdf_text": "Production and characterization of agro-based briquettes and estimation of caloriﬁc value by regression analysis: An energy application Umesh B. Hegde, Zeba Dhalayat, Vyjayanti Patil, Suchit Gavas Department of Chemical Engineering, KLE Dr. Sheshgiri College of Engineering and Technology, Udyambag, Belagavi 590008, Karnataka, India a r t i c l e i n f o Article history: Received 24 June 2018 Revised 9 July 2018 Accepted 10 July 2018 Keywords: Briquettes Regression analysis Binder Compressive strength Bulk density a b s t r a c t Biomass in the original form having low bulk density results in huge transportation & storage costs, and cannot be used as an effective combustible fuel. Densifying biomass by briquetting/pelletizing technology helps to reduce the above said problems and improves the effectiveness of biomass as combustible fuel.",
+      "pages": 7,
+      "extracted_pages": 4,
+      "text_chars": 13148,
+      "metadata_text": "",
+      "needs_ocr_or_cloud": false,
+      "decision": "DROP",
+      "relevance_score": 14,
+      "paper_type": "experimental_or_methods",
+      "reasons": [
+        "electrode/material fabrication relevance",
+        "green/sustainable/process relevance",
+        "contains out-of-scope signals"
+      ],
+      "matches": {
+        "battery": [],
+        "electrode": [
+          "binder"
+        ],
+        "green": [
+          "green",
+          "sustainable",
+          "biomass",
+          "starch"
+        ],
+        "performance": [],
+        "out_of_scope": [
+          "briquette"
+        ]
+      }
+    },
+    {
+      "file_name": "16.Relative-study-of-steel-solar-pond-with-sodi_2018_Materials-Science-for-Ener.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\16.Relative-study-of-steel-solar-pond-with-sodi_2018_Materials-Science-for-Ener.pdf",
+      "file_size_bytes": 1015842,
+      "title_from_pdf_text": "Relative study of steel solar pond with sodium chloride and pebbles D Sathish a,⇑, S Jegadheeswaran b a Department of Mechanical Engineering, Sri Ramakrishna Institute of Technology, Coimbatore, India b Department of Mec",
+      "abstract_or_summary_from_pdf_text": "Due to the high concentration of salt content present in the lower convective zone heat will be stored for a longer period and will supply thermal energy at whatever time is required to have a temperature varying from 50 \u0001C to 90 \u0001C. This paper proposes an experimental and theoretical analysis of the convective type solar pond with trapezoid cross sections with the surface area of 1.7 m2 and depth of 0.5 m made-up of 2 mm thickness mild steel sheet-metal lined by 20 mm and 2 mm thickness of thermo styrene, high den- sity polyethylene sheet. The salinity-gradient is having three zones and these zones are separated due to salt concentration, each zone is having a varying thickness of 1.5 m (upper zone), 2 m (middle zone) and 1 m (lower zone). K-type thermocouple and solar power meter is used to measure the variation of tem- perature and solar radiation of the pond, thermocouples were space equally of 5 cm at six intervals and the readings were taken for eight hours per day and it is recorded during the months of December and January for further analysis.",
+      "pages": 4,
+      "extracted_pages": 4,
+      "text_chars": 16090,
+      "metadata_text": "",
+      "needs_ocr_or_cloud": false,
+      "decision": "DROP",
+      "relevance_score": -4,
+      "paper_type": "unknown",
+      "reasons": [
+        "contains out-of-scope signals"
+      ],
+      "matches": {
+        "battery": [],
+        "electrode": [],
+        "green": [],
+        "performance": [],
+        "out_of_scope": [
+          "desalination",
+          "solar pond"
+        ]
+      }
+    },
+    {
+      "file_name": "17.Synthesis--growth--optical--band-gap-energy-and-mechanical-_2018_Materials-S.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\17.Synthesis--growth--optical--band-gap-energy-and-mechanical-_2018_Materials-S.pdf",
+      "file_size_bytes": 2931032,
+      "title_from_pdf_text": "Synthesis, growth, optical, band gap energy and mechanical properties of semiorganic nonlinear optical material: 2-Aminopyridine potassium dihydrogen orthophosphate lithium chloride (2APKDPL) crystal D.",
+      "abstract_or_summary_from_pdf_text": "Synthesis, growth, optical, band gap energy and mechanical properties of semiorganic nonlinear optical material: 2-Aminopyridine potassium dihydrogen orthophosphate lithium chloride (2APKDPL) crystal D. Optimum level of purity is achieved by successive recrystallization process. Solubility curve was drawn gravimetrically for different temperature with time interval 5 \u0001C from 30 \u0001C to 55 \u0001C. Optically good quality 2APKDPL crystal of mod- erate size 9 mm \u0001 4 mm \u0001 2 mm was harvested over the period of 75 days.",
+      "pages": 10,
+      "extracted_pages": 4,
+      "text_chars": 13802,
+      "metadata_text": "",
+      "needs_ocr_or_cloud": false,
+      "decision": "DROP",
+      "relevance_score": 2,
+      "paper_type": "experimental_or_methods",
+      "reasons": [],
+      "matches": {
+        "battery": [],
+        "electrode": [],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "18.Transition-metal-oxide-nanocatalysts-for-oxy_2018_Materials-Science-for-Ener.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\18.Transition-metal-oxide-nanocatalysts-for-oxy_2018_Materials-Science-for-Ener.pdf",
+      "file_size_bytes": 3461800,
+      "title_from_pdf_text": "Transition metal oxide nanocatalysts for oxygen reduction reaction Chiranjita Goswami 1, Kumar Kashyap Hazarika 1, Pankaj Bharali ⇑ Department of Chemical Sciences, Tezpur University, Napaam 784 028, Assam, India a r t i",
+      "abstract_or_summary_from_pdf_text": "Its sluggish kinetics stimulated the researchers towards the development of inexpensive as well as efﬁcient alternatives, to the precious and low abundant Pt-based catalysts. Recently, transition metal- oxide (TMO) based electrocatalysts have attracted tremendous attention as suitable electrocatalyst towards ORR due to its high activity and better stability. Other factors that promote the utilization of TMOs include low cost, high availability and the presence of variable oxidation states. Mixed transition metal oxides (MTMOs) show even better ORR performance due to their enhanced electrical conductivity as compared to that of single TMOs.",
+      "pages": 14,
+      "extracted_pages": 4,
+      "text_chars": 23717,
+      "metadata_text": "Transition metal oxide nanocatalysts for oxygen reduction reaction Materials Science for Energy Technologies, 1 (2018) 117-128. doi:10.1016/j.mset.2018.06.005",
+      "needs_ocr_or_cloud": false,
+      "decision": "DROP",
+      "relevance_score": 4,
+      "paper_type": "review_or_overview",
+      "reasons": [
+        "electrode/material fabrication relevance",
+        "green/sustainable/process relevance",
+        "contains out-of-scope signals"
+      ],
+      "matches": {
+        "battery": [],
+        "electrode": [
+          "cathode"
+        ],
+        "green": [
+          "sustainable"
+        ],
+        "performance": [],
+        "out_of_scope": [
+          "catalyst"
+        ]
+      }
+    },
+    {
+      "file_name": "19.Modern Development of Novel Electrode Materials as Effective.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\19.Modern Development of Novel Electrode Materials as Effective.pdf",
+      "file_size_bytes": 12115863,
+      "title_from_pdf_text": "Review_ Modern Development of Novel Ele...ode Catalyst for Lithium Ion Batteries",
+      "abstract_or_summary_from_pdf_text": "Review_ Modern Development of Novel Ele...ode Catalyst for Lithium Ion Batteries",
+      "pages": 25,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "Review_ Modern Development of Novel Ele...ode Catalyst for Lithium Ion Batteries",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 1,
+      "paper_type": "review_or_overview",
+      "reasons": [
+        "battery/LIB relevance",
+        "contains out-of-scope signals",
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [
+          "lithium ion"
+        ],
+        "electrode": [],
+        "green": [],
+        "performance": [],
+        "out_of_scope": [
+          "catalyst"
+        ]
+      }
+    },
+    {
+      "file_name": "20.Novel conductive and binding fibers for ultra-thick lithium-ion.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\20.Novel conductive and binding fibers for ultra-thick lithium-ion.pdf",
+      "file_size_bytes": 7557298,
+      "title_from_pdf_text": "Novel conductive and binding fibers for...a-thick lithium-ion battery electrodes",
+      "abstract_or_summary_from_pdf_text": "Novel conductive and binding fibers for...a-thick lithium-ion battery electrodes",
+      "pages": 6,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "Novel conductive and binding fibers for...a-thick lithium-ion battery electrodes",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 8,
+      "paper_type": "unknown",
+      "reasons": [
+        "battery/LIB relevance",
+        "electrode/material fabrication relevance",
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [
+          "lithium-ion",
+          "lithium-ion battery",
+          "battery"
+        ],
+        "electrode": [
+          "electrode"
+        ],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "21.Three-dimensional nanoporous Ge_Sn dual-framework as novel anode.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\21.Three-dimensional nanoporous Ge_Sn dual-framework as novel anode.pdf",
+      "file_size_bytes": 11960164,
+      "title_from_pdf_text": "Three-dimensional nanoporous Ge_Sn dual...high-performance Lithium-ion batteries",
+      "abstract_or_summary_from_pdf_text": "Three-dimensional nanoporous Ge_Sn dual...high-performance Lithium-ion batteries",
+      "pages": 9,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "Three-dimensional nanoporous Ge_Sn dual...high-performance Lithium-ion batteries",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 4,
+      "paper_type": "experimental_or_methods",
+      "reasons": [
+        "battery/LIB relevance",
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [
+          "lithium-ion"
+        ],
+        "electrode": [],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "22.Deep learning and transfer learning for accurate electrode-level degradation.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\22.Deep learning and transfer learning for accurate electrode-level degradation.pdf",
+      "file_size_bytes": 3875242,
+      "title_from_pdf_text": "Deep learning and transfer learning for...ion diagnosis in lithium-ion batteries",
+      "abstract_or_summary_from_pdf_text": "Deep learning and transfer learning for...ion diagnosis in lithium-ion batteries",
+      "pages": 8,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "Deep learning and transfer learning for...ion diagnosis in lithium-ion batteries",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 2,
+      "paper_type": "unknown",
+      "reasons": [
+        "battery/LIB relevance",
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [
+          "lithium-ion"
+        ],
+        "electrode": [],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "23.A novel polyamine molten salt with excellent self-healing properties for.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\23.A novel polyamine molten salt with excellent self-healing properties for.pdf",
+      "file_size_bytes": 10993029,
+      "title_from_pdf_text": "A novel polyamine molten salt with exce...hium-ion and sodium-ion battery anodes",
+      "abstract_or_summary_from_pdf_text": "A novel polyamine molten salt with exce...hium-ion and sodium-ion battery anodes",
+      "pages": 10,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "A novel polyamine molten salt with exce...hium-ion and sodium-ion battery anodes",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 4,
+      "paper_type": "unknown",
+      "reasons": [
+        "battery/LIB relevance",
+        "electrode/material fabrication relevance",
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [
+          "battery"
+        ],
+        "electrode": [
+          "anode"
+        ],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "24. Chemical Engineering and Processing - Process.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\24. Chemical Engineering and Processing - Process.pdf",
+      "file_size_bytes": 16612898,
+      "title_from_pdf_text": "The tube transducer as a novel source f...coating from lithium-ion battery anode",
+      "abstract_or_summary_from_pdf_text": "The tube transducer as a novel source f...coating from lithium-ion battery anode",
+      "pages": 14,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "The tube transducer as a novel source f...coating from lithium-ion battery anode",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 10,
+      "paper_type": "unknown",
+      "reasons": [
+        "battery/LIB relevance",
+        "electrode/material fabrication relevance",
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [
+          "lithium-ion",
+          "lithium-ion battery",
+          "battery"
+        ],
+        "electrode": [
+          "anode",
+          "coating"
+        ],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "25. Selective separation of Ni from Co and Mn in spent lithium-ion batteries.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\25. Selective separation of Ni from Co and Mn in spent lithium-ion batteries.pdf",
+      "file_size_bytes": 16764278,
+      "title_from_pdf_text": "Selective separation of Ni from Co and ...m chloride-based deep eutectic solvent",
+      "abstract_or_summary_from_pdf_text": "Selective separation of Ni from Co and ...m chloride-based deep eutectic solvent",
+      "pages": 13,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "Selective separation of Ni from Co and ...m chloride-based deep eutectic solvent",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 0,
+      "paper_type": "unknown",
+      "reasons": [
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [],
+        "electrode": [],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "26. Mechanism of polysulfide dissolution suppression in Lithium-sulfur.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\26. Mechanism of polysulfide dissolution suppression in Lithium-sulfur.pdf",
+      "file_size_bytes": 13386329,
+      "title_from_pdf_text": "Mechanism of polysulfide dissolution su...",
+      "abstract_or_summary_from_pdf_text": "Mechanism of polysulfide dissolution su...",
+      "pages": 11,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "Mechanism of polysulfide dissolution su... a novel fluorinated ether electrolyte",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 0,
+      "paper_type": "unknown",
+      "reasons": [
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [],
+        "electrode": [],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "27. A novel Cu-MOF@Si_C prepared by the pulse discharge and hydrothermal.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\27. A novel Cu-MOF@Si_C prepared by the pulse discharge and hydrothermal.pdf",
+      "file_size_bytes": 12679148,
+      "title_from_pdf_text": "A novel Cu-MOF@Si_C prepared by the pul...anode material for lithium-ion battery",
+      "abstract_or_summary_from_pdf_text": "A novel Cu-MOF@Si_C prepared by the pul...anode material for lithium-ion battery",
+      "pages": 11,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "A novel Cu-MOF@Si_C prepared by the pul...anode material for lithium-ion battery",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 10,
+      "paper_type": "experimental_or_methods",
+      "reasons": [
+        "battery/LIB relevance",
+        "electrode/material fabrication relevance",
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [
+          "lithium-ion",
+          "lithium-ion battery",
+          "battery"
+        ],
+        "electrode": [
+          "anode"
+        ],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "28. Study on inhibitory efficacy of dry ice as a novel fire extinguishing agent for.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\28. Study on inhibitory efficacy of dry ice as a novel fire extinguishing agent for.pdf",
+      "file_size_bytes": 9645518,
+      "title_from_pdf_text": "Study on inhibitory efficacy of dry ice...ishing agent for lithium-ion batteries",
+      "abstract_or_summary_from_pdf_text": "Study on inhibitory efficacy of dry ice...ishing agent for lithium-ion batteries",
+      "pages": 9,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "Study on inhibitory efficacy of dry ice...ishing agent for lithium-ion batteries",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 2,
+      "paper_type": "unknown",
+      "reasons": [
+        "battery/LIB relevance",
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [
+          "lithium-ion"
+        ],
+        "electrode": [],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "29. Advancements in lithium-ion battery materials for thermal.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\29. Advancements in lithium-ion battery materials for thermal.pdf",
+      "file_size_bytes": 30464866,
+      "title_from_pdf_text": "Advancements in lithium-ion battery materials for thermal runaway prevention",
+      "abstract_or_summary_from_pdf_text": "Advancements in lithium-ion battery materials for thermal runaway prevention",
+      "pages": 24,
+      "extracted_pages": 4,
+      "text_chars": 76,
+      "metadata_text": "Advancements in lithium-ion battery materials for thermal runaway prevention",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 5,
+      "paper_type": "review_or_overview",
+      "reasons": [
+        "battery/LIB relevance",
+        "contains out-of-scope signals",
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [
+          "lithium-ion",
+          "lithium-ion battery",
+          "battery"
+        ],
+        "electrode": [],
+        "green": [],
+        "performance": [],
+        "out_of_scope": [
+          "thermal runaway"
+        ]
+      }
+    },
+    {
+      "file_name": "30. Study in a novel lithium-ion semi-solid-state batteries_ Specific equivalent.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\30. Study in a novel lithium-ion semi-solid-state batteries_ Specific equivalent.pdf",
+      "file_size_bytes": 13717648,
+      "title_from_pdf_text": "Study in a novel lithium-ion semi-solid...ing and improved SOC estimation method",
+      "abstract_or_summary_from_pdf_text": "Study in a novel lithium-ion semi-solid...ing and improved SOC estimation method",
+      "pages": 11,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "Study in a novel lithium-ion semi-solid...ing and improved SOC estimation method",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 2,
+      "paper_type": "unknown",
+      "reasons": [
+        "battery/LIB relevance",
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [
+          "lithium-ion"
+        ],
+        "electrode": [],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "31. Hierarchical microporous nitrogen self-doped carbon derived from biomass.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\31. Hierarchical microporous nitrogen self-doped carbon derived from biomass.pdf",
+      "file_size_bytes": 23915547,
+      "title_from_pdf_text": "Hierarchical microporous nitrogen self-...erial for beyond lithium-ion batteries",
+      "abstract_or_summary_from_pdf_text": "Hierarchical microporous nitrogen self-...erial for beyond lithium-ion batteries",
+      "pages": 18,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "Hierarchical microporous nitrogen self-...erial for beyond lithium-ion batteries",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 2,
+      "paper_type": "unknown",
+      "reasons": [
+        "battery/LIB relevance",
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [
+          "lithium-ion"
+        ],
+        "electrode": [],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "32. Bio-inspired novel choline ester ionic liquid gel polymer electrolytes for.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\32. Bio-inspired novel choline ester ionic liquid gel polymer electrolytes for.pdf",
+      "file_size_bytes": 15506210,
+      "title_from_pdf_text": "Bio-inspired novel choline ester ionic ...olytes for safer lithium-ion batteries",
+      "abstract_or_summary_from_pdf_text": "Bio-inspired novel choline ester ionic ...olytes for safer lithium-ion batteries",
+      "pages": 13,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "Bio-inspired novel choline ester ionic ...olytes for safer lithium-ion batteries",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 2,
+      "paper_type": "unknown",
+      "reasons": [
+        "battery/LIB relevance",
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [
+          "lithium-ion"
+        ],
+        "electrode": [],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "33. A novel degradable three-dimensional binder DSM_g_PAA_c_PEG for a.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\33. A novel degradable three-dimensional binder DSM_g_PAA_c_PEG for a.pdf",
+      "file_size_bytes": 6500837,
+      "title_from_pdf_text": "A novel degradable three-dimensional bi...ance Si anode in lithium-ion batteries",
+      "abstract_or_summary_from_pdf_text": "A novel degradable three-dimensional bi...ance Si anode in lithium-ion batteries",
+      "pages": 8,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "A novel degradable three-dimensional bi...ance Si anode in lithium-ion batteries",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 4,
+      "paper_type": "unknown",
+      "reasons": [
+        "battery/LIB relevance",
+        "electrode/material fabrication relevance",
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [
+          "lithium-ion"
+        ],
+        "electrode": [
+          "anode"
+        ],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "34. Freestanding and flexible CNT_Si_metal electrodes for high energy density.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\34. Freestanding and flexible CNT_Si_metal electrodes for high energy density.pdf",
+      "file_size_bytes": 4482936,
+      "title_from_pdf_text": "Freestanding and flexible CNT_Si_metal ...h enhanced electrochemical performance",
+      "abstract_or_summary_from_pdf_text": "Freestanding and flexible CNT_Si_metal ...h enhanced electrochemical performance",
+      "pages": 9,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "Freestanding and flexible CNT_Si_metal ...h enhanced electrochemical performance",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 4,
+      "paper_type": "experimental_or_methods",
+      "reasons": [
+        "performance metrics present",
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [],
+        "electrode": [],
+        "green": [],
+        "performance": [
+          "electrochemical performance"
+        ],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "35. A novel aging modeling approach for second-life lithium-ion batteries.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\35. A novel aging modeling approach for second-life lithium-ion batteries.pdf",
+      "file_size_bytes": 13617641,
+      "title_from_pdf_text": "A novel aging modeling approach for second-life lithium-ion batteries",
+      "abstract_or_summary_from_pdf_text": "A novel aging modeling approach for second-life lithium-ion batteries",
+      "pages": 12,
+      "extracted_pages": 4,
+      "text_chars": 69,
+      "metadata_text": "A novel aging modeling approach for second-life lithium-ion batteries",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 2,
+      "paper_type": "unknown",
+      "reasons": [
+        "battery/LIB relevance",
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [
+          "lithium-ion"
+        ],
+        "electrode": [],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "36. Modelling of lithium-ion battery electrode calendering A critical review.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\36. Modelling of lithium-ion battery electrode calendering A critical review.pdf",
+      "file_size_bytes": 31789431,
+      "title_from_pdf_text": "Modelling of lithium-ion battery electrode calendering_ A critical review",
+      "abstract_or_summary_from_pdf_text": "Modelling of lithium-ion battery electrode calendering_ A critical review",
+      "pages": 26,
+      "extracted_pages": 4,
+      "text_chars": 73,
+      "metadata_text": "Modelling of lithium-ion battery electrode calendering_ A critical review",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 11,
+      "paper_type": "review_or_overview",
+      "reasons": [
+        "battery/LIB relevance",
+        "electrode/material fabrication relevance",
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [
+          "lithium-ion",
+          "lithium-ion battery",
+          "battery"
+        ],
+        "electrode": [
+          "electrode",
+          "calendering"
+        ],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "37. A fast and accurate method for inferring solid-state diffusivity in lithium-ion.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\37. A fast and accurate method for inferring solid-state diffusivity in lithium-ion.pdf",
+      "file_size_bytes": 18803908,
+      "title_from_pdf_text": "A fast and accurate method for inferrin...n lithium-ion battery active materials",
+      "abstract_or_summary_from_pdf_text": "A fast and accurate method for inferrin...n lithium-ion battery active materials",
+      "pages": 15,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "A fast and accurate method for inferrin...n lithium-ion battery active materials",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 8,
+      "paper_type": "unknown",
+      "reasons": [
+        "battery/LIB relevance",
+        "electrode/material fabrication relevance",
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [
+          "lithium-ion",
+          "lithium-ion battery",
+          "battery"
+        ],
+        "electrode": [
+          "active material"
+        ],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "38. Surface coatings to mitigate phase separation in.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\38. Surface coatings to mitigate phase separation in.pdf",
+      "file_size_bytes": 5202924,
+      "title_from_pdf_text": "Surface coatings to mitigate phase sepa...4 during lithium-ion battery discharge",
+      "abstract_or_summary_from_pdf_text": "Surface coatings to mitigate phase sepa...4 during lithium-ion battery discharge",
+      "pages": 11,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "Surface coatings to mitigate phase sepa...4 during lithium-ion battery discharge",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 8,
+      "paper_type": "unknown",
+      "reasons": [
+        "battery/LIB relevance",
+        "electrode/material fabrication relevance",
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [
+          "lithium-ion",
+          "lithium-ion battery",
+          "battery"
+        ],
+        "electrode": [
+          "coating"
+        ],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "39. A continuum approach to modelling hysteresis in phase-change lithium-ion.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\39. A continuum approach to modelling hysteresis in phase-change lithium-ion.pdf",
+      "file_size_bytes": 13768701,
+      "title_from_pdf_text": "A continuum approach to modelling hyste...-change lithium-ion battery electrodes",
+      "abstract_or_summary_from_pdf_text": "A continuum approach to modelling hyste...-change lithium-ion battery electrodes",
+      "pages": 12,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "A continuum approach to modelling hyste...-change lithium-ion battery electrodes",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 8,
+      "paper_type": "unknown",
+      "reasons": [
+        "battery/LIB relevance",
+        "electrode/material fabrication relevance",
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [
+          "lithium-ion",
+          "lithium-ion battery",
+          "battery"
+        ],
+        "electrode": [
+          "electrode"
+        ],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "40. A novel hybrid cooling system for a Lithium-ion battery pack based on.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\40. A novel hybrid cooling system for a Lithium-ion battery pack based on.pdf",
+      "file_size_bytes": 12981892,
+      "title_from_pdf_text": "A novel hybrid cooling system for a Lit...",
+      "abstract_or_summary_from_pdf_text": "A novel hybrid cooling system for a Lit...",
+      "pages": 14,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "A novel hybrid cooling system for a Lit... integrated with phase change material",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": -2,
+      "paper_type": "unknown",
+      "reasons": [
+        "contains out-of-scope signals",
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [],
+        "electrode": [],
+        "green": [],
+        "performance": [],
+        "out_of_scope": [
+          "cooling"
+        ]
+      }
+    },
+    {
+      "file_name": "41. Preparation and electrochemical properties of mesoporous Carbon@ MoS2.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\41. Preparation and electrochemical properties of mesoporous Carbon@ MoS2.pdf",
+      "file_size_bytes": 11136715,
+      "title_from_pdf_text": "Preparation and electrochemical propert...de materials for lithium-ion batteries",
+      "abstract_or_summary_from_pdf_text": "Preparation and electrochemical propert...de materials for lithium-ion batteries",
+      "pages": 10,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "Preparation and electrochemical propert...de materials for lithium-ion batteries",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 4,
+      "paper_type": "experimental_or_methods",
+      "reasons": [
+        "battery/LIB relevance",
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [
+          "lithium-ion"
+        ],
+        "electrode": [],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "42. Recent advancements and perspectives in lithium-ion battery technology.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\42. Recent advancements and perspectives in lithium-ion battery technology.pdf",
+      "file_size_bytes": 22777183,
+      "title_from_pdf_text": "Recent advancements and perspectives in lithium-ion battery technology",
+      "abstract_or_summary_from_pdf_text": "Recent advancements and perspectives in lithium-ion battery technology",
+      "pages": 15,
+      "extracted_pages": 4,
+      "text_chars": 70,
+      "metadata_text": "Recent advancements and perspectives in lithium-ion battery technology",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 7,
+      "paper_type": "review_or_overview",
+      "reasons": [
+        "battery/LIB relevance",
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [
+          "lithium-ion",
+          "lithium-ion battery",
+          "battery"
+        ],
+        "electrode": [],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "43. A novel pulse resistance based thermal runaway early detection approach for.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\43. A novel pulse resistance based thermal runaway early detection approach for.pdf",
+      "file_size_bytes": 20864425,
+      "title_from_pdf_text": "A novel pulse resistance based thermal ...r lithium-ion and sodium-ion batteries",
+      "abstract_or_summary_from_pdf_text": "A novel pulse resistance based thermal ...r lithium-ion and sodium-ion batteries",
+      "pages": 18,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "A novel pulse resistance based thermal ...r lithium-ion and sodium-ion batteries",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 2,
+      "paper_type": "unknown",
+      "reasons": [
+        "battery/LIB relevance",
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [
+          "lithium-ion"
+        ],
+        "electrode": [],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "44. Solvent-free processing of lithium-ion batteries via plasma treatment of.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\44. Solvent-free processing of lithium-ion batteries via plasma treatment of.pdf",
+      "file_size_bytes": 6784920,
+      "title_from_pdf_text": "Solvent-free processing of lithium-ion ...",
+      "abstract_or_summary_from_pdf_text": "Solvent-free processing of lithium-ion ...",
+      "pages": 6,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "Solvent-free processing of lithium-ion ... of electrodes for adhesive interfaces",
+      "needs_ocr_or_cloud": true,
+      "decision": "MAYBE",
+      "relevance_score": 10,
+      "paper_type": "unknown",
+      "reasons": [
+        "battery/LIB relevance",
+        "electrode/material fabrication relevance",
+        "green/sustainable/process relevance",
+        "metadata/title-only screening; needs OCR/cloud for abstract, tables, and figures"
+      ],
+      "matches": {
+        "battery": [
+          "lithium-ion"
+        ],
+        "electrode": [
+          "electrode"
+        ],
+        "green": [
+          "solvent-free",
+          "solvent-free processing"
+        ],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "45. Multi-Body Simulation of a Novel Electrode Stacking Process for Lithium.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\45. Multi-Body Simulation of a Novel Electrode Stacking Process for Lithium.pdf",
+      "file_size_bytes": 5391215,
+      "title_from_pdf_text": "main.pdf",
+      "abstract_or_summary_from_pdf_text": "",
+      "pages": 6,
+      "extracted_pages": 4,
+      "text_chars": 8,
+      "metadata_text": "main.pdf",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 0,
+      "paper_type": "unknown",
+      "reasons": [
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [],
+        "electrode": [],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "46. Recent advancement and prospects of graphite nanocomposites as anode.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\46. Recent advancement and prospects of graphite nanocomposites as anode.pdf",
+      "file_size_bytes": 37222821,
+      "title_from_pdf_text": "Recent advancement and prospects of gra...de materials for lithium-ion batteries",
+      "abstract_or_summary_from_pdf_text": "Recent advancement and prospects of gra...de materials for lithium-ion batteries",
+      "pages": 27,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "Recent advancement and prospects of gra...de materials for lithium-ion batteries",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 3,
+      "paper_type": "review_or_overview",
+      "reasons": [
+        "battery/LIB relevance",
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [
+          "lithium-ion"
+        ],
+        "electrode": [],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "47. Phasefieldmodellingofcrackingandcapacityfadeincore-shellcathode.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\47. Phasefieldmodellingofcrackingandcapacityfadeincore-shellcathode.pdf",
+      "file_size_bytes": 10729974,
+      "title_from_pdf_text": "Phase field modelling of cracking and c...de particles for lithium-ion batteries",
+      "abstract_or_summary_from_pdf_text": "Phase field modelling of cracking and c...de particles for lithium-ion batteries",
+      "pages": 14,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "Phase field modelling of cracking and c...de particles for lithium-ion batteries",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 2,
+      "paper_type": "unknown",
+      "reasons": [
+        "battery/LIB relevance",
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [
+          "lithium-ion"
+        ],
+        "electrode": [],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "48. Synergistic approaches to alleviate issues of Li and S electrodes in.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\48. Synergistic approaches to alleviate issues of Li and S electrodes in.pdf",
+      "file_size_bytes": 21506672,
+      "title_from_pdf_text": "Synergistic approaches to alleviate iss...polymer-based lithium-sulfur batteries",
+      "abstract_or_summary_from_pdf_text": "Synergistic approaches to alleviate iss...polymer-based lithium-sulfur batteries",
+      "pages": 15,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "Synergistic approaches to alleviate iss...polymer-based lithium-sulfur batteries",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 0,
+      "paper_type": "unknown",
+      "reasons": [
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [],
+        "electrode": [],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "49. Preparation of a novel aqueous vermiculite dispersion fire.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\49. Preparation of a novel aqueous vermiculite dispersion fire.pdf",
+      "file_size_bytes": 10789354,
+      "title_from_pdf_text": "Preparation of a novel aqueous vermicul...t to inhibit lithium-ion battery fires",
+      "abstract_or_summary_from_pdf_text": "Preparation of a novel aqueous vermicul...t to inhibit lithium-ion battery fires",
+      "pages": 14,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "Preparation of a novel aqueous vermicul...t to inhibit lithium-ion battery fires",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 9,
+      "paper_type": "unknown",
+      "reasons": [
+        "battery/LIB relevance",
+        "green/sustainable/process relevance",
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [
+          "lithium-ion",
+          "lithium-ion battery",
+          "battery"
+        ],
+        "electrode": [],
+        "green": [
+          "aqueous"
+        ],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "50. Research and development of artificial intelligence in layered cathode.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\50. Research and development of artificial intelligence in layered cathode.pdf",
+      "file_size_bytes": 0,
+      "title_from_pdf_text": "",
+      "abstract_or_summary_from_pdf_text": "",
+      "pages": 0,
+      "extracted_pages": 0,
+      "text_chars": 0,
+      "metadata_text": "",
+      "needs_ocr_or_cloud": false,
+      "decision": "DROP",
+      "relevance_score": 0,
+      "paper_type": "unknown",
+      "reasons": [
+        "empty or failed download"
+      ],
+      "matches": {
+        "battery": [],
+        "electrode": [],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "51. Direct-ink writing printed cathodes based on different active materials for.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\51. Direct-ink writing printed cathodes based on different active materials for.pdf",
+      "file_size_bytes": 13096718,
+      "title_from_pdf_text": "Direct-ink writing printed cathodes bas...ve materials for lithium-ion batteries",
+      "abstract_or_summary_from_pdf_text": "Direct-ink writing printed cathodes bas...ve materials for lithium-ion batteries",
+      "pages": 11,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "Direct-ink writing printed cathodes bas...ve materials for lithium-ion batteries",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 4,
+      "paper_type": "unknown",
+      "reasons": [
+        "battery/LIB relevance",
+        "electrode/material fabrication relevance",
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [
+          "lithium-ion"
+        ],
+        "electrode": [
+          "cathode"
+        ],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "52. Lithium-ion batteries and the future of sustainable energy.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\52. Lithium-ion batteries and the future of sustainable energy.pdf",
+      "file_size_bytes": 25718944,
+      "title_from_pdf_text": "Lithium-ion batteries and the future of...ainable energy_ A comprehensive review",
+      "abstract_or_summary_from_pdf_text": "Lithium-ion batteries and the future of...ainable energy_ A comprehensive review",
+      "pages": 18,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "Lithium-ion batteries and the future of...ainable energy_ A comprehensive review",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 3,
+      "paper_type": "review_or_overview",
+      "reasons": [
+        "battery/LIB relevance",
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [
+          "lithium-ion"
+        ],
+        "electrode": [],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "53. Chain-extended poly(butylene adipate-co-terephthalate)-filled metallic.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\53. Chain-extended poly(butylene adipate-co-terephthalate)-filled metallic.pdf",
+      "file_size_bytes": 14349804,
+      "title_from_pdf_text": "Chain-extended poly(butylene adipate- c...ttery separators using printing method",
+      "abstract_or_summary_from_pdf_text": "Chain-extended poly(butylene adipate- c...ttery separators using printing method",
+      "pages": 12,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "Chain-extended poly(butylene adipate- c...ttery separators using printing method",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 0,
+      "paper_type": "unknown",
+      "reasons": [
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [],
+        "electrode": [],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "54. Current and future trends in lithium-ion battery electrode production.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\54. Current and future trends in lithium-ion battery electrode production.pdf",
+      "file_size_bytes": 38804071,
+      "title_from_pdf_text": "Current and future trends in lithium-io...tion machinery_ A comprehensive review",
+      "abstract_or_summary_from_pdf_text": "Current and future trends in lithium-io...tion machinery_ A comprehensive review",
+      "pages": 25,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "Current and future trends in lithium-io...tion machinery_ A comprehensive review",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 1,
+      "paper_type": "review_or_overview",
+      "reasons": [
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [],
+        "electrode": [],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "55. A practical semi-empirical model for predicting the SoH of lithium-ion.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\55. A practical semi-empirical model for predicting the SoH of lithium-ion.pdf",
+      "file_size_bytes": 16151052,
+      "title_from_pdf_text": "A practical semi-empirical model for pr...A novel perspective on short-term rest",
+      "abstract_or_summary_from_pdf_text": "A practical semi-empirical model for pr...A novel perspective on short-term rest",
+      "pages": 13,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "A practical semi-empirical model for pr...A novel perspective on short-term rest",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 1,
+      "paper_type": "review_or_overview",
+      "reasons": [
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [],
+        "electrode": [],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "56. POM_CNT based nanohybrids as electrodes for lithium-ion batteries.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\56. POM_CNT based nanohybrids as electrodes for lithium-ion batteries.pdf",
+      "file_size_bytes": 50559032,
+      "title_from_pdf_text": "POM_CNT based nanohybrids as electrodes for lithium-ion batteries",
+      "abstract_or_summary_from_pdf_text": "POM_CNT based nanohybrids as electrodes for lithium-ion batteries",
+      "pages": 43,
+      "extracted_pages": 4,
+      "text_chars": 65,
+      "metadata_text": "POM_CNT based nanohybrids as electrodes for lithium-ion batteries",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 4,
+      "paper_type": "unknown",
+      "reasons": [
+        "battery/LIB relevance",
+        "electrode/material fabrication relevance",
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [
+          "lithium-ion"
+        ],
+        "electrode": [
+          "electrode"
+        ],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "57. Current update and prospects in the development of conductive.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\57. Current update and prospects in the development of conductive.pdf",
+      "file_size_bytes": 38946265,
+      "title_from_pdf_text": "Current update and prospects in the dev...electrodes for lithium-based batteries",
+      "abstract_or_summary_from_pdf_text": "Current update and prospects in the dev...electrodes for lithium-based batteries",
+      "pages": 28,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "Current update and prospects in the dev...electrodes for lithium-based batteries",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 3,
+      "paper_type": "review_or_overview",
+      "reasons": [
+        "electrode/material fabrication relevance",
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [],
+        "electrode": [
+          "electrode"
+        ],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "58. Valorization of size-fractionated black mass from spent lithium-ion.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\58. Valorization of size-fractionated black mass from spent lithium-ion.pdf",
+      "file_size_bytes": 18573295,
+      "title_from_pdf_text": "Valorization of size-fractionated black...catalytic peroxymonosulfate activation",
+      "abstract_or_summary_from_pdf_text": "Valorization of size-fractionated black...catalytic peroxymonosulfate activation",
+      "pages": 16,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "Valorization of size-fractionated black...catalytic peroxymonosulfate activation",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 0,
+      "paper_type": "unknown",
+      "reasons": [
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [],
+        "electrode": [],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "59. Pyrazinoquinoxaline graphdiyne_ A novel high-capacity anode material for.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\59. Pyrazinoquinoxaline graphdiyne_ A novel high-capacity anode material for.pdf",
+      "file_size_bytes": 7522811,
+      "title_from_pdf_text": "Pyrazinoquinoxaline graphdiyne_ A novel...anode material for metal-ion batteries",
+      "abstract_or_summary_from_pdf_text": "Pyrazinoquinoxaline graphdiyne_ A novel...anode material for metal-ion batteries",
+      "pages": 6,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "Pyrazinoquinoxaline graphdiyne_ A novel...anode material for metal-ion batteries",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 2,
+      "paper_type": "unknown",
+      "reasons": [
+        "electrode/material fabrication relevance",
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [],
+        "electrode": [
+          "anode"
+        ],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "60. Pyrazinoquinoxaline graphdiyne_ A novel high-capacity anode material for.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\60. Pyrazinoquinoxaline graphdiyne_ A novel high-capacity anode material for.pdf",
+      "file_size_bytes": 7522811,
+      "title_from_pdf_text": "Pyrazinoquinoxaline graphdiyne_ A novel...anode material for metal-ion batteries",
+      "abstract_or_summary_from_pdf_text": "Pyrazinoquinoxaline graphdiyne_ A novel...anode material for metal-ion batteries",
+      "pages": 6,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "Pyrazinoquinoxaline graphdiyne_ A novel...anode material for metal-ion batteries",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 2,
+      "paper_type": "unknown",
+      "reasons": [
+        "electrode/material fabrication relevance",
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [],
+        "electrode": [
+          "anode"
+        ],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "61. Enhancing interfacial stability in lithium orthosilicate_polymer blended.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\61. Enhancing interfacial stability in lithium orthosilicate_polymer blended.pdf",
+      "file_size_bytes": 8928217,
+      "title_from_pdf_text": "Enhancing interfacial stability in lith...ll-solid-state lithium metal batteries",
+      "abstract_or_summary_from_pdf_text": "Enhancing interfacial stability in lith...ll-solid-state lithium metal batteries",
+      "pages": 9,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "Enhancing interfacial stability in lith...ll-solid-state lithium metal batteries",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 0,
+      "paper_type": "unknown",
+      "reasons": [
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [],
+        "electrode": [],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "62. How to determine the degradation modes of lithium-ion batteries with.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\62. How to determine the degradation modes of lithium-ion batteries with.pdf",
+      "file_size_bytes": 18481630,
+      "title_from_pdf_text": "How to determine the degradation modes ...with silicon–graphite blend electrodes",
+      "abstract_or_summary_from_pdf_text": "How to determine the degradation modes ...with silicon–graphite blend electrodes",
+      "pages": 14,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "How to determine the degradation modes ...with silicon–graphite blend electrodes",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 6,
+      "paper_type": "unknown",
+      "reasons": [
+        "electrode/material fabrication relevance",
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [],
+        "electrode": [
+          "electrode",
+          "graphite",
+          "silicon"
+        ],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "63. A novel flexible composite phase change material applied to the thermal.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\63. A novel flexible composite phase change material applied to the thermal.pdf",
+      "file_size_bytes": 14543678,
+      "title_from_pdf_text": "A novel flexible composite phase change...hermal safety of lithium-ion batteries",
+      "abstract_or_summary_from_pdf_text": "A novel flexible composite phase change...hermal safety of lithium-ion batteries",
+      "pages": 14,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "A novel flexible composite phase change...hermal safety of lithium-ion batteries",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 2,
+      "paper_type": "unknown",
+      "reasons": [
+        "battery/LIB relevance",
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [
+          "lithium-ion"
+        ],
+        "electrode": [],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "64. Multi-length-scale thermal modeling of lithium-ion batteries from sub-cell.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\64. Multi-length-scale thermal modeling of lithium-ion batteries from sub-cell.pdf",
+      "file_size_bytes": 14929180,
+      "title_from_pdf_text": "Multi-length-scale thermal modeling of ...um-ion batteries from sub-cell to pack",
+      "abstract_or_summary_from_pdf_text": "Multi-length-scale thermal modeling of ...um-ion batteries from sub-cell to pack",
+      "pages": 13,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "Multi-length-scale thermal modeling of ...um-ion batteries from sub-cell to pack",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 0,
+      "paper_type": "unknown",
+      "reasons": [
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [],
+        "electrode": [],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "65. A novel approach for battery longevity through controlled surface lithium.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\65. A novel approach for battery longevity through controlled surface lithium.pdf",
+      "file_size_bytes": 5765389,
+      "title_from_pdf_text": "A novel approach for battery longevity ...surface lithium concentration gradient",
+      "abstract_or_summary_from_pdf_text": "A novel approach for battery longevity ...surface lithium concentration gradient",
+      "pages": 11,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "A novel approach for battery longevity ...surface lithium concentration gradient",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 2,
+      "paper_type": "unknown",
+      "reasons": [
+        "battery/LIB relevance",
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [
+          "battery"
+        ],
+        "electrode": [],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "66. A novelmodelingapproach for sulfurized polyacrylonitrile (SPAN).pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\66. A novelmodelingapproach for sulfurized polyacrylonitrile (SPAN).pdf",
+      "file_size_bytes": 14984463,
+      "title_from_pdf_text": "A novel modeling approach for sulfurize...SPAN) electrodes in Li metal batteries",
+      "abstract_or_summary_from_pdf_text": "A novel modeling approach for sulfurize...SPAN) electrodes in Li metal batteries",
+      "pages": 13,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "A novel modeling approach for sulfurize...SPAN) electrodes in Li metal batteries",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 2,
+      "paper_type": "unknown",
+      "reasons": [
+        "electrode/material fabrication relevance",
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [],
+        "electrode": [
+          "electrode"
+        ],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "67. Multi-length-scale thermal modeling of lithium-ion batteries from sub-cell.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\67. Multi-length-scale thermal modeling of lithium-ion batteries from sub-cell.pdf",
+      "file_size_bytes": 14929180,
+      "title_from_pdf_text": "Multi-length-scale thermal modeling of ...um-ion batteries from sub-cell to pack",
+      "abstract_or_summary_from_pdf_text": "Multi-length-scale thermal modeling of ...um-ion batteries from sub-cell to pack",
+      "pages": 13,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "Multi-length-scale thermal modeling of ...um-ion batteries from sub-cell to pack",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 0,
+      "paper_type": "unknown",
+      "reasons": [
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [],
+        "electrode": [],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "68. Recent advances in carbon nanofiber-based composites as anode materials.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\68. Recent advances in carbon nanofiber-based composites as anode materials.pdf",
+      "file_size_bytes": 27200616,
+      "title_from_pdf_text": "Recent advances in carbon nanofiber-bas...de materials for lithium-ion batteries",
+      "abstract_or_summary_from_pdf_text": "Recent advances in carbon nanofiber-bas...de materials for lithium-ion batteries",
+      "pages": 22,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "Recent advances in carbon nanofiber-bas...de materials for lithium-ion batteries",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 3,
+      "paper_type": "review_or_overview",
+      "reasons": [
+        "battery/LIB relevance",
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [
+          "lithium-ion"
+        ],
+        "electrode": [],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "69. Next-generation lithium-ion battery anode materials for silicon carbon.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\69. Next-generation lithium-ion battery anode materials for silicon carbon.pdf",
+      "file_size_bytes": 57466549,
+      "title_from_pdf_text": "Next-generation lithium-ion battery ano...or silicon carbon composites_ A review",
+      "abstract_or_summary_from_pdf_text": "Next-generation lithium-ion battery ano...or silicon carbon composites_ A review",
+      "pages": 36,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "Next-generation lithium-ion battery ano...or silicon carbon composites_ A review",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 9,
+      "paper_type": "review_or_overview",
+      "reasons": [
+        "battery/LIB relevance",
+        "electrode/material fabrication relevance",
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [
+          "lithium-ion",
+          "lithium-ion battery",
+          "battery"
+        ],
+        "electrode": [
+          "silicon"
+        ],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "70. Reuse of graphite from spent lithium-ion batteries_ Graphite_MnO.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\70. Reuse of graphite from spent lithium-ion batteries_ Graphite_MnO.pdf",
+      "file_size_bytes": 11289589,
+      "title_from_pdf_text": "Reuse of graphite from spent lithium-io...performance supercapacitor application",
+      "abstract_or_summary_from_pdf_text": "Reuse of graphite from spent lithium-io...performance supercapacitor application",
+      "pages": 10,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "Reuse of graphite from spent lithium-io...performance supercapacitor application",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 7,
+      "paper_type": "experimental_or_methods",
+      "reasons": [
+        "electrode/material fabrication relevance",
+        "green/sustainable/process relevance",
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [],
+        "electrode": [
+          "graphite"
+        ],
+        "green": [
+          "reuse of graphite"
+        ],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "71. Multi-dimensional conductive carbon conglomeration as conductive.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\71. Multi-dimensional conductive carbon conglomeration as conductive.pdf",
+      "file_size_bytes": 10525520,
+      "title_from_pdf_text": "Multi-dimensional conductive carbon con...",
+      "abstract_or_summary_from_pdf_text": "Multi-dimensional conductive carbon con...",
+      "pages": 9,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "Multi-dimensional conductive carbon con... alloy anodes in lithium ion batteries",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 4,
+      "paper_type": "unknown",
+      "reasons": [
+        "battery/LIB relevance",
+        "electrode/material fabrication relevance",
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [
+          "lithium ion"
+        ],
+        "electrode": [
+          "anode"
+        ],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "72. A novel fluorine-free lithium salt derived from malononitrile for electrolyte.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\72. A novel fluorine-free lithium salt derived from malononitrile for electrolyte.pdf",
+      "file_size_bytes": 10758645,
+      "title_from_pdf_text": "A novel fluorine-free lithium salt deri...ns in liquid and solid-state batteries",
+      "abstract_or_summary_from_pdf_text": "A novel fluorine-free lithium salt deri...ns in liquid and solid-state batteries",
+      "pages": 9,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "A novel fluorine-free lithium salt deri...ns in liquid and solid-state batteries",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 3,
+      "paper_type": "unknown",
+      "reasons": [
+        "green/sustainable/process relevance",
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [],
+        "electrode": [],
+        "green": [
+          "fluorine-free"
+        ],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "73. A physics-informed dual-electrode equivalent circuit model for lithium iron.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\73. A physics-informed dual-electrode equivalent circuit model for lithium iron.pdf",
+      "file_size_bytes": 22689377,
+      "title_from_pdf_text": "A physics-informed dual-electrode equiv...r lithium iron phosphate battery cells",
+      "abstract_or_summary_from_pdf_text": "A physics-informed dual-electrode equiv...r lithium iron phosphate battery cells",
+      "pages": 22,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "A physics-informed dual-electrode equiv...r lithium iron phosphate battery cells",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 6,
+      "paper_type": "unknown",
+      "reasons": [
+        "battery/LIB relevance",
+        "electrode/material fabrication relevance",
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [
+          "battery"
+        ],
+        "electrode": [
+          "electrode",
+          "lithium iron phosphate"
+        ],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "74. Accurate state of health estimation of lithium-ion batteries based on deep.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\74. Accurate state of health estimation of lithium-ion batteries based on deep.pdf",
+      "file_size_bytes": 12166951,
+      "title_from_pdf_text": "Accurate state of health estimation of ...eep learning and polarization features",
+      "abstract_or_summary_from_pdf_text": "Accurate state of health estimation of ...eep learning and polarization features",
+      "pages": 11,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "Accurate state of health estimation of ...eep learning and polarization features",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": -2,
+      "paper_type": "unknown",
+      "reasons": [
+        "contains out-of-scope signals",
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [],
+        "electrode": [],
+        "green": [],
+        "performance": [],
+        "out_of_scope": [
+          "state of health"
+        ]
+      }
+    },
+    {
+      "file_name": "75. High-energy density ultra-thick drying-free Ni-rich cathode electrodes for.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\75. High-energy density ultra-thick drying-free Ni-rich cathode electrodes for.pdf",
+      "file_size_bytes": 16900013,
+      "title_from_pdf_text": "High-energy density ultra-thick drying-...r application in Lithium-ion batteries",
+      "abstract_or_summary_from_pdf_text": "High-energy density ultra-thick drying-...r application in Lithium-ion batteries",
+      "pages": 13,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "High-energy density ultra-thick drying-...r application in Lithium-ion batteries",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 4,
+      "paper_type": "unknown",
+      "reasons": [
+        "battery/LIB relevance",
+        "performance metrics present",
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [
+          "lithium-ion"
+        ],
+        "electrode": [],
+        "green": [],
+        "performance": [
+          "energy density"
+        ],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "76. Historical perspective in technological advances in lithium-ion.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\76. Historical perspective in technological advances in lithium-ion.pdf",
+      "file_size_bytes": 24755304,
+      "title_from_pdf_text": "Historical perspective in technological...ces in lithium-ion battery development",
+      "abstract_or_summary_from_pdf_text": "Historical perspective in technological...ces in lithium-ion battery development",
+      "pages": 15,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "Historical perspective in technological...ces in lithium-ion battery development",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 7,
+      "paper_type": "review_or_overview",
+      "reasons": [
+        "battery/LIB relevance",
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [
+          "lithium-ion",
+          "lithium-ion battery",
+          "battery"
+        ],
+        "electrode": [],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "77. Performance assessment of all-solid-state lithium-ion cells with a novel solid.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\77. Performance assessment of all-solid-state lithium-ion cells with a novel solid.pdf",
+      "file_size_bytes": 14949965,
+      "title_from_pdf_text": "Performance assessment of all-solid-sta...rolyte_ A multiscale modeling approach",
+      "abstract_or_summary_from_pdf_text": "Performance assessment of all-solid-sta...rolyte_ A multiscale modeling approach",
+      "pages": 11,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "Performance assessment of all-solid-sta...rolyte_ A multiscale modeling approach",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 2,
+      "paper_type": "experimental_or_methods",
+      "reasons": [
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [],
+        "electrode": [],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "78. A novel approach for modelling voltage hysteresis in lithium-ion batteries.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\78. A novel approach for modelling voltage hysteresis in lithium-ion batteries.pdf",
+      "file_size_bytes": 14461568,
+      "title_from_pdf_text": "A novel approach for modelling voltage ...t established Preisach and Plett model",
+      "abstract_or_summary_from_pdf_text": "A novel approach for modelling voltage ...t established Preisach and Plett model",
+      "pages": 14,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "A novel approach for modelling voltage ...t established Preisach and Plett model",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 0,
+      "paper_type": "unknown",
+      "reasons": [
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [],
+        "electrode": [],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "79. Carbon in lithium-ion battery technology and beyond; Tribute to.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\79. Carbon in lithium-ion battery technology and beyond; Tribute to.pdf",
+      "file_size_bytes": 34059660,
+      "title_from_pdf_text": "Carbon in lithium-ion battery technology and beyond; Tribute to Kim Kinoshita",
+      "abstract_or_summary_from_pdf_text": "Carbon in lithium-ion battery technology and beyond; Tribute to Kim Kinoshita",
+      "pages": 23,
+      "extracted_pages": 4,
+      "text_chars": 77,
+      "metadata_text": "Carbon in lithium-ion battery technology and beyond; Tribute to Kim Kinoshita",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 6,
+      "paper_type": "unknown",
+      "reasons": [
+        "battery/LIB relevance",
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [
+          "lithium-ion",
+          "lithium-ion battery",
+          "battery"
+        ],
+        "electrode": [],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "80. NaBO2 NaAIO2.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\80. NaBO2 NaAIO2.pdf",
+      "file_size_bytes": 11833959,
+      "title_from_pdf_text": "NaBO2_NaAlO2 dual-coating_ A novel stra...erformance sodium-ion battery cathodes",
+      "abstract_or_summary_from_pdf_text": "NaBO2_NaAlO2 dual-coating_ A novel stra...erformance sodium-ion battery cathodes",
+      "pages": 9,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "NaBO2_NaAlO2 dual-coating_ A novel stra...erformance sodium-ion battery cathodes",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 6,
+      "paper_type": "unknown",
+      "reasons": [
+        "battery/LIB relevance",
+        "electrode/material fabrication relevance",
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [
+          "battery"
+        ],
+        "electrode": [
+          "cathode",
+          "coating"
+        ],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "81. Comparative thermo-electrochemical study of lignin- and starch-derived.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\81. Comparative thermo-electrochemical study of lignin- and starch-derived.pdf",
+      "file_size_bytes": 19233046,
+      "title_from_pdf_text": "Comparative thermo-electrochemical stud...s for lithium-ion battery applications",
+      "abstract_or_summary_from_pdf_text": "Comparative thermo-electrochemical stud...s for lithium-ion battery applications",
+      "pages": 15,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "Comparative thermo-electrochemical stud...s for lithium-ion battery applications",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 8,
+      "paper_type": "experimental_or_methods",
+      "reasons": [
+        "battery/LIB relevance",
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [
+          "lithium-ion",
+          "lithium-ion battery",
+          "battery"
+        ],
+        "electrode": [],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "82. Carbon-derived pitch assisted surface modification of anode materials for.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\82. Carbon-derived pitch assisted surface modification of anode materials for.pdf",
+      "file_size_bytes": 19423948,
+      "title_from_pdf_text": "Carbon-derived pitch assisted surface m...teries_ Status and future perspectives",
+      "abstract_or_summary_from_pdf_text": "Carbon-derived pitch assisted surface m...teries_ Status and future perspectives",
+      "pages": 15,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "Carbon-derived pitch assisted surface m...teries_ Status and future perspectives",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 1,
+      "paper_type": "review_or_overview",
+      "reasons": [
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [],
+        "electrode": [],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "83. High-temperature MoPc-derived Mo-N-C based material as an anode for.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\83. High-temperature MoPc-derived Mo-N-C based material as an anode for.pdf",
+      "file_size_bytes": 12466624,
+      "title_from_pdf_text": "High-temperature MoPc-derived Mo-N-C ba...",
+      "abstract_or_summary_from_pdf_text": "High-temperature MoPc-derived Mo-N-C ba...",
+      "pages": 11,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "High-temperature MoPc-derived Mo-N-C ba... as an anode for lithium-ion batteries",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 4,
+      "paper_type": "unknown",
+      "reasons": [
+        "battery/LIB relevance",
+        "electrode/material fabrication relevance",
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [
+          "lithium-ion"
+        ],
+        "electrode": [
+          "anode"
+        ],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "84. A comprehensive overview of lithium-ion batteries for electric vehicles.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\84. A comprehensive overview of lithium-ion batteries for electric vehicles.pdf",
+      "file_size_bytes": 43804736,
+      "title_from_pdf_text": "A comprehensive overview of lithium-ion..., recycling, and emerging technologies",
+      "abstract_or_summary_from_pdf_text": "A comprehensive overview of lithium-ion..., recycling, and emerging technologies",
+      "pages": 33,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "A comprehensive overview of lithium-ion..., recycling, and emerging technologies",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 5,
+      "paper_type": "review_or_overview",
+      "reasons": [
+        "battery/LIB relevance",
+        "performance metrics present",
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [
+          "lithium-ion"
+        ],
+        "electrode": [],
+        "green": [],
+        "performance": [
+          "cycling"
+        ],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "85. Sodium ion batteries_ A sustainable alternative to lithium-ion batteries with.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\85. Sodium ion batteries_ A sustainable alternative to lithium-ion batteries with.pdf",
+      "file_size_bytes": 17381090,
+      "title_from_pdf_text": "Sodium ion batteries_ A sustainable alt...ends, recycling, and battery chemistry",
+      "abstract_or_summary_from_pdf_text": "Sodium ion batteries_ A sustainable alt...ends, recycling, and battery chemistry",
+      "pages": 32,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "Sodium ion batteries_ A sustainable alt...ends, recycling, and battery chemistry",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 7,
+      "paper_type": "unknown",
+      "reasons": [
+        "battery/LIB relevance",
+        "green/sustainable/process relevance",
+        "performance metrics present",
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [
+          "battery"
+        ],
+        "electrode": [],
+        "green": [
+          "sustainable"
+        ],
+        "performance": [
+          "cycling"
+        ],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "86. Effect of carbon black properties on dry electrode processing of cathodes for.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\86. Effect of carbon black properties on dry electrode processing of cathodes for.pdf",
+      "file_size_bytes": 15896593,
+      "title_from_pdf_text": "Effect of carbon black properties on dr...",
+      "abstract_or_summary_from_pdf_text": "Effect of carbon black properties on dr...",
+      "pages": 12,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "Effect of carbon black properties on dr... of cathodes for lithium-ion batteries",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 6,
+      "paper_type": "experimental_or_methods",
+      "reasons": [
+        "battery/LIB relevance",
+        "electrode/material fabrication relevance",
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [
+          "lithium-ion"
+        ],
+        "electrode": [
+          "cathode"
+        ],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "87. Lithium-ion battery high performance cathode electrode based on LiFePO4.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\87. Lithium-ion battery high performance cathode electrode based on LiFePO4.pdf",
+      "file_size_bytes": 16261238,
+      "title_from_pdf_text": "Lithium-ion battery high performance ca...heres with thermal shutdown properties",
+      "abstract_or_summary_from_pdf_text": "Lithium-ion battery high performance ca...heres with thermal shutdown properties",
+      "pages": 14,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "Lithium-ion battery high performance ca...heres with thermal shutdown properties",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 8,
+      "paper_type": "experimental_or_methods",
+      "reasons": [
+        "battery/LIB relevance",
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [
+          "lithium-ion",
+          "lithium-ion battery",
+          "battery"
+        ],
+        "electrode": [],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "88. Glucose_assisted solvothermal synthesis of hierarchical micro_nano.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\88. Glucose_assisted solvothermal synthesis of hierarchical micro_nano.pdf",
+      "file_size_bytes": 12802122,
+      "title_from_pdf_text": "Glucose-assisted solvothermal synthesis...ode material for lithium-ion batteries",
+      "abstract_or_summary_from_pdf_text": "Glucose-assisted solvothermal synthesis...ode material for lithium-ion batteries",
+      "pages": 10,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "Glucose-assisted solvothermal synthesis...ode material for lithium-ion batteries",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 4,
+      "paper_type": "experimental_or_methods",
+      "reasons": [
+        "battery/LIB relevance",
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [
+          "lithium-ion"
+        ],
+        "electrode": [],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "89. Unveiling aging mechanisms of electrolytes in commercial end-of-life.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\89. Unveiling aging mechanisms of electrolytes in commercial end-of-life.pdf",
+      "file_size_bytes": 13099495,
+      "title_from_pdf_text": "Unveiling aging mechanisms of electroly...cial end-of-life lithium-ion batteries",
+      "abstract_or_summary_from_pdf_text": "Unveiling aging mechanisms of electroly...cial end-of-life lithium-ion batteries",
+      "pages": 10,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "Unveiling aging mechanisms of electroly...cial end-of-life lithium-ion batteries",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 2,
+      "paper_type": "unknown",
+      "reasons": [
+        "battery/LIB relevance",
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [
+          "lithium-ion"
+        ],
+        "electrode": [],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "90. A novel phosphonium ionic liquid electrolyte.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\90. A novel phosphonium ionic liquid electrolyte.pdf",
+      "file_size_bytes": 11655027,
+      "title_from_pdf_text": "A novel phosphonium ionic liquid electr...e materials in lithium-metal batteries",
+      "abstract_or_summary_from_pdf_text": "A novel phosphonium ionic liquid electr...e materials in lithium-metal batteries",
+      "pages": 10,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "A novel phosphonium ionic liquid electr...e materials in lithium-metal batteries",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 0,
+      "paper_type": "unknown",
+      "reasons": [
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [],
+        "electrode": [],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "91. Towards anode-less lithium metal negative electrodes for secondary.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\91. Towards anode-less lithium metal negative electrodes for secondary.pdf",
+      "file_size_bytes": 15387354,
+      "title_from_pdf_text": "Towards anode-less lithium metal negati...trodes for secondary aprotic batteries",
+      "abstract_or_summary_from_pdf_text": "Towards anode-less lithium metal negati...trodes for secondary aprotic batteries",
+      "pages": 11,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "Towards anode-less lithium metal negati...trodes for secondary aprotic batteries",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 2,
+      "paper_type": "unknown",
+      "reasons": [
+        "electrode/material fabrication relevance",
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [],
+        "electrode": [
+          "anode"
+        ],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "92. Energy-optimized microchannel liquid cooling for 21700 lithium-ion.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\92. Energy-optimized microchannel liquid cooling for 21700 lithium-ion.pdf",
+      "file_size_bytes": 19715691,
+      "title_from_pdf_text": "Energy-optimized microchannel liquid cooling for 21700 lithium-ion battery packs",
+      "abstract_or_summary_from_pdf_text": "Energy-optimized microchannel liquid cooling for 21700 lithium-ion battery packs",
+      "pages": 16,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "Energy-optimized microchannel liquid cooling for 21700 lithium-ion battery packs",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 4,
+      "paper_type": "unknown",
+      "reasons": [
+        "battery/LIB relevance",
+        "contains out-of-scope signals",
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [
+          "lithium-ion",
+          "lithium-ion battery",
+          "battery"
+        ],
+        "electrode": [],
+        "green": [],
+        "performance": [],
+        "out_of_scope": [
+          "cooling"
+        ]
+      }
+    },
+    {
+      "file_name": "93. Lithium iron phosphate cathodes for brackish water desalination A.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\93. Lithium iron phosphate cathodes for brackish water desalination A.pdf",
+      "file_size_bytes": 16148635,
+      "title_from_pdf_text": "Lithium iron phosphate cathodes for bra...e of end-of-life lithium-ion batteries",
+      "abstract_or_summary_from_pdf_text": "Lithium iron phosphate cathodes for bra...e of end-of-life lithium-ion batteries",
+      "pages": 14,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "Lithium iron phosphate cathodes for bra...e of end-of-life lithium-ion batteries",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 6,
+      "paper_type": "unknown",
+      "reasons": [
+        "battery/LIB relevance",
+        "electrode/material fabrication relevance",
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [
+          "lithium-ion"
+        ],
+        "electrode": [
+          "cathode",
+          "lithium iron phosphate"
+        ],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "94. Advances in multi-scale design and fabrication processes for thick electrodes.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\94. Advances in multi-scale design and fabrication processes for thick electrodes.pdf",
+      "file_size_bytes": 23570373,
+      "title_from_pdf_text": "Advances in multi-scale design and fabr...ck electrodes in lithium-ion batteries",
+      "abstract_or_summary_from_pdf_text": "Advances in multi-scale design and fabr...ck electrodes in lithium-ion batteries",
+      "pages": 17,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "Advances in multi-scale design and fabr...ck electrodes in lithium-ion batteries",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 4,
+      "paper_type": "unknown",
+      "reasons": [
+        "battery/LIB relevance",
+        "electrode/material fabrication relevance",
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [
+          "lithium-ion"
+        ],
+        "electrode": [
+          "electrode"
+        ],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "95. Fluorinated polyamide-based ion-solvating membranes for long-cycle.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\95. Fluorinated polyamide-based ion-solvating membranes for long-cycle.pdf",
+      "file_size_bytes": 12911782,
+      "title_from_pdf_text": "Fluorinated polyamide-based ion-solvati...le quasi-solid-state lithium batteries",
+      "abstract_or_summary_from_pdf_text": "Fluorinated polyamide-based ion-solvati...le quasi-solid-state lithium batteries",
+      "pages": 10,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "Fluorinated polyamide-based ion-solvati...le quasi-solid-state lithium batteries",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 0,
+      "paper_type": "unknown",
+      "reasons": [
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [],
+        "electrode": [],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "96. Self-healable chitosan-based polymer binder for anode in.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\96. Self-healable chitosan-based polymer binder for anode in.pdf",
+      "file_size_bytes": 11073936,
+      "title_from_pdf_text": "Self-healable chitosan-based polymer binder for anode in lithium-ion batteries",
+      "abstract_or_summary_from_pdf_text": "Self-healable chitosan-based polymer binder for anode in lithium-ion batteries",
+      "pages": 10,
+      "extracted_pages": 4,
+      "text_chars": 78,
+      "metadata_text": "Self-healable chitosan-based polymer binder for anode in lithium-ion batteries",
+      "needs_ocr_or_cloud": true,
+      "decision": "MAYBE",
+      "relevance_score": 9,
+      "paper_type": "unknown",
+      "reasons": [
+        "battery/LIB relevance",
+        "electrode/material fabrication relevance",
+        "green/sustainable/process relevance",
+        "metadata/title-only screening; needs OCR/cloud for abstract, tables, and figures"
+      ],
+      "matches": {
+        "battery": [
+          "lithium-ion"
+        ],
+        "electrode": [
+          "anode",
+          "binder"
+        ],
+        "green": [
+          "chitosan"
+        ],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "97. Maximising lithium battery performance by capacity balancing.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\97. Maximising lithium battery performance by capacity balancing.pdf",
+      "file_size_bytes": 13653120,
+      "title_from_pdf_text": "Maximising lithium battery performance ...s for electrode thickness and porosity",
+      "abstract_or_summary_from_pdf_text": "Maximising lithium battery performance ...s for electrode thickness and porosity",
+      "pages": 10,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "Maximising lithium battery performance ...s for electrode thickness and porosity",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 8,
+      "paper_type": "experimental_or_methods",
+      "reasons": [
+        "battery/LIB relevance",
+        "electrode/material fabrication relevance",
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [
+          "lithium battery",
+          "battery"
+        ],
+        "electrode": [
+          "electrode"
+        ],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "98. P,Fe co-doped LiMn.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\98. P,Fe co-doped LiMn.pdf",
+      "file_size_bytes": 4944951,
+      "title_from_pdf_text": "P,Fe co-doped LiMn2O4, a multifunctiona...n batteries assisted by magnetic field",
+      "abstract_or_summary_from_pdf_text": "P,Fe co-doped LiMn2O4, a multifunctiona...n batteries assisted by magnetic field",
+      "pages": 10,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "P,Fe co-doped LiMn2O4, a multifunctiona...n batteries assisted by magnetic field",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 0,
+      "paper_type": "unknown",
+      "reasons": [
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [],
+        "electrode": [],
+        "green": [],
+        "performance": [],
+        "out_of_scope": []
+      }
+    },
+    {
+      "file_name": "99. A green route based on π-π interactions to coat graphite for high-rate and.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\99. A green route based on π-π interactions to coat graphite for high-rate and.pdf",
+      "file_size_bytes": 8092965,
+      "title_from_pdf_text": "A green route based on &pi;-&pi; intera...g-life anodes in lithium-ion batteries",
+      "abstract_or_summary_from_pdf_text": "A green route based on &pi;-&pi; intera...g-life anodes in lithium-ion batteries",
+      "pages": 7,
+      "extracted_pages": 4,
+      "text_chars": 80,
+      "metadata_text": "A green route based on &pi;-&pi; intera...g-life anodes in lithium-ion batteries",
+      "needs_ocr_or_cloud": true,
+      "decision": "NEEDS_OCR",
+      "relevance_score": 7,
+      "paper_type": "unknown",
+      "reasons": [
+        "battery/LIB relevance",
+        "electrode/material fabrication relevance",
+        "green/sustainable/process relevance",
+        "low text extraction yield"
+      ],
+      "matches": {
+        "battery": [
+          "lithium-ion"
+        ],
+        "electrode": [
+          "anode"
+        ],
+        "green": [
+          "green"
+        ],
+        "performance": [],
+        "out_of_scope": []
+      }
+    }
+  ]
+}

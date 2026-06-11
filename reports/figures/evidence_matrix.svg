@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="460" viewBox="0 0 1120 460">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="30" y="32" font-family="Arial" font-size="20" font-weight="700" fill="#111827">Evidence Matrix: Claims by Hypothesis</text>
+<text x="30" y="56" font-family="Arial" font-size="12" fill="#4b5563">Blue = supporting claim; amber = contradiction or caution claim.</text>
+<text x="278" y="92" transform="rotate(-25 278,92)" font-family="Arial" font-size="12" fill="#111827">H001</text>
+<text x="370" y="92" transform="rotate(-25 370,92)" font-family="Arial" font-size="12" fill="#111827">H002</text>
+<text x="462" y="92" transform="rotate(-25 462,92)" font-family="Arial" font-size="12" fill="#111827">H003</text>
+<text x="554" y="92" transform="rotate(-25 554,92)" font-family="Arial" font-size="12" fill="#111827">H004</text>
+<text x="646" y="92" transform="rotate(-25 646,92)" font-family="Arial" font-size="12" fill="#111827">H005</text>
+<rect x="20" y="88" width="1080" height="34" fill="#f9fafb"/>
+<text x="30" y="110" font-family="Arial" font-size="12" fill="#111827">real:C044_01 | real:P044</text>
+<circle cx="274" cy="106" r="11" fill="#2563eb"/>
+<text x="274" y="110" text-anchor="middle" font-family="Arial" font-size="11" font-weight="700" fill="#ffffff">S</text>
+<circle cx="550" cy="106" r="11" fill="#d97706"/>
+<text x="550" y="110" text-anchor="middle" font-family="Arial" font-size="11" font-weight="700" fill="#ffffff">C</text>
+<circle cx="642" cy="106" r="11" fill="#2563eb"/>
+<text x="642" y="110" text-anchor="middle" font-family="Arial" font-size="11" font-weight="700" fill="#ffffff">S</text>
+<rect x="20" y="122" width="1080" height="34" fill="#ffffff"/>
+<text x="30" y="144" font-family="Arial" font-size="12" fill="#111827">real:C075_01 | real:P075</text>
+<circle cx="274" cy="140" r="11" fill="#2563eb"/>
+<text x="274" y="144" text-anchor="middle" font-family="Arial" font-size="11" font-weight="700" fill="#ffffff">S</text>
+<circle cx="550" cy="140" r="11" fill="#2563eb"/>
+<text x="550" y="144" text-anchor="middle" font-family="Arial" font-size="11" font-weight="700" fill="#ffffff">S</text>
+<circle cx="642" cy="140" r="11" fill="#d97706"/>
+<text x="642" y="144" text-anchor="middle" font-family="Arial" font-size="11" font-weight="700" fill="#ffffff">C</text>
+<rect x="20" y="156" width="1080" height="34" fill="#f9fafb"/>
+<text x="30" y="178" font-family="Arial" font-size="12" fill="#111827">real:C081_01 | real:P081</text>
+<circle cx="366" cy="174" r="11" fill="#d97706"/>
+<text x="366" y="178" text-anchor="middle" font-family="Arial" font-size="11" font-weight="700" fill="#ffffff">C</text>
+<circle cx="550" cy="174" r="11" fill="#2563eb"/>
+<text x="550" y="178" text-anchor="middle" font-family="Arial" font-size="11" font-weight="700" fill="#ffffff">S</text>
+<rect x="20" y="190" width="1080" height="34" fill="#ffffff"/>
+<text x="30" y="212" font-family="Arial" font-size="12" fill="#111827">real:C086_01 | real:P086</text>
+<circle cx="274" cy="208" r="11" fill="#2563eb"/>
+<text x="274" y="212" text-anchor="middle" font-family="Arial" font-size="11" font-weight="700" fill="#ffffff">S</text>
+<circle cx="550" cy="208" r="11" fill="#2563eb"/>
+<text x="550" y="212" text-anchor="middle" font-family="Arial" font-size="11" font-weight="700" fill="#ffffff">S</text>
+<circle cx="642" cy="208" r="11" fill="#2563eb"/>
+<text x="642" y="212" text-anchor="middle" font-family="Arial" font-size="11" font-weight="700" fill="#ffffff">S</text>
+<rect x="20" y="224" width="1080" height="34" fill="#f9fafb"/>
+<text x="30" y="246" font-family="Arial" font-size="12" fill="#111827">real:C096_01 | real:P096</text>
+<circle cx="366" cy="242" r="11" fill="#2563eb"/>
+<text x="366" y="246" text-anchor="middle" font-family="Arial" font-size="11" font-weight="700" fill="#ffffff">S</text>
+<rect x="20" y="258" width="1080" height="34" fill="#ffffff"/>
+<text x="30" y="280" font-family="Arial" font-size="12" fill="#111827">real:C099_01 | real:P099</text>
+<circle cx="458" cy="276" r="11" fill="#2563eb"/>
+<text x="458" y="280" text-anchor="middle" font-family="Arial" font-size="11" font-weight="700" fill="#ffffff">S</text>
+<rect x="20" y="292" width="1080" height="34" fill="#f9fafb"/>
+<text x="30" y="314" font-family="Arial" font-size="12" fill="#111827">real:C107_01 | real:P107</text>
+<circle cx="458" cy="310" r="11" fill="#2563eb"/>
+<text x="458" y="314" text-anchor="middle" font-family="Arial" font-size="11" font-weight="700" fill="#ffffff">S</text>
+<rect x="20" y="326" width="1080" height="34" fill="#ffffff"/>
+<text x="30" y="348" font-family="Arial" font-size="12" fill="#111827">real:C107_02 | real:P107</text>
+<circle cx="458" cy="344" r="11" fill="#2563eb"/>
+<text x="458" y="348" text-anchor="middle" font-family="Arial" font-size="11" font-weight="700" fill="#ffffff">S</text>
+<rect x="20" y="360" width="1080" height="34" fill="#f9fafb"/>
+<text x="30" y="382" font-family="Arial" font-size="12" fill="#111827">real:C110_01 | real:P110</text>
+<circle cx="366" cy="378" r="11" fill="#2563eb"/>
+<text x="366" y="382" text-anchor="middle" font-family="Arial" font-size="11" font-weight="700" fill="#ffffff">S</text>
+<circle cx="458" cy="378" r="11" fill="#d97706"/>
+<text x="458" y="382" text-anchor="middle" font-family="Arial" font-size="11" font-weight="700" fill="#ffffff">C</text>
+<rect x="20" y="394" width="1080" height="34" fill="#ffffff"/>
+<text x="30" y="416" font-family="Arial" font-size="12" fill="#111827">real:C123_01 | real:P123</text>
+<circle cx="274" cy="412" r="11" fill="#d97706"/>
+<text x="274" y="416" text-anchor="middle" font-family="Arial" font-size="11" font-weight="700" fill="#ffffff">C</text>
+<circle cx="642" cy="412" r="11" fill="#2563eb"/>
+<text x="642" y="416" text-anchor="middle" font-family="Arial" font-size="11" font-weight="700" fill="#ffffff">S</text>
+</svg>

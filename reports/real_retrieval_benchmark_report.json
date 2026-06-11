@@ -1,0 +1,368 @@
+{
+  "summary": {
+    "adapter": "local_real_corpus",
+    "corpus": "data\\real_evidence_corpus.json",
+    "cases": 12,
+    "paper_recall_at_5": 1.0,
+    "claim_recall_at_5": 1.0,
+    "paper_mrr": 1.0,
+    "claim_mrr": 1.0,
+    "hard_negative_rate_at_5": 0.15
+  },
+  "results": [
+    {
+      "case_id": "real_ret_001",
+      "query": "solvent-free dry cathode plasma treatment PTFE adhesion aluminum foil",
+      "paper_recall_at_k": 1.0,
+      "claim_recall_at_k": 1.0,
+      "paper_mrr": 1.0,
+      "claim_mrr": 1.0,
+      "hard_negative_rate_at_k": 0.2,
+      "expected_paper_ids": [
+        "real:P044"
+      ],
+      "expected_claim_ids": [
+        "real:C044_01"
+      ],
+      "retrieved_paper_ids": [
+        "real:P044",
+        "real:P086",
+        "real:P075",
+        "real:P123",
+        "real:P096"
+      ],
+      "retrieved_claim_ids": [
+        "real:C044_01",
+        "real:C086_01",
+        "real:C075_01",
+        "real:C107_01",
+        "real:C123_01"
+      ]
+    },
+    {
+      "case_id": "real_ret_002",
+      "query": "ultra-thick drying-free Ni-rich cathode ethanol solvent-assisted binder capacity retention",
+      "paper_recall_at_k": 1.0,
+      "claim_recall_at_k": 1.0,
+      "paper_mrr": 1.0,
+      "claim_mrr": 1.0,
+      "hard_negative_rate_at_k": 0.2,
+      "expected_paper_ids": [
+        "real:P075"
+      ],
+      "expected_claim_ids": [
+        "real:C075_01"
+      ],
+      "retrieved_paper_ids": [
+        "real:P075",
+        "real:P044",
+        "real:P086",
+        "real:P110",
+        "real:P096"
+      ],
+      "retrieved_claim_ids": [
+        "real:C075_01",
+        "real:C086_01",
+        "real:C044_01",
+        "real:C110_01",
+        "real:C096_01"
+      ]
+    },
+    {
+      "case_id": "real_ret_003",
+      "query": "lignin derived carbon Zn TFSI hydrothermal activation energy lithium ion transport",
+      "paper_recall_at_k": 1.0,
+      "claim_recall_at_k": 1.0,
+      "paper_mrr": 1.0,
+      "claim_mrr": 1.0,
+      "hard_negative_rate_at_k": 0.0,
+      "expected_paper_ids": [
+        "real:P081"
+      ],
+      "expected_claim_ids": [
+        "real:C081_01"
+      ],
+      "retrieved_paper_ids": [
+        "real:P081",
+        "real:P110",
+        "real:P099",
+        "real:P096",
+        "real:P086"
+      ],
+      "retrieved_claim_ids": [
+        "real:C081_01",
+        "real:C107_01",
+        "real:C099_01",
+        "real:C096_01",
+        "real:C086_01"
+      ]
+    },
+    {
+      "case_id": "real_ret_004",
+      "query": "carbon black properties dry electrode processing NMC811 calendering retention",
+      "paper_recall_at_k": 1.0,
+      "claim_recall_at_k": 1.0,
+      "paper_mrr": 1.0,
+      "claim_mrr": 1.0,
+      "hard_negative_rate_at_k": 0.2,
+      "expected_paper_ids": [
+        "real:P086"
+      ],
+      "expected_claim_ids": [
+        "real:C086_01"
+      ],
+      "retrieved_paper_ids": [
+        "real:P086",
+        "real:P044",
+        "real:P110",
+        "real:P075",
+        "real:P096"
+      ],
+      "retrieved_claim_ids": [
+        "real:C086_01",
+        "real:C075_01",
+        "real:C044_01",
+        "real:C110_01",
+        "real:C107_01"
+      ]
+    },
+    {
+      "case_id": "real_ret_005",
+      "query": "bio-based self-healing chitosan binder graphite anode capacity retention",
+      "paper_recall_at_k": 1.0,
+      "claim_recall_at_k": 1.0,
+      "paper_mrr": 1.0,
+      "claim_mrr": 1.0,
+      "hard_negative_rate_at_k": 0.2,
+      "expected_paper_ids": [
+        "real:P096"
+      ],
+      "expected_claim_ids": [
+        "real:C096_01"
+      ],
+      "retrieved_paper_ids": [
+        "real:P096",
+        "real:P110",
+        "real:P099",
+        "real:P075",
+        "real:P107"
+      ],
+      "retrieved_claim_ids": [
+        "real:C096_01",
+        "real:C099_01",
+        "real:C110_01",
+        "real:C107_02",
+        "real:C075_01"
+      ]
+    },
+    {
+      "case_id": "real_ret_006",
+      "query": "green tannic acid carbon coating graphite high-rate long-life anode",
+      "paper_recall_at_k": 1.0,
+      "claim_recall_at_k": 1.0,
+      "paper_mrr": 1.0,
+      "claim_mrr": 1.0,
+      "hard_negative_rate_at_k": 0.2,
+      "expected_paper_ids": [
+        "real:P099"
+      ],
+      "expected_claim_ids": [
+        "real:C099_01"
+      ],
+      "retrieved_paper_ids": [
+        "real:P099",
+        "real:P110",
+        "real:P107",
+        "real:P086",
+        "real:P081"
+      ],
+      "retrieved_claim_ids": [
+        "real:C099_01",
+        "real:C107_02",
+        "real:C107_01",
+        "real:C086_01",
+        "real:C081_01"
+      ]
+    },
+    {
+      "case_id": "real_ret_007",
+      "query": "natural graphite green purification non-thermal plasma purity 99.99 percent",
+      "paper_recall_at_k": 1.0,
+      "claim_recall_at_k": 1.0,
+      "paper_mrr": 1.0,
+      "claim_mrr": 1.0,
+      "hard_negative_rate_at_k": 0.2,
+      "expected_paper_ids": [
+        "real:P107"
+      ],
+      "expected_claim_ids": [
+        "real:C107_01"
+      ],
+      "retrieved_paper_ids": [
+        "real:P107",
+        "real:P099",
+        "real:P110",
+        "real:P096",
+        "real:P081"
+      ],
+      "retrieved_claim_ids": [
+        "real:C107_01",
+        "real:C107_02",
+        "real:C099_01",
+        "real:C110_01",
+        "real:C044_01"
+      ]
+    },
+    {
+      "case_id": "real_ret_008",
+      "query": "spent graphite regenerated conductive polymer coating reversible capacity 353 mAh g",
+      "paper_recall_at_k": 1.0,
+      "claim_recall_at_k": 1.0,
+      "paper_mrr": 1.0,
+      "claim_mrr": 1.0,
+      "hard_negative_rate_at_k": 0.0,
+      "expected_paper_ids": [
+        "real:P107"
+      ],
+      "expected_claim_ids": [
+        "real:C107_02"
+      ],
+      "retrieved_paper_ids": [
+        "real:P107",
+        "real:P099",
+        "real:P110",
+        "real:P096",
+        "real:P086"
+      ],
+      "retrieved_claim_ids": [
+        "real:C107_02",
+        "real:C099_01",
+        "real:C110_01",
+        "real:C096_01",
+        "real:C107_01"
+      ]
+    },
+    {
+      "case_id": "real_ret_009",
+      "query": "biodegradable PHBV binder graphite negative electrode PVDF substitute capacity retention",
+      "paper_recall_at_k": 1.0,
+      "claim_recall_at_k": 1.0,
+      "paper_mrr": 1.0,
+      "claim_mrr": 1.0,
+      "hard_negative_rate_at_k": 0.2,
+      "expected_paper_ids": [
+        "real:P110"
+      ],
+      "expected_claim_ids": [
+        "real:C110_01"
+      ],
+      "retrieved_paper_ids": [
+        "real:P110",
+        "real:P096",
+        "real:P086",
+        "real:P075",
+        "real:P044"
+      ],
+      "retrieved_claim_ids": [
+        "real:C110_01",
+        "real:C096_01",
+        "real:C086_01",
+        "real:C075_01",
+        "real:C107_02"
+      ]
+    },
+    {
+      "case_id": "real_ret_010",
+      "query": "calcination-free atmospheric microplasma NMC cathode synthesis less than one second",
+      "paper_recall_at_k": 1.0,
+      "claim_recall_at_k": 1.0,
+      "paper_mrr": 1.0,
+      "claim_mrr": 1.0,
+      "hard_negative_rate_at_k": 0.2,
+      "expected_paper_ids": [
+        "real:P123"
+      ],
+      "expected_claim_ids": [
+        "real:C123_01"
+      ],
+      "retrieved_paper_ids": [
+        "real:P123",
+        "real:P075",
+        "real:P044",
+        "real:P086",
+        "real:P107"
+      ],
+      "retrieved_claim_ids": [
+        "real:C123_01",
+        "real:C075_01",
+        "real:C044_01",
+        "real:C086_01",
+        "real:C096_01"
+      ]
+    },
+    {
+      "case_id": "real_ret_011",
+      "query": "sustainable bio-based binders for graphite anodes with cycling performance trade-offs",
+      "paper_recall_at_k": 1.0,
+      "claim_recall_at_k": 1.0,
+      "paper_mrr": 1.0,
+      "claim_mrr": 1.0,
+      "hard_negative_rate_at_k": 0.0,
+      "expected_paper_ids": [
+        "real:P096",
+        "real:P110"
+      ],
+      "expected_claim_ids": [
+        "real:C096_01",
+        "real:C110_01"
+      ],
+      "retrieved_paper_ids": [
+        "real:P096",
+        "real:P110",
+        "real:P099",
+        "real:P081",
+        "real:P107"
+      ],
+      "retrieved_claim_ids": [
+        "real:C110_01",
+        "real:C099_01",
+        "real:C096_01",
+        "real:C081_01",
+        "real:C107_02"
+      ]
+    },
+    {
+      "case_id": "real_ret_012",
+      "query": "dry cathode manufacturing without NMP drying lines adhesion calendering additives",
+      "paper_recall_at_k": 1.0,
+      "claim_recall_at_k": 1.0,
+      "paper_mrr": 1.0,
+      "claim_mrr": 1.0,
+      "hard_negative_rate_at_k": 0.2,
+      "expected_paper_ids": [
+        "real:P044",
+        "real:P086",
+        "real:P075"
+      ],
+      "expected_claim_ids": [
+        "real:C044_01",
+        "real:C086_01",
+        "real:C075_01"
+      ],
+      "retrieved_paper_ids": [
+        "real:P086",
+        "real:P075",
+        "real:P044",
+        "real:P110",
+        "real:P096"
+      ],
+      "retrieved_claim_ids": [
+        "real:C086_01",
+        "real:C075_01",
+        "real:C044_01",
+        "real:C123_01",
+        "real:C110_01"
+      ]
+    }
+  ]
+}

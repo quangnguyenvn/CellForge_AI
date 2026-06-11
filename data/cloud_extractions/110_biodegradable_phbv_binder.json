@@ -1,0 +1,84 @@
+{
+"title": "Poly(hydroxybutyrate-co-hydroxyvalerate) as a biodegradable binder in a negative electrode material for lithium-ion batteries",
+"abstract_summary": "This study evaluates poly(hydroxybutyrate-co-hydroxyvalerate) (PHBV), a biodegradable plant-derived and microbial thermoplastic polyester, as an eco-friendly binder alternative to toxic polyvinylidene fluoride (PVDF) for graphite negative electrodes in lithium-ion batteries. PHBV-bound graphite electrodes demonstrate highly comparable specific capacities, cycle stability, and lithium-ion diffusion coefficients to PVDF-bound baselines, indicating its high potential to improve sustainability in battery manufacturing.",
+"paper_type": "Full Length Article",
+"electrode_component": "negative electrode (anode)",
+"green_strategy": "Substitution of toxic, non-biodegradable synthetic fluorinated binders (PVDF) with a biodegradable, bio-derived, and compostable biopolymer (PHBV).",
+"battery_chemistry": "lithium-ion",
+"fabrication_method": "Slurry casting of graphite (80 wt%), carbon black conductive additive (10 wt%), and PHBV binder (10 wt%) in chloroform (CHCl3) solvent onto a copper current collector, followed by drying under vacuum at 90 °C for 24 h.",
+"performance_metrics": [
+{
+"metric": "Specific capacity at 36 mA/g after 100 cycles",
+"value": "357 mAh/g",
+"condition": "At current density of 36 mA/g, potential range 0.005 V to 3.0 V vs Li/Li+",
+"comparison_baseline": "not stated in paper",
+"source_section_or_page": "Page 3, Section 3"
+},
+{
+"metric": "Capacity retention after 100 cycles",
+"value": "99.1 %",
+"condition": "Cycled at 36 mA/g",
+"comparison_baseline": "not stated in paper",
+"source_section_or_page": "Page 3, Section 3"
+},
+{
+"metric": "Capacity recovery on returning to initial rate",
+"value": "over 90 %",
+"condition": "Returned to C/20 rate after high-rate testing (up to 10C)",
+"comparison_baseline": "not stated in paper",
+"source_section_or_page": "Page 3, Section 3"
+},
+{
+"metric": "Lithium-ion diffusion coefficient (D_Li)",
+"value": "10^-9 to 10^-7 cm^2/s",
+"condition": "Determined via Galvanostatic Intermittent Titration Technique (GITT)",
+"comparison_baseline": "similar order of magnitude as PVDF",
+"source_section_or_page": "Page 6, top of left column / Page 5, Fig. 7"
+}
+],
+"limitations": [
+"The current fabrication protocol requires chloroform (CHCl3) as a solvent to dissolve PHBV, which is a volatile, toxic chlorinated organic solvent.",
+"PHBV exhibits lower adhesion strength to the copper current collector compared to PVDF, which may result in a loss of electrical contact over very long-term cycling.",
+"Poor rate capability at high discharge rates (4C, 10C), though a similar decline is observed for the PVDF benchmark due to electrode thickness transport limitations."
+],
+"figure_or_table_evidence": [
+{
+"figure_or_table": "Fig. 3",
+"evidence_summary": "Displays charge/discharge cycling performance of TIMREX_PHBV and TIMREX_PVDF at varying current densities, showing highly similar discharge capacity profiles.",
+"exact_values_available": false,
+"needs_manual_digitization": true,
+"source_page": "3"
+},
+{
+"figure_or_table": "Fig. 4",
+"evidence_summary": "Shows the extended cycle life of the TIMREX_PHBV electrode over 100 cycles at a current density of 36 mA/g, maintaining a specific capacity of 357 mAh/g.",
+"exact_values_available": true,
+"needs_manual_digitization": false,
+"source_page": "4"
+},
+{
+"figure_or_table": "Fig. 7",
+"evidence_summary": "Plots the chemical diffusion coefficient of lithium ions as a function of potential, illustrating that PHBV and PVDF binders yield comparable kinetic properties.",
+"exact_values_available": false,
+"needs_manual_digitization": true,
+"source_page": "5"
+}
+],
+"candidate_research_claims": [
+{
+"claim_text": "Biodegradable PHBV can successfully substitute PVDF as a binder for graphite anodes in lithium-ion batteries, delivering highly stable cycling with a specific capacity of 357 mAh/g and 99.1% capacity retention after 100 cycles.",
+"battery_chemistry": "lithium-ion",
+"approach_type": "biodegradable biopolymer binder",
+"metric": "capacity retention",
+"value": "99.1 %",
+"experimental_condition": "Graphite anode with 10 wt% PHBV binder, cycled at 36 mA/g over 100 cycles",
+"evidence_type": "experimental",
+"limitation": "The processing required chloroform (CHCl3) solvent, and the polymer has lower adhesion to copper than PVDF.",
+"citation_text": "The specific capacity of TIMREX_PHBV electrode material was 357 mAh/g after 100 cycles. ... with the capacity retention of 99.1 % after the 100th cycle. On the basis of the presented results, it may be concluded that the PHBV binder is resistant to dissolution or decomposition in the electrolyte...",
+"source_section_or_page": "Page 3, Section 3"
+}
+],
+"confidence": 0.95,
+"needs_human_review": true,
+"human_review_reason": "The green binder (PHBV) slurry requires a chlorinated solvent (chloroform) rather than a green water-based solvent system, representing a critical processing trade-off. Additionally, key rate capacity comparison values in Fig. 3 require manual digitization."
+}

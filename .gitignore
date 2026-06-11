@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+.venv/
+venv/
+.python-deps/
+.tmp_pip/
+node_modules/
+.next/
+.tmp_screening/
+data/real_papers/
+data/real_papers_priority/

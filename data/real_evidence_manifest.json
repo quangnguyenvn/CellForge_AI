@@ -1,0 +1,112 @@
+{
+  "description": "Real-paper evidence corpus generated from Google Cloud/Gemini document understanding outputs. Claims are extraction artifacts and require human validation before publication use.",
+  "source_directory": "data\\cloud_extractions",
+  "scope": "green and sustainable electrode materials/fabrication for lithium-ion batteries",
+  "manifest": [
+    {
+      "source_extraction_file": "036_electrode_calendering_review.json.json",
+      "status": "empty_file",
+      "paper_id": null,
+      "claim_count": 0,
+      "needs_human_review": true,
+      "title": ""
+    },
+    {
+      "source_extraction_file": "044_solvent_free_plasma_processing.json",
+      "status": "extracted_needs_human_validation",
+      "paper_id": "real:P044",
+      "claim_count": 1,
+      "needs_human_review": true,
+      "title": "Solvent-free processing of lithium-ion batteries via plasma treatment of electrodes for adhesive interfaces"
+    },
+    {
+      "source_extraction_file": "075_drying_free_ni_rich_cathode.json",
+      "status": "extracted_needs_human_validation",
+      "paper_id": "real:P075",
+      "claim_count": 1,
+      "needs_human_review": true,
+      "title": "High-energy density ultra-thick drying-free Ni-rich cathode electrodes for application in Lithium-ion batteries"
+    },
+    {
+      "source_extraction_file": "081_lignin_starch_thermo_electrochemical.json.json",
+      "status": "extracted_needs_human_validation",
+      "paper_id": "real:P081",
+      "claim_count": 1,
+      "needs_human_review": true,
+      "title": "Comparative thermo-electrochemical study of lignin- and starch-derived carbon electrodes modified with Zn(TFSI)2 and ionic liquids for lithium-ion battery applications"
+    },
+    {
+      "source_extraction_file": "086_carbon_black_dry_electrode_processing.json",
+      "status": "extracted_needs_human_validation",
+      "paper_id": "real:P086",
+      "claim_count": 1,
+      "needs_human_review": true,
+      "title": "Effect of carbon black properties on dry electrode processing of cathodes for lithium-ion batteries"
+    },
+    {
+      "source_extraction_file": "096_chitosan_binder_anode.json",
+      "status": "extracted_needs_human_validation",
+      "paper_id": "real:P096",
+      "claim_count": 1,
+      "needs_human_review": true,
+      "title": "Self-healable chitosan-based polymer binder for anode in lithium-ion batteries"
+    },
+    {
+      "source_extraction_file": "099_green_graphite_coating.json",
+      "status": "extracted_needs_human_validation",
+      "paper_id": "real:P099",
+      "claim_count": 1,
+      "needs_human_review": true,
+      "title": "A green route based on π-π interactions to coat graphite for high-rate and long-life anodes in lithium-ion batteries"
+    },
+    {
+      "source_extraction_file": "107_natural_graphite_ecofriendly.json",
+      "status": "extracted_needs_human_validation",
+      "paper_id": "real:P107",
+      "claim_count": 2,
+      "needs_human_review": true,
+      "title": "Natural graphite in making ecofriendly lithium-ion batteries: Challenges, current status, and future outlooks"
+    },
+    {
+      "source_extraction_file": "110_biodegradable_phbv_binder.json",
+      "status": "extracted_needs_human_validation",
+      "paper_id": "real:P110",
+      "claim_count": 1,
+      "needs_human_review": true,
+      "title": "Poly(hydroxybutyrate-co-hydroxyvalerate) as a biodegradable binder in a negative electrode material for lithium-ion batteries"
+    },
+    {
+      "source_extraction_file": "123_ One-step atmospheric microplasma synthesis of an NMC-type lithium-ion.json",
+      "status": "extracted_needs_human_validation",
+      "paper_id": "real:P123",
+      "claim_count": 1,
+      "needs_human_review": true,
+      "title": "One-step atmospheric microplasma synthesis of an NMC-type lithium-ion battery cathode"
+    }
+  ],
+  "quality_summary": {
+    "extracted_paper_count": 9,
+    "extracted_claim_count": 10,
+    "skipped_or_invalid_file_count": 1,
+    "human_review_claim_count": 10,
+    "claimless_paper_ids": [],
+    "approach_type_counts": {
+      "bio-based carbon coating": 1,
+      "bio-based self-healing polymer binder": 1,
+      "biodegradable biopolymer binder": 1,
+      "biomass-derived carbon modification": 1,
+      "calcination-free/low-energy synthesis": 1,
+      "green purification of natural graphite": 1,
+      "recycled graphite anode material": 1,
+      "solvent-assisted dry processing": 1,
+      "solvent-free processing": 2
+    },
+    "electrode_component_counts": {
+      "anode": 4,
+      "cathode": 4,
+      "negative electrode (anode)": 1
+    },
+    "quality_gate": "usable_for_demo_retrieval_and_hypothesis_generation",
+    "publication_readiness": "not_publication_ready_without_human_validation"
+  }
+}

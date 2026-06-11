@@ -1,0 +1,116 @@
+{
+  "selected": [
+    {
+      "file_name": "02.Synthesis_and_Performance_Optimisation_of_Novel_El.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\02.Synthesis_and_Performance_Optimisation_of_Novel_El.pdf",
+      "title_from_pdf_text": "Synthesis and Performance Optimisation of Novel Electrode Materials for Lithium-Ion Batteries Renjie Song Northwestern Polytechnical University, Shaanxi, China 2915281075@qq.com Abstract: This study focuses on the synthe",
+      "decision": "KEEP",
+      "relevance_score": 33,
+      "paper_type": "experimental_or_methods",
+      "cluster_tags": [
+        "cathode materials",
+        "anode materials"
+      ],
+      "why_selected": [
+        "battery/LIB relevance",
+        "electrode/material fabrication relevance",
+        "green/sustainable/process relevance",
+        "performance metrics present"
+      ],
+      "abstract_or_summary_from_pdf_text": "This study focuses on the synthesis and performance optimization of novel electrode materials for lithium-ion batteries. By analyzing the structural stability, interfacial reactions, and electrochemical properties of both cathode and anode materials, various optimization strategies such as gradient doping, nanocomposite design, and interface engineering were proposed. Multiple electrochemical testing methods, including constant current charge–discharge, cyclic voltammetry, and electrochemical impedance spectroscopy, were employed to comprehensively assess the effects of these strategies on material performance. The results indicate that gradient-doped cathode materials exhibit enhanced thermal stability and reduced capacity decay under high-temperature and high-voltage conditions; the nanocomposite anode design effectively alleviates the volume expansion of silicon-based materials, significantly reducing the expansion rate and improving cycling stability; and interface engineering markedly decreases the charge transfer impedance, thereby boosting battery power output. Full-cell evaluations demonstrate that the novel electrode materials achieve an energy density of 235 Wh·kg⁻¹, while maintaining high cycle life even under extreme temperature conditions. Furthermore, the study systematically analyzes key issues related to industrial-scale production, material compatibility, and sustainable development, discussing the feasibility of process optimization and environmentally friendly technologies for large-scale applications. Overall, this research not only provides theoretical "
+    },
+    {
+      "file_name": "09.Electrode-materials-for-lithium-ion-b_2018_Materials-Science-for-Energy-Tech.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\09.Electrode-materials-for-lithium-ion-b_2018_Materials-Science-for-Energy-Tech.pdf",
+      "title_from_pdf_text": "Electrode materials for lithium-ion batteries Amit Mishra a, Akansha Mehta a, Soumen Basu a,⇑, Shweta J.",
+      "decision": "KEEP",
+      "relevance_score": 20,
+      "paper_type": "review_or_overview",
+      "cluster_tags": [
+        "cathode materials",
+        "anode materials"
+      ],
+      "why_selected": [
+        "battery/LIB relevance",
+        "electrode/material fabrication relevance",
+        "green/sustainable/process relevance",
+        "performance metrics present"
+      ],
+      "abstract_or_summary_from_pdf_text": "Electrode materials for lithium-ion batteries Amit Mishra a, Akansha Mehta a, Soumen Basu a,⇑, Shweta J. Aminabhavi c a School of Chemistry and Biochemistry, Thapar Institute of Engineering & Technology, Patiala, Punjab 147004, India b Electrochemistry and Materials Group, Department of Chemistry, K. However, they suffer from many of the limitations for their use in electric means of transportation and other high level applications. This mini-review discusses the recent trends in electrode materials for Li-ion batteries."
+    },
+    {
+      "file_name": "01.Building better batteries.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\01.Building better batteries.pdf",
+      "title_from_pdf_text": "H O R I Z O N S Batteries are currently being developed to power an increasingly diverse range of applications, from cars to microchips.",
+      "decision": "KEEP",
+      "relevance_score": 18,
+      "paper_type": "experimental_or_methods",
+      "cluster_tags": [
+        "general electrode materials"
+      ],
+      "why_selected": [
+        "battery/LIB relevance",
+        "electrode/material fabrication relevance",
+        "green/sustainable/process relevance",
+        "performance metrics present"
+      ],
+      "abstract_or_summary_from_pdf_text": "H O R I Z O N S Batteries are currently being developed to power an increasingly diverse range of applications, from cars to microchips. How can scientists achieve the performance that each application demands? How will batteries be able to power the many other portable devices that will no doubt be developed in the coming years? And how can batteries become a sus- tainable technology for the future?"
+    },
+    {
+      "file_name": "123. One-step atmospheric microplasma synthesis of an NMC-type lithium-ion.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\123. One-step atmospheric microplasma synthesis of an NMC-type lithium-ion.pdf",
+      "title_from_pdf_text": "One-step atmospheric microplasma synthe...n NMC-type lithium-ion battery cathode",
+      "decision": "MAYBE",
+      "relevance_score": 16,
+      "paper_type": "unknown",
+      "cluster_tags": [
+        "cathode materials"
+      ],
+      "why_selected": [
+        "battery/LIB relevance",
+        "electrode/material fabrication relevance",
+        "green/sustainable/process relevance",
+        "metadata/title-only screening; needs OCR/cloud for abstract, tables, and figures"
+      ],
+      "abstract_or_summary_from_pdf_text": "One-step atmospheric microplasma synthe...n NMC-type lithium-ion battery cathode"
+    },
+    {
+      "file_name": "44. Solvent-free processing of lithium-ion batteries via plasma treatment of.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\44. Solvent-free processing of lithium-ion batteries via plasma treatment of.pdf",
+      "title_from_pdf_text": "Solvent-free processing of lithium-ion ...",
+      "decision": "MAYBE",
+      "relevance_score": 10,
+      "paper_type": "unknown",
+      "cluster_tags": [
+        "dry/solvent-free electrode processing"
+      ],
+      "why_selected": [
+        "battery/LIB relevance",
+        "electrode/material fabrication relevance",
+        "green/sustainable/process relevance",
+        "metadata/title-only screening; needs OCR/cloud for abstract, tables, and figures"
+      ],
+      "abstract_or_summary_from_pdf_text": "Solvent-free processing of lithium-ion ..."
+    },
+    {
+      "file_name": "96. Self-healable chitosan-based polymer binder for anode in.pdf",
+      "path": "D:\\git\\CellForge AI\\cellforge-ai\\data\\real_papers\\96. Self-healable chitosan-based polymer binder for anode in.pdf",
+      "title_from_pdf_text": "Self-healable chitosan-based polymer binder for anode in lithium-ion batteries",
+      "decision": "MAYBE",
+      "relevance_score": 9,
+      "paper_type": "unknown",
+      "cluster_tags": [
+        "bio-derived binders/materials",
+        "binder engineering",
+        "anode materials"
+      ],
+      "why_selected": [
+        "battery/LIB relevance",
+        "electrode/material fabrication relevance",
+        "green/sustainable/process relevance",
+        "metadata/title-only screening; needs OCR/cloud for abstract, tables, and figures"
+      ],
+      "abstract_or_summary_from_pdf_text": "Self-healable chitosan-based polymer binder for anode in lithium-ion batteries"
+    }
+  ]
+}

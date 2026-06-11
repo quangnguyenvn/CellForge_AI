@@ -1,0 +1,84 @@
+{
+ "title": "One-step atmospheric microplasma synthesis of an NMC-type lithium-ion battery cathode",
+ "abstract_summary": "The paper demonstrates an ultra-fast (less than one second) synthesis method for crystalline NMC-type lithium-ion battery cathode particles using a one-step atmospheric microplasma hollow-tube reactor. This process completely bypasses the conventional, energy-intensive calcination steps (which typically require temperatures exceeding 700 °C for hours).",
+ "paper_type": "Short Communication",
+ "electrode_component": "cathode",
+ "green_strategy": "Elimination of energy-intensive high-temperature calcination steps (>700 °C for hours) via ultra-fast, sub-second atmospheric microplasma synthesis.",
+ "battery_chemistry": "lithium-ion",
+ "fabrication_method": "One-step atmospheric microplasma synthesis using a hollow-tube reactor",
+ "performance_metrics": [
+  {
+   "metric": "Synthesis duration",
+   "value": "less than one second",
+   "condition": "Atmospheric microplasma hollow-tube reactor",
+   "comparison_baseline": "Conventional calcination at >700 °C for hours",
+   "source_section_or_page": "Page 1, Abstract"
+  },
+  {
+   "metric": "Initial discharge capacity",
+   "value": "approximately 125 mAh/g",
+   "condition": "C/10 charge/discharge rate, 2.8–4.4 V vs. Li/Li+ in Gen-2 electrolyte (1.2 M LiPF6 in 3:7 wt:wt EC:EMC)",
+   "comparison_baseline": "Typical commercial NMC cathodes exhibit higher capacity (e.g., 160-200 mAh/g) but require hours of calcination",
+   "source_section_or_page": "Page 5, Section 3.3"
+  },
+  {
+   "metric": "Particle size diameter",
+   "value": "0.1 to 3 µm",
+   "condition": "Spherical hollow-tube microplasma reaction product",
+   "comparison_baseline": "Nanometer range typically observed in low/mid-vacuum plasmas",
+   "source_section_or_page": "Page 2, Section 3.1"
+  }
+ ],
+ "limitations": [
+  "Inconsistent plasma discharge during synthesis (arc-like plasma instead of stable glow discharge).",
+  "Electrode sputtering/erosion causing iron contamination in the synthesized materials.",
+  "Exceedingly small product yield, making reliable and uniform material production challenging with the current setup.",
+  "Lower-than-expected initial discharge capacity (~125 mAh/g) compared to standard NMC cathodes due to low crystal quality and unreacted precursor."
+ ],
+ "figure_or_table_evidence": [
+  {
+   "figure_or_table": "Fig. 1",
+   "evidence_summary": "Provides a schematic of the hollow-tube reactor setup (a) and cartoon of the reaction vessel (b) illustrating how the metal acetate liquid precursor vapor undergoes atmospheric plasma treatment.",
+   "exact_values_available": false,
+   "needs_manual_digitization": false,
+   "source_page": "2"
+  },
+  {
+   "figure_or_table": "Fig. 2",
+   "evidence_summary": "SEM and EDX spectra demonstrating spherical particle morphology (0.1–3 µm) and confirming the elemental presence of Ni, Mn, and Co in the correct stoichiometric ratio of the NMC precursor.",
+   "exact_values_available": true,
+   "needs_manual_digitization": false,
+   "source_page": "3"
+  },
+  {
+   "figure_or_table": "Fig. 3",
+   "evidence_summary": "XRD diffraction data indicating the products are at least partially crystalline hexagonal NMC-type phases before and after electrochemical cycling.",
+   "exact_values_available": false,
+   "needs_manual_digitization": false,
+   "source_page": "4"
+  },
+  {
+   "figure_or_table": "Fig. 5",
+   "evidence_summary": "Shows discharge capacity over 10 cycles (a) starting around 125 mAh/g and declining to ~110 mAh/g, alongside dQ/dV plots (b, c) highlighting the active redox peaks resulting from the plasma-processed materials.",
+   "exact_values_available": true,
+   "needs_manual_digitization": false,
+   "source_page": "6"
+  }
+ ],
+ "candidate_research_claims": [
+  {
+   "claim_text": "One-step atmospheric microplasma synthesis can produce crystalline, electrochemically active NMC-type lithium-ion battery cathode particles in less than one second without requiring an additional calcination step.",
+   "battery_chemistry": "lithium-ion",
+   "approach_type": "calcination-free/low-energy synthesis",
+   "metric": "synthesis time",
+   "value": "< 1 s",
+   "experimental_condition": "Hollow-tube microplasma reactor, Ar and O2 carrier gases, liquid acetate precursor vapor, 3000 V at 25 kHz",
+   "evidence_type": "experimental",
+   "limitation": "Low discharge capacity (125 mAh/g) and contamination from electrode sputtering",
+   "citation_text": "This communication aims to highlight a nascent yet novel synthesis route: a one-step atmospheric microplasma process for synthesizing cathode particles in less than one second... all—without requiring an additional calcination step.",
+   "source_section_or_page": "Page 1, Abstract"
+  }
+ ],
+ "confidence": 0.95,
+ "needs_human_review": false
+}

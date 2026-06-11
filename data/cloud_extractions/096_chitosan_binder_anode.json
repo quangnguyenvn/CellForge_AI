@@ -1,0 +1,76 @@
+{
+"title": "Self-healable chitosan-based polymer binder for anode in lithium-ion batteries",
+"abstract_summary": "This study presents a bio-based and self-healable polymeric binder designed for use in graphite-based anodes to achieve enhanced battery performance. The binder was synthesized via a Schiff base reaction between chitosan and a vanillin-derived linker, forming imine bonds that establish a self-healable 3D network. The bio-based binder effectively holds the graphite particles together while providing excellent mechanical strength, thermal stability, and strong adhesion to the copper foil. Notably, it demonstrated self-healing behavior, with mechanical recovery exceeding 90% after damage, and achieved a capacity of 161.2 mAh g⁻¹ with 81% capacity retention after 250 cycles.",
+"paper_type": "Research Paper",
+"electrode_component": "anode",
+"green_strategy": "Synthesis of a biodegradable, bio-based binder from chitosan (derived from seafood waste/chitin) and vanillin, eliminating the need for toxic fluorinated binders like PVDF and hazardous organic solvents like NMP.",
+"battery_chemistry": "lithium-ion",
+"fabrication_method": "Schiff base reaction at room temperature between chitosan and a vanillin-derived aldehyde cross-linker to form dynamic covalent imine networks, followed by slurry casting.",
+"performance_metrics": [
+{
+"metric": "Adhesion strength to copper foil",
+"value": "1.2 N",
+"condition": "CSF2 binder formulation on graphite anode",
+"comparison_baseline": "0.2 N for PVDF and 0.8 N for pristine chitosan",
+"source_section_or_page": "Page 5, Section 2.5"
+},
+{
+"metric": "Capacity retention after 250 cycles",
+"value": "81 %",
+"condition": "0.5C rate cycling in graphite coin cells",
+"comparison_baseline": "73 % for PVDF binder and <70 % for pristine chitosan binder",
+"source_section_or_page": "Page 7, Section 2.7 and Table 1 on Page 9"
+},
+{
+"metric": "Mechanical recovery after damage",
+"value": "exceeding 90 %",
+"condition": "Tensile testing of self-healed hydrogels",
+"comparison_baseline": "not stated in paper",
+"source_section_or_page": "Page 1, Abstract"
+},
+{
+"metric": "Maximum specific capacity (after activation)",
+"value": "ca. 163 mAh g⁻¹",
+"condition": "0.5C rate during cycling of CSF2-based anode",
+"comparison_baseline": "ca. 129 mAh g⁻¹ for PVDF-based anode",
+"source_section_or_page": "Page 7, Section 2.7"
+}
+],
+"limitations": [
+"Dense polymeric network formed by imine bonds and the chitosan backbone restricts the free volume available for ion transport, resulting in lower ionic conductivity.",
+"Trade-off between mechanical robustness, self-healing capability, and ionic conductivity of the chitosan-based binder."
+],
+"figure_or_table_evidence": [
+{
+"figure_or_table": "Fig. 5",
+"evidence_summary": "SEM cross-sectional images showing the thickness change of graphite electrodes after 20 cycles. The CSF2-based electrode expanded from 45 µm to 61.89 µm, while the PVDF-based electrode expanded to 80.20 µm, demonstrating that the CSF2 binder suppresses electrode swelling.",
+"exact_values_available": true,
+"needs_manual_digitization": false,
+"source_page": "6"
+},
+{
+"figure_or_table": "Table 1",
+"evidence_summary": "Comprehensive comparison of electrochemical properties of CS, PVDF, and CSF2 binders, explicitly detailing initial capacity, capacity retention, cycling stability, Coulombic efficiency, rate capability, charge-discharge profiles, impedance, volume change, and self-healing ability.",
+"exact_values_available": true,
+"needs_manual_digitization": false,
+"source_page": "9"
+}
+],
+"candidate_research_claims": [
+{
+"claim_text": "Both coin and pouch cells fabricated with the bio-based binder achieved a specific capacity of 161.2 mAh g-1 and retained 81 % of their capacity after 250 cycles.",
+"battery_chemistry": "lithium-ion",
+"approach_type": "bio-based self-healing polymer binder",
+"metric": "capacity retention",
+"value": "81 %",
+"experimental_condition": "0.5C cycling rate over 250 cycles",
+"evidence_type": "experimental",
+"limitation": "The dense network slightly limits the free volume for Li-ion transport.",
+"citation_text": "Both coin and pouch cells fabricated with the bio-based binder achieved a specific capacity of 161.2 mAh g-1 and retained 81 % of their capacity after 250 cycles.",
+"source_section_or_page": "Page 1, Abstract"
+}
+],
+"confidence": 0.98,
+"needs_human_review": false,
+"human_review_reason": ""
+}

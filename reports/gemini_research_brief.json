@@ -1,0 +1,32 @@
+{
+  "run_id": "cellforge-submit-gemini-brief-final",
+  "provider": {
+    "provider": "gemini",
+    "model": "gemini-3.1-pro-preview",
+    "project": "cellforge-ai-demo",
+    "location": "global",
+    "usage_metadata": {
+      "prompt_token_count": 12836,
+      "candidates_token_count": 3090,
+      "total_token_count": 18409
+    }
+  },
+  "source_files": [
+    "data\\real_evidence_corpus.json",
+    "data\\real_hypotheses.json",
+    "data\\real_hypothesis_audits.json"
+  ],
+  "figures": [
+    "reports\\figures\\audit_scores.svg",
+    "reports\\figures\\evidence_matrix.svg",
+    "reports\\figures\\risk_grounding_scatter.svg",
+    "reports\\figures\\molecular_interface_schematic.svg"
+  ],
+  "summary": {
+    "hypotheses": 5,
+    "claims": 10,
+    "papers": 9,
+    "lead_hypothesis_id": "real:H003",
+    "publication_positioning": "research_proposal_package_not_final_paper"
+  }
+}

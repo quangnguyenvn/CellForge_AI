@@ -1,0 +1,98 @@
+{
+"title": "Effect of carbon black properties on dry electrode processing of cathodes for lithium-ion batteries",
+"abstract_summary": "Dry electrode processing of lithium-ion battery electrodes represents a highly promising, solvent-free manufacturing route that markedly reduces cost and carbon footprint compared to standard wet methods. This study systematically analyzes the impact of four different carbon black (CB) additives with varying physical properties on the dry calendering process and ultimate cell performance. Single-layer pouch cells using PTFE-bonded NMC811 cathodes demonstrated that tailored carbon black characteristics act both as conductive agents and as process aids during calendering, heavily influencing composite granule compressibility and active material particle cracking. The cells utilizing optimized carbon black achieved 94% capacity retention after 450 cycles at C/2.",
+"paper_type": "Original Research Paper",
+"electrode_component": "cathode",
+"green_strategy": "Solvent-free (dry) electrode processing utilizing PTFE binder, completely eliminating toxic organic solvents like N-methyl-2-pyrrolidone (NMP) and high-energy drying lines.",
+"battery_chemistry": "lithium-ion",
+"fabrication_method": "Dry powder mixing, PTFE binder fibrillation via twin-screw extrusion, calendering into free-standing films (FSF), and roll-to-roll hot-lamination onto primed aluminum current collectors.",
+"performance_metrics": [
+{
+"metric": "Capacity retention after 450 cycles at C/2",
+"value": "94 %",
+"condition": "Dry-coated cathode using LITX\u00aeMAX90 carbon black cycled at C/2 rate",
+"comparison_baseline": "76 % (for dry-coated cathode using Super C65)",
+"source_section_or_page": "Page 1, Abstract / Page 9, Section 3.4"
+},
+{
+"metric": "Capacity retention after 450 cycles at C/2 (Li-435)",
+"value": "approximately 89 %",
+"condition": "Dry-coated cathode using Li-435 carbon black cycled at C/2 rate",
+"comparison_baseline": "76 % (for dry-coated cathode using Super C65)",
+"source_section_or_page": "Page 9, Section 3.4"
+},
+{
+"metric": "Initial specific discharge capacity (LITX\u00aeMAX90)",
+"value": "209.68 \u00b1 0.35 mAh/g_NMC",
+"condition": "0.05 C discharge rate",
+"comparison_baseline": "208.40 \u00b1 0.53 mAh/g_NMC (for Super C65)",
+"source_section_or_page": "Page 9, Table 2"
+},
+{
+"metric": "Initial Coulombic efficiency",
+"value": "90.55 \u00b1 0.34 %",
+"condition": "For LITX\u00aeMAX90 dry cathode",
+"comparison_baseline": "90.36 \u00b1 0.13 % (for Super C65 dry cathode)",
+"source_section_or_page": "Page 9, Table 2"
+}
+],
+"limitations": [
+"High shear force and compaction during dry calendering can cause extensive secondary active material particle cracking, which increases the specific surface area and accelerates parasitic side reactions during cell cycling.",
+"Smaller carbon black particles with higher specific surface areas (such as LITX\u00aeMAX90) increase the overall tortuosity of the dry electrode (tortuosity value of 2.11 vs 1.43 for Super C65), which can compromise rate capability.",
+"Agglomeration of small carbon black particles can block electrolyte transport pathways, increasing ionic transport resistance within the dry electrode structure."
+],
+"figure_or_table_evidence": [
+{
+"figure_or_table": "Table 1",
+"evidence_summary": "Presents physical properties of the tested carbon blacks: Specific Surface Area (SSA), Primary Particle (PP) size, ID/IG Raman ratio, bulk density at 64 MPa, and electronic conductivity.",
+"exact_values_available": true,
+"needs_manual_digitization": false,
+"source_page": "6"
+},
+{
+"figure_or_table": "Fig. 4",
+"evidence_summary": "Details composite resistivity (a), interface resistance (b), EIS Nyquist plots (c), and electrode tortuosity (d). Clearly shows that LITX\u00aeMAX90 achieves the lowest electronic resistivity (~9.27 \u03a9 cm) but exhibits the highest tortuosity (2.11).",
+"exact_values_available": true,
+"needs_manual_digitization": false,
+"source_page": "7"
+},
+{
+"figure_or_table": "Fig. 6",
+"evidence_summary": "Plots the minimum carbon black weight percentage required in the formulation to prevent active material particle cracking during the calendering process.",
+"exact_values_available": false,
+"needs_manual_digitization": true,
+"source_page": "8"
+},
+{
+"figure_or_table": "Table 2",
+"evidence_summary": "Compares physical properties and initial electrochemical parameters of the manufactured dry-coated cathodes with 2 wt% of different carbon blacks, including areal capacity, density, porosity, Coulombic efficiency, and discharge capacity.",
+"exact_values_available": true,
+"needs_manual_digitization": false,
+"source_page": "9"
+},
+{
+"figure_or_table": "Fig. 7",
+"evidence_summary": "Compares long-term electrochemical cycling (a) over 450 cycles at C/2, internal resistance growth (b), rate capability (c), and discharge potential profiles (d). Shows LITX\u00aeMAX90 maintaining 94% retention while Super C65 drops sharply.",
+"exact_values_available": true,
+"needs_manual_digitization": false,
+"source_page": "10"
+}
+],
+"candidate_research_claims": [
+{
+"claim_text": "Dry-processed NMC811 cathodes utilizing carbon blacks with small primary particle sizes and high specific surface areas (such as LITX\u00aeMAX90) exhibit high mechanical compressibility and provide a cushion effect that mitigates active material particle cracking during calendering, resulting in exceptional long-term cycling stability (94% retention after 450 cycles).",
+"battery_chemistry": "lithium-ion",
+"approach_type": "solvent-free processing",
+"metric": "capacity retention",
+"value": "94 %",
+"experimental_condition": "PTFE dry-coated cathode with 2 wt% LITX\u00aeMAX90, cycled at C/2 in single-layer pouch cells",
+"evidence_type": "experimental",
+"limitation": "The high surface area of these carbon blacks increases electrode ionic tortuosity and can promote secondary parasitic reactions.",
+"citation_text": "Aging tests revealed a capacity retention of 94 % after 450 cycles at C/2 for the best additive but also as a process aid for the calendering step, influencing the compressibility of the composite granules, resulting in adapted process parameters.",
+"source_section_or_page": "Page 1, Abstract / Page 9, Section 3.4"
+}
+],
+"confidence": 0.98,
+"needs_human_review": true,
+"human_review_reason": "Specific numerical values in Fig. 6 (Minimum carbon black content vs CB type) are only presented in a chart and require manual digitization, and key trade-offs between electronic conductivity and ionic tortuosity are evaluated from multiple figures."
+}

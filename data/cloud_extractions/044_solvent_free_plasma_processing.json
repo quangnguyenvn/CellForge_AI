@@ -1,0 +1,78 @@
+{
+  "title": "Solvent-free processing of lithium-ion batteries via plasma treatment of electrodes for adhesive interfaces",
+  "abstract_summary": "This study introduces a solvent-free, plasma-assisted dry-processing method for fabricating lithium-ion battery electrodes. It resolves the poor adhesion issues of polytetrafluoroethylene (PTFE) binders to current collectors by applying a short-duration argon plasma treatment to the dry-rolled electrode sheets before hot-pressing. This process completely eliminates the need for toxic solvents like N-methyl-2-pyrrolidone (NMP) and intensive drying steps, while maintaining or improving electrochemical performance across LCO, LFP, and NMC chemistries.",
+  "paper_type": "Short communication",
+  "electrode_component": "cathode",
+  "green_strategy": "Solvent-free dry-electrode manufacturing that eliminates toxic organic solvents (NMP) and high-energy thermal drying processes, utilizing dry-powder mixing, rolling, and dry plasma surface activation.",
+  "battery_chemistry": "lithium-ion",
+  "fabrication_method": "Dry mixing of active materials, carbon black, pore former (adamantane), and PTFE binder; rolling into a freestanding sheet; vacuum sublimation of adamantane; surface Ar plasma treatment (450 V DC, 3-4 mA, 30 s); and hot pressing (150 C, 1.6 MPa, 1 min) onto Al current collector.",
+  "performance_metrics": [
+    {
+      "metric": "Adhesion strength to aluminum foil",
+      "value": "~2.8 N/cm",
+      "condition": "30 s argon plasma-treated PTFE/LCO cathode sheet, hot-pressed at 150 C, 1.6 MPa",
+      "comparison_baseline": "could not be measured because it peeled off immediately, without adhesion",
+      "source_section_or_page": "Page 4, Section 3.2"
+    },
+    {
+      "metric": "Capacity retention after 300 cycles",
+      "value": "83.2 %",
+      "condition": "Full cell configuration cycled at 1.0C rate",
+      "comparison_baseline": "81.0 % (for untreated electrode)",
+      "source_section_or_page": "Page 4, Section 3.3"
+    },
+    {
+      "metric": "Initial Coulombic efficiency",
+      "value": "approximately 76.8 %",
+      "condition": "Initial cycle at 1C (137 mA/g) using plasma-treated LCO cathode",
+      "comparison_baseline": "not stated in paper",
+      "source_section_or_page": "Page 4, Section 3.3"
+    },
+    {
+      "metric": "Plasma treatment duration",
+      "value": "30 s",
+      "condition": "DC voltage of 450 V, argon gas pressure 3.0 x 10^1 Pa",
+      "comparison_baseline": "not stated in paper",
+      "source_section_or_page": "Page 2, Section 2.2"
+    }
+  ],
+  "limitations": [
+    "The dry formulation contains approximately 80 % active material, which is lower than the highest loadings achievable with some state-of-the-art dry processes.",
+    "Requires a vacuum chamber environment for the plasma treatment step in this proof-of-concept setup, which limits continuous high-throughput roll-to-roll processing.",
+    "Relies on the use of adamantane as a pore-former, which requires an additional thermal vacuum sublimation step (<10 Pa, 120 C) to introduce porosity.",
+    "Relatively low initial Coulombic efficiency (~76.8% at 1C) attributed to irreversible SEI formation and initial activation processes."
+  ],
+  "figure_or_table_evidence": [
+    {
+      "figure_or_table": "Fig. 3",
+      "evidence_summary": "Displays (a) the stable adhesion strength of ~2.8 N/cm over 5 min, 1 day, and 1 week of exposure, (b) XPS O1s spectra demonstrating oxygen-containing functional groups after plasma treatment, and (c) water contact angle decreasing from 108 degrees (untreated) to 74-76 degrees after plasma treatment.",
+      "exact_values_available": true,
+      "needs_manual_digitization": false,
+      "source_page": "3"
+    },
+    {
+      "figure_or_table": "Fig. 4",
+      "evidence_summary": "Compares electrochemical performance of LCO cathodes. Fig. 4(b) shows full-cell cycling performance at 1C over 300 cycles, showing improved discharge capacity and capacity retention for the plasma-treated cathode. Fig. 4(c) illustrates rate capability up to 5C, displaying higher capacity retention at high C-rates for plasma-treated electrodes.",
+      "exact_values_available": false,
+      "needs_manual_digitization": true,
+      "source_page": "5"
+    }
+  ],
+  "candidate_research_claims": [
+    {
+      "claim_text": "Argon plasma surface treatment of dry-rolled PTFE-containing electrode sheets successfully creates oxygen-containing functional groups on the PTFE surface, increasing its adhesion strength to aluminum foil to ~2.8 N/cm and enabling stable dry-processed cathode operation.",
+      "battery_chemistry": "lithium-ion",
+      "approach_type": "solvent-free processing",
+      "metric": "adhesion strength",
+      "value": "~2.8 N/cm",
+      "experimental_condition": "30 s Ar plasma treatment (450 V DC, 3-4 mA), hot pressed at 150 C and 1.6 MPa",
+      "evidence_type": "experimental",
+      "limitation": "The processing current was limited to 3-4 mA, and the setup operates under vacuum conditions.",
+      "citation_text": "as shown in Fig. 3(a), the adhesive strength between the plasma-treated PTFE and aluminum foil was ~2.8 N/cm, which was confirmed to be sufficient and equivalent to that between the plasma-treated PTFE and other materials reported in previous studies",
+      "source_section_or_page": "Page 4, Section 3.2"
+    }
+  ],
+  "confidence": 0.95,
+  "needs_human_review": true,
+  "human_review_reason": "Specific rate capability values in Fig. 4(c) are plotted in a chart and cannot be read with 100% exact numerical precision from the text, requiring manual digitization."
+}

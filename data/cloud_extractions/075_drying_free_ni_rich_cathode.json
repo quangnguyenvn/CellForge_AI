@@ -1,0 +1,98 @@
+{
+"title": "High-energy density ultra-thick drying-free Ni-rich cathode electrodes for application in Lithium-ion batteries",
+"abstract_summary": "The conventional slurry-based wet electrode manufacturing process of lithium-ion batteries is heavily constrained by toxic solvents (such as NMP), high drying costs, and low active material densities. This study introduces a solvent-assisted binder (SaB) dry electrode processing methodology utilizing less than 3 wt.% of a low-boiling-point, non-toxic ethanol solvent to facilitate binder (PTFE) fibrillation under shear forces during calendering. This allows the fabrication of ultra-thick, damage-free, and high-performance Ni-rich (NCM622) cathodes. SaB electrodes exhibit a capacity retention of 77.7% after 100 cycles at a high loading of approximately 30 mg cm\u207b\u00b2.",
+"paper_type": "Original Research Paper",
+"electrode_component": "cathode",
+"green_strategy": "A drying-free, solvent-assisted dry electrode process utilizing a minimal amount of non-toxic ethanol (<3 wt.%) as a processing aid. This eliminates the massive energy consumption of drying lines and the toxic organic solvent N-methyl-2-pyrrolidone (NMP).",
+"battery_chemistry": "lithium-ion",
+"fabrication_method": "Solvent-assisted binder (SaB) dry-mixing and rolling method, where PTFE/ethanol binder is pre-blended in a 1:1 wt% ratio, mixed with NCM622 and CNT, rolled at 100 \u00b0C into a freestanding film, and hot-pressed onto current collectors.",
+"performance_metrics": [
+{
+"metric": "Capacity retention after 100 cycles at 1C",
+"value": "77.7 %",
+"condition": "SaB dry cathode, ultra-thick loading (~30 mg cm\u207b\u00b2), 2.7-4.3 V vs. Li/Li\u207a",
+"comparison_baseline": "72.39 % (standard dry-processed electrode)",
+"source_section_or_page": "Page 1, Abstract / Page 6, Fig. 4b"
+},
+{
+"metric": "Initial Specific Discharge Capacity",
+"value": "approximately 185 mAh g\u207b\u00b9",
+"condition": "At 0.1C, ultra-thick loading (~30 mg cm\u207b\u00b2)",
+"comparison_baseline": "approximately 180 mAh g\u207b\u00b9 (standard dry-processed electrode)",
+"source_section_or_page": "Page 6, Fig. 4d"
+},
+{
+"metric": "Full-cell Capacity Retention over 50 cycles",
+"value": "94.46 %",
+"condition": "Full-cell using SaB dry NCM622 cathode and Gr anode at 0.2C, loading 24.74 mg cm\u207b\u00b2",
+"comparison_baseline": "88.64 % (standard dry-processed full-cell)",
+"source_section_or_page": "Page 7, Fig. 5g"
+},
+{
+"metric": "Initial Coulombic Efficiency (ICE)",
+"value": "94.80 %",
+"condition": "At 0.1 C, ultra-thick SaB dry cathode",
+"comparison_baseline": "94.37 % (standard dry-processed cathode)",
+"source_section_or_page": "Page 6, Section 2.2"
+}
+],
+"limitations": [
+"At higher charge-discharge rates, ultra-thick electrodes are severely limited by slow lithium-ion transport kinetics (high tortuosity).",
+"Electrode testing reveals severe polarization issues and capacity fading during long-term cycling when the loading is pushed to extreme limits (>60 mg cm\u207b\u00b2).",
+"Dendrite formation and short-circuiting remain a concern under high-rate, high-loading testing conditions without specialized electrolyte or protective interface modifications."
+],
+"figure_or_table_evidence": [
+{
+"figure_or_table": "Fig. 1",
+"evidence_summary": "Schematically contrasts the conventional wet process, standard dry process, and SaB dry process, comparing the energy density versus electrode loading profiles.",
+"exact_values_available": false,
+"needs_manual_digitization": false,
+"source_page": "2"
+},
+{
+"figure_or_table": "Fig. 2",
+"evidence_summary": "SEM and color-modified surface and cross-sectional images showing active material particle cracking in standard dry electrodes versus relatively uncracked particles and well-distributed fibrillated binder domains in SaB dry electrodes.",
+"exact_values_available": true,
+"needs_manual_digitization": false,
+"source_page": "4"
+},
+{
+"figure_or_table": "Fig. 3",
+"evidence_summary": "Evaluates electrode porosity profiles and electrolyte wetting behaviors. Displays that the SaB dry electrode exhibits accelerated electrolyte penetration (wetting angles drop to 11.00\u00b0 in 360s compared to 19.19\u00b0 for standard dry electrodes).",
+"exact_values_available": true,
+"needs_manual_digitization": false,
+"source_page": "5"
+},
+{
+"figure_or_table": "Fig. 4",
+"evidence_summary": "Presents half-cell performance data. (b) shows the cycle stability at 1C over 100 cycles, and (d) displays rate capabilities up to 1C.",
+"exact_values_available": true,
+"needs_manual_digitization": false,
+"source_page": "6"
+},
+{
+"figure_or_table": "Fig. 5",
+"evidence_summary": "Displays full-cell characterization. (g) details the capacity retention and Coulombic efficiency of the SaB dry electrode compared to the standard dry electrode over 50 cycles at 0.2C.",
+"exact_values_available": true,
+"needs_manual_digitization": false,
+"source_page": "7"
+}
+],
+"candidate_research_claims": [
+{
+"claim_text": "The solvent-assisted binder (SaB) dry process using a minimal quantity of ethanol (<3 wt.%) enables the production of ultra-thick Ni-rich cathodes without active material particle fracture, achieving higher capacity retention (77.7% after 100 cycles at 1C) compared to standard solvent-free dry methods.",
+"battery_chemistry": "lithium-ion",
+"approach_type": "solvent-assisted dry processing",
+"metric": "capacity retention",
+"value": "77.7 %",
+"experimental_condition": "Ultra-thick loading (~30 mg cm\u207b\u00b2), 1C cycling, half-cell vs. Li",
+"evidence_type": "experimental",
+"limitation": "High tortuosity still limits performance at high discharge rates.",
+"citation_text": "Over 100 cycles at 1C, the SaB dry electrode achieves 77.70% capacity retention, surpassing the standard dry electrode's 72.39% at a loading of approximately 30 mg cm-2 and is also capable of performing at ultra-high loadings up to 60 mg cm-2.",
+"source_section_or_page": "Page 1, Abstract / Page 3, Section 1"
+}
+],
+"confidence": 0.98,
+"needs_human_review": true,
+"human_review_reason": "The rate-capability performance metrics at varying rates (e.g., 0.2C, 0.5C) are represented in graphs in Fig. 4d and require manual digitization for exact decimal values."
+}

@@ -1,0 +1,89 @@
+{
+  "run_id": "cellforge-submit-arize-final-4",
+  "adapter": "ArizeAXAdapter",
+  "mock_mode_reason": "Arize AX export enabled; local JSONL mirror also written.",
+  "phoenix_diagnostics": {
+    "project_name": "cellforge-ai",
+    "endpoint": "https://otlp.arize.com/v1",
+    "cloud_export_enabled": true,
+    "cloud_export_status": "attempted_unconfirmed",
+    "cloud_delivery_confirmation": "Check the Arize AX UI; OTLP exporters do not provide span-query confirmation.",
+    "cloud_export_error": null,
+    "local_trace_path": "reports\\traces\\cellforge_phoenix_mock_traces.jsonl",
+    "endpoint_defaulted": true,
+    "space_id_present": true
+  },
+  "trace_file": "reports/traces/cellforge_phoenix_mock_traces.jsonl",
+  "retrieval": {
+    "adapter": "local_real_corpus",
+    "corpus": "data\\real_evidence_corpus.json",
+    "cases": 12,
+    "paper_recall_at_5": 1.0,
+    "claim_recall_at_5": 1.0,
+    "paper_mrr": 1.0,
+    "claim_mrr": 1.0,
+    "hard_negative_rate_at_5": 0.15
+  },
+  "audit": {
+    "adapter": "local_real_evidence_auditor",
+    "hypotheses": 5,
+    "advance_with_human_review": 1,
+    "revise_experiment_design": 3,
+    "revise_before_brief": 1,
+    "avg_hallucination_risk": 0.45,
+    "avg_claim_grounding": 0.65,
+    "source_hypotheses": "data\\real_hypotheses.json",
+    "source_corpus": "data\\real_evidence_corpus.json"
+  },
+  "self_improvement": {
+    "selected_hypothesis_id": "real:H003",
+    "recommendation": "advance_with_human_review",
+    "why_selected": {
+      "hallucination_risk": 0.413,
+      "claim_grounding": 0.725,
+      "citation_coverage": 1.0,
+      "feasibility": 0.595
+    },
+    "blocked_or_revise_count": 4,
+    "recurring_caution_flags": {
+      "All cited real-paper claims are extraction artifacts requiring human validation.": 5,
+      "Hypothesis uses directional performance language that must remain proposal-level until experimentally validated.": 4
+    },
+    "next_actions": [
+      "Human-validate cited claims before Gemini Pro brief generation.",
+      "Digitize chart-derived metrics where audit flags manual review.",
+      "Revise experiment design for candidates with feasibility below 0.55.",
+      "Use Phoenix trace comparison after prompt/model changes to verify quality does not regress."
+    ]
+  },
+  "compare_runs": {
+    "runs": {
+      "cellforge-submit-arize-final-4": {
+        "span_count": 10,
+        "stages": [
+          "real_evidence_corpus_loaded",
+          "literature_retrieval_agent.real_benchmark",
+          "hypothesis_generator_agent.deterministic",
+          "evidence_auditor_agent.real_hypotheses",
+          "evidence_auditor_agent.eval.real:H001",
+          "evidence_auditor_agent.eval.real:H002",
+          "evidence_auditor_agent.eval.real:H003",
+          "evidence_auditor_agent.eval.real:H004",
+          "evidence_auditor_agent.eval.real:H005",
+          "self_introspection_agent.trace_based_improvement_plan"
+        ],
+        "final_recommendations": [
+          "revise_experiment_design",
+          "revise_before_brief",
+          "advance_with_human_review",
+          "revise_experiment_design",
+          "revise_experiment_design",
+          "advance_with_human_review"
+        ]
+      }
+    },
+    "compared_run_ids": [
+      "cellforge-submit-arize-final-4"
+    ]
+  }
+}

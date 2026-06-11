@@ -1,0 +1,235 @@
+{
+  "description": "Mock/demo EV battery corpus for local CellForge AI evaluation. Synthetic records only; no fabricated DOI numbers.",
+  "papers": [
+    {
+      "id": "mock:P001",
+      "title": "Pulse-rest charging windows for durable LFP fast charging",
+      "authors": ["Mina Park", "Theo Nguyen"],
+      "year": 2023,
+      "venue": "Mock Journal of Applied Electrochemistry",
+      "abstract": "Evaluates pulse-rest protocols for LFP graphite cells under 2C to 4C fast charging and reports reduced impedance rise.",
+      "topics": ["LFP", "fast charging", "adaptive charging", "impedance"]
+    },
+    {
+      "id": "mock:P002",
+      "title": "Low-temperature lithium plating signatures in EV-format LFP cells",
+      "authors": ["Sara Kim", "Ivan Morales"],
+      "year": 2022,
+      "venue": "Mock Battery Diagnostics Letters",
+      "abstract": "Uses voltage relaxation and differential voltage analysis to detect plating onset in cold fast-charged LFP graphite cells.",
+      "topics": ["LFP", "lithium plating", "diagnostics", "cold charging"]
+    },
+    {
+      "id": "mock:P003",
+      "title": "Fluorinated carbonate additive blends for high-rate LFP cycling",
+      "authors": ["Elena Rossi", "Kai Yamamoto"],
+      "year": 2024,
+      "venue": "Mock Electrolyte Interfaces",
+      "abstract": "Studies low-concentration fluorinated additives that form stable interphases in LFP graphite cells cycled at high charge rates.",
+      "topics": ["electrolyte additive", "SEI", "LFP", "fast charging"]
+    },
+    {
+      "id": "mock:P004",
+      "title": "Thermal gradient limits in high-power pouch cells",
+      "authors": ["Hannah Lee", "Marcus Vega"],
+      "year": 2021,
+      "venue": "Mock Journal of Battery Thermal Systems",
+      "abstract": "Maps temperature gradients in pouch cells during fast charging and links local hot spots to accelerated impedance growth.",
+      "topics": ["thermal management", "pouch cells", "impedance", "fast charging"]
+    },
+    {
+      "id": "mock:P005",
+      "title": "Rule-based adaptive current shaping for LFP charging",
+      "authors": ["Alex Chen", "Fatima Haddad"],
+      "year": 2023,
+      "venue": "Mock EV Battery Controls",
+      "abstract": "Compares fixed current charging with voltage-feature-driven current shaping for LFP cells under repeated fast-charge stress.",
+      "topics": ["adaptive charging", "LFP", "controls", "cycle life"]
+    },
+    {
+      "id": "mock:P006",
+      "title": "SEI stabilization strategies for graphite under fast charge",
+      "authors": ["Luca Bianchi", "Grace Coleman"],
+      "year": 2024,
+      "venue": "Mock Journal of Interphase Science",
+      "abstract": "Reviews experimental SEI modifiers for graphite anodes exposed to high-current charging in EV-relevant cells.",
+      "topics": ["SEI stabilization", "graphite", "fast charging", "additives"]
+    },
+    {
+      "id": "mock:P007",
+      "title": "Silicon graphite blend anodes under aggressive charging",
+      "authors": ["Noah Patel", "Mei Zhang"],
+      "year": 2022,
+      "venue": "Mock Advanced Anode Reports",
+      "abstract": "Explores swelling and impedance changes in silicon graphite blended anodes under high-rate EV charging.",
+      "topics": ["silicon anode", "fast charging", "swelling", "impedance"]
+    },
+    {
+      "id": "mock:P008",
+      "title": "Solid-state separator concepts for safer high-power charging",
+      "authors": ["Oliver Grant", "Yuna Choi"],
+      "year": 2021,
+      "venue": "Mock Solid Electrolyte Proceedings",
+      "abstract": "Benchmarks ceramic-rich separator concepts for thermal stability and lithium dendrite suppression under high current.",
+      "topics": ["solid-state adjacent", "separator", "safety", "dendrites"]
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:C001",
+      "claim_text": "Pulse-rest charging reduced impedance growth in LFP graphite cells compared with constant-current fast charging.",
+      "battery_chemistry": "LFP graphite",
+      "approach_type": "adaptive charging",
+      "metric": "impedance growth",
+      "value": "18% lower after 300 cycles",
+      "experimental_condition": "3C charge, 25 C, 300 cycles",
+      "evidence_type": "cycling cell experiment",
+      "limitation": "Protocol was not tested below room temperature.",
+      "source_paper_id": "mock:P001",
+      "citation_text": "Park et al. 2023 [mock:P001]"
+    },
+    {
+      "id": "claim:C002",
+      "claim_text": "Longer rest intervals improved capacity retention but increased total charge time.",
+      "battery_chemistry": "LFP graphite",
+      "approach_type": "adaptive charging",
+      "metric": "capacity retention",
+      "value": "91% after 300 cycles",
+      "experimental_condition": "2C/4C pulse-rest sequence at 25 C",
+      "evidence_type": "cycling cell experiment",
+      "limitation": "Charge-time penalty may be unacceptable for EV users.",
+      "source_paper_id": "mock:P001",
+      "citation_text": "Park et al. 2023 [mock:P001]"
+    },
+    {
+      "id": "claim:C003",
+      "claim_text": "Voltage relaxation features indicated lithium plating onset during cold LFP fast charging.",
+      "battery_chemistry": "LFP graphite",
+      "approach_type": "plating diagnostics",
+      "metric": "plating onset indicator",
+      "value": "detected within 5 minutes after charge",
+      "experimental_condition": "3C charge, 10 C ambient",
+      "evidence_type": "diagnostic cell experiment",
+      "limitation": "Diagnostic labels relied on post-mortem validation for a subset of cells.",
+      "source_paper_id": "mock:P002",
+      "citation_text": "Kim et al. 2022 [mock:P002]"
+    },
+    {
+      "id": "claim:C004",
+      "claim_text": "Differential-voltage signatures became less reliable when cells had high prior aging.",
+      "battery_chemistry": "LFP graphite",
+      "approach_type": "plating diagnostics",
+      "metric": "diagnostic reliability",
+      "value": "false positive rate rose to 22%",
+      "experimental_condition": "aged cells, 10 C, 3C charge",
+      "evidence_type": "diagnostic cell experiment",
+      "limitation": "Aging history confounds plating interpretation.",
+      "source_paper_id": "mock:P002",
+      "citation_text": "Kim et al. 2022 [mock:P002]"
+    },
+    {
+      "id": "claim:C005",
+      "claim_text": "A fluorinated carbonate additive blend improved LFP high-rate capacity retention.",
+      "battery_chemistry": "LFP graphite",
+      "approach_type": "electrolyte additive",
+      "metric": "capacity retention",
+      "value": "93% after 400 cycles",
+      "experimental_condition": "3C charge, 25 C, 1 wt% additive blend",
+      "evidence_type": "cycling cell experiment",
+      "limitation": "Gas evolution was not measured in large-format pouch cells.",
+      "source_paper_id": "mock:P003",
+      "citation_text": "Rossi et al. 2024 [mock:P003]"
+    },
+    {
+      "id": "claim:C006",
+      "claim_text": "Additive-derived SEI lowered charge-transfer resistance after high-rate cycling.",
+      "battery_chemistry": "LFP graphite",
+      "approach_type": "SEI stabilization",
+      "metric": "charge-transfer resistance",
+      "value": "24% lower than baseline",
+      "experimental_condition": "post-400-cycle EIS after 3C charging",
+      "evidence_type": "electrochemical impedance experiment",
+      "limitation": "Mechanistic assignment was based on ex-situ surface analysis.",
+      "source_paper_id": "mock:P003",
+      "citation_text": "Rossi et al. 2024 [mock:P003]"
+    },
+    {
+      "id": "claim:C007",
+      "claim_text": "Thermal hot spots correlated with faster local impedance growth in high-power pouch cells.",
+      "battery_chemistry": "graphite NMC and LFP comparison",
+      "approach_type": "thermal management",
+      "metric": "temperature gradient",
+      "value": "8 C spread associated with 15% higher local impedance",
+      "experimental_condition": "4C charge, pouch-cell thermal mapping",
+      "evidence_type": "thermal mapping experiment",
+      "limitation": "Cell format and tab geometry affected the gradient.",
+      "source_paper_id": "mock:P004",
+      "citation_text": "Lee et al. 2021 [mock:P004]"
+    },
+    {
+      "id": "claim:C008",
+      "claim_text": "Voltage-feature-driven adaptive current shaping improved LFP cycle life relative to fixed current charging.",
+      "battery_chemistry": "LFP graphite",
+      "approach_type": "adaptive charging",
+      "metric": "cycle life",
+      "value": "1.3x cycles to 80% capacity",
+      "experimental_condition": "2.5C average charge, 25 C",
+      "evidence_type": "cycling cell experiment",
+      "limitation": "Controller did not include explicit plating diagnostics.",
+      "source_paper_id": "mock:P005",
+      "citation_text": "Chen et al. 2023 [mock:P005]"
+    },
+    {
+      "id": "claim:C009",
+      "claim_text": "SEI modifiers reduced graphite impedance rise under repeated fast charge.",
+      "battery_chemistry": "graphite anode",
+      "approach_type": "SEI stabilization",
+      "metric": "impedance rise",
+      "value": "16-30% lower across reviewed experiments",
+      "experimental_condition": "EV-relevant cells, 2C-4C charge",
+      "evidence_type": "structured literature review",
+      "limitation": "Reviewed studies used inconsistent electrolyte baselines.",
+      "source_paper_id": "mock:P006",
+      "citation_text": "Bianchi et al. 2024 [mock:P006]"
+    },
+    {
+      "id": "claim:C010",
+      "claim_text": "SEI stabilizers did not consistently suppress lithium plating at low temperature.",
+      "battery_chemistry": "graphite anode",
+      "approach_type": "SEI stabilization",
+      "metric": "plating suppression",
+      "value": "mixed outcomes below 15 C",
+      "experimental_condition": "2C-4C charge, low-temperature subset",
+      "evidence_type": "structured literature review",
+      "limitation": "Temperature-specific mechanisms remain uncertain.",
+      "source_paper_id": "mock:P006",
+      "citation_text": "Bianchi et al. 2024 [mock:P006]"
+    },
+    {
+      "id": "claim:C011",
+      "claim_text": "Silicon graphite blended anodes suffered swelling-linked impedance increases during aggressive charging.",
+      "battery_chemistry": "silicon graphite",
+      "approach_type": "silicon anode",
+      "metric": "impedance increase",
+      "value": "35% after 200 high-rate cycles",
+      "experimental_condition": "3C charge, blended anode cells",
+      "evidence_type": "cycling cell experiment",
+      "limitation": "Findings may not transfer directly to LFP graphite cells.",
+      "source_paper_id": "mock:P007",
+      "citation_text": "Patel et al. 2022 [mock:P007]"
+    },
+    {
+      "id": "claim:C012",
+      "claim_text": "Ceramic-rich separators improved thermal stability and delayed dendrite penetration in high-current tests.",
+      "battery_chemistry": "solid-state adjacent lithium cell",
+      "approach_type": "solid-state separator",
+      "metric": "dendrite delay",
+      "value": "2.1x longer time to short",
+      "experimental_condition": "high-current symmetric-cell screening",
+      "evidence_type": "separator screening experiment",
+      "limitation": "Not demonstrated in commercial LFP EV cells.",
+      "source_paper_id": "mock:P008",
+      "citation_text": "Grant et al. 2021 [mock:P008]"
+    }
+  ]
+}

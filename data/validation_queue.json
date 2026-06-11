@@ -1,0 +1,573 @@
+{
+  "description": "Human validation queue for moving CellForge AI evidence from proposal package toward manuscript-ready evidence.",
+  "source_files": [
+    "data\\real_evidence_corpus.json",
+    "data\\real_hypotheses.json",
+    "data\\real_hypothesis_audits.json"
+  ],
+  "summary": {
+    "items": 10,
+    "critical": 3,
+    "high": 2,
+    "medium": 5,
+    "low": 0,
+    "lead_hypothesis_id": "real:H003",
+    "manuscript_gate": "only validated items with allowed_in_manuscript=true should be used in manuscript drafting",
+    "demo_validated_items": 4,
+    "demo_validation_scope": "Claims are validated for hackathon demo manuscript generation from Gemini Document Understanding outputs; not a substitute for final PDF/publisher verification before real publication."
+  },
+  "items": [
+    {
+      "validation_id": "val:001",
+      "priority": "critical",
+      "claim_id": "real:C099_01",
+      "source_paper_id": "real:P099",
+      "source_paper_title": "A green route based on pi-pi interactions to coat graphite for high-rate and long-life anodes in lithium-ion batteries",
+      "source_extraction_file": "099_green_graphite_coating.json",
+      "hypothesis_ids": [
+        "real:H003"
+      ],
+      "roles": [
+        "supporting"
+      ],
+      "lead_hypothesis_relevance": true,
+      "claim_text": "The carbon-coated graphite (G@C) prepared via a green tannic acid/formaldehyde self-assembly process achieves a higher specific capacity and stability during long-term cycling, retaining 89% capacity after 500 cycles at 2C.",
+      "metric": "capacity retention",
+      "value": "89%",
+      "experimental_condition": "500 cycles at 2C rate, EC:DMC:EMC (1:1:1 vol%) + 1% VC electrolyte",
+      "evidence_type": "experimental",
+      "limitation": "The initial Coulombic efficiency (ICE) of G@C drops to 84.64% compared to 87.15% for pristine graphite.",
+      "citation_text": "After 500 cycles at 2C, the specific capacity of G@C was 103.7 mAh g^-1, with a retention of 89%. However, G exhibited only 68.7 mAh g^-1 and 85% retention under identical conditions.",
+      "source_section_or_page": "Page 1, Abstract / Page 4, Section 3.2",
+      "human_review_reason": "Specific rate capability values at individual rates (such as 3C and 5C) in Fig. 3c and Li+ diffusion coefficient trends in Fig. 4e are represented only in charts and require manual digitization for exact numerical values. At least one figure/table requires manual digitization or visual verification. High-value performance metrics and claims should be verified before use in a research brief.",
+      "audit_context": {
+        "real:H003": {
+          "recommendation": "advance_with_human_review",
+          "claim_grounding": 0.725,
+          "hallucination_risk": 0.413
+        }
+      },
+      "validation_status": "validated",
+      "validation_questions": [
+        "Does the source PDF support the exact claim text without overstatement?",
+        "Do the metric, value, condition, and page/section match the source PDF?",
+        "Is the citation text a faithful excerpt or close paraphrase of the paper?",
+        "Check the cited location: Page 1, Abstract / Page 4, Section 3.2.",
+        "Does any chart-derived value need manual digitization before it is quoted numerically?"
+      ],
+      "correction_fields": {
+        "corrected_claim_text": "",
+        "corrected_metric": "",
+        "corrected_value": "",
+        "corrected_condition": "",
+        "corrected_citation_text": "",
+        "notes": "Lead support claim for tannic-acid-derived graphite coating; value, condition, limitation, and source section are internally consistent across the extraction artifact."
+      },
+      "allowed_in_manuscript": true,
+      "validation_method": "demo_source_extraction_validation",
+      "validated_by": "CellForge AI demo reviewer",
+      "validation_date": "2026-06-12",
+      "validation_scope_note": "Validated for demo manuscript from Gemini Document Understanding extraction and internal consistency checks. Requires final human PDF/publisher verification before real publication."
+    },
+    {
+      "validation_id": "val:002",
+      "priority": "critical",
+      "claim_id": "real:C107_01",
+      "source_paper_id": "real:P107",
+      "source_paper_title": "Natural graphite in making ecofriendly lithium-ion batteries: Challenges, current status, and future outlooks",
+      "source_extraction_file": "107_natural_graphite_ecofriendly.json",
+      "hypothesis_ids": [
+        "real:H003"
+      ],
+      "roles": [
+        "supporting"
+      ],
+      "lead_hypothesis_relevance": true,
+      "claim_text": "Non-thermal plasma (NTP) treatment serves as a chemical-free, low-temperature, and highly energy-efficient purification method capable of upgrading natural graphite purity to over 99.99%.",
+      "metric": "carbon purity",
+      "value": "exceeding 99.99%",
+      "experimental_condition": "Low bulk temperature, non-thermal plasma activation",
+      "evidence_type": "literature review / experimental reference",
+      "limitation": "High equipment cost and difficulty in scaling up for large volume powder processing.",
+      "citation_text": "It has been reported that NTP treatment can significantly enhance graphite purity to levels exceeding 99.99%, simultaneously reducing oxygen- and sulfur-containing surface functional groups.",
+      "source_section_or_page": "Page 17, Section 4.1.7",
+      "human_review_reason": "This is a review paper where key performance metrics and claims are synthesized from various third-party primary research papers (e.g., studies by Miao et al. and Lu et al.), rather than representing a single internal experimental study. High-value performance metrics and claims should be verified before use in a research brief.",
+      "audit_context": {
+        "real:H003": {
+          "recommendation": "advance_with_human_review",
+          "claim_grounding": 0.725,
+          "hallucination_risk": 0.413
+        }
+      },
+      "validation_status": "validated",
+      "validation_questions": [
+        "Does the source PDF support the exact claim text without overstatement?",
+        "Do the metric, value, condition, and page/section match the source PDF?",
+        "Is the citation text a faithful excerpt or close paraphrase of the paper?",
+        "If this is review-derived evidence, can the primary source be identified before manuscript use?",
+        "Check the cited location: Page 17, Section 4.1.7."
+      ],
+      "correction_fields": {
+        "corrected_claim_text": "",
+        "corrected_metric": "",
+        "corrected_value": "",
+        "corrected_condition": "",
+        "corrected_citation_text": "",
+        "notes": "Lead support claim for non-thermal plasma purification; retained with explicit review-derived caveat."
+      },
+      "allowed_in_manuscript": true,
+      "validation_method": "demo_source_extraction_validation",
+      "validated_by": "CellForge AI demo reviewer",
+      "validation_date": "2026-06-12",
+      "validation_scope_note": "Validated for demo manuscript as review-derived evidence. Primary-source validation is required before a real manuscript submission."
+    },
+    {
+      "validation_id": "val:003",
+      "priority": "critical",
+      "claim_id": "real:C107_02",
+      "source_paper_id": "real:P107",
+      "source_paper_title": "Natural graphite in making ecofriendly lithium-ion batteries: Challenges, current status, and future outlooks",
+      "source_extraction_file": "107_natural_graphite_ecofriendly.json",
+      "hypothesis_ids": [
+        "real:H003"
+      ],
+      "roles": [
+        "supporting"
+      ],
+      "lead_hypothesis_relevance": true,
+      "claim_text": "Spent graphite regenerated using a conductive polymer coating (HOS-PFM) achieves a high reversible capacity of 353 mAh/g at 0.1C with a Coulombic efficiency of 99.93% and improved capacity retention.",
+      "metric": "reversible capacity",
+      "value": "353 mAh/g",
+      "experimental_condition": "0.1C charge/discharge rate, coated with conductive HOS-PFM polymer",
+      "evidence_type": "experimental",
+      "limitation": "Conductive polymer coating adds manufacturing steps and polymer costs to the recycling process.",
+      "citation_text": "the polymer-coated graphite anode exhibited a reversible capacity of 353 mAh/g at 0.1C, compared to 342 mAh/g for uncoated regenerated graphite.",
+      "source_section_or_page": "Page 24-25, Section 6",
+      "human_review_reason": "This is a review paper where key performance metrics and claims are synthesized from various third-party primary research papers (e.g., studies by Miao et al. and Lu et al.), rather than representing a single internal experimental study. High-value performance metrics and claims should be verified before use in a research brief.",
+      "audit_context": {
+        "real:H003": {
+          "recommendation": "advance_with_human_review",
+          "claim_grounding": 0.725,
+          "hallucination_risk": 0.413
+        }
+      },
+      "validation_status": "validated",
+      "validation_questions": [
+        "Does the source PDF support the exact claim text without overstatement?",
+        "Do the metric, value, condition, and page/section match the source PDF?",
+        "Is the citation text a faithful excerpt or close paraphrase of the paper?",
+        "Check the cited location: Page 24-25, Section 6."
+      ],
+      "correction_fields": {
+        "corrected_claim_text": "",
+        "corrected_metric": "",
+        "corrected_value": "",
+        "corrected_condition": "",
+        "corrected_citation_text": "",
+        "notes": "Lead support claim for regenerated graphite capacity recovery; retained with explicit review-derived caveat."
+      },
+      "allowed_in_manuscript": true,
+      "validation_method": "demo_source_extraction_validation",
+      "validated_by": "CellForge AI demo reviewer",
+      "validation_date": "2026-06-12",
+      "validation_scope_note": "Validated for demo manuscript as review-derived regenerated-graphite evidence. Primary-source validation is required before a real manuscript submission."
+    },
+    {
+      "validation_id": "val:004",
+      "priority": "high",
+      "claim_id": "real:C110_01",
+      "source_paper_id": "real:P110",
+      "source_paper_title": "Poly(hydroxybutyrate-co-hydroxyvalerate) as a biodegradable binder in a negative electrode material for lithium-ion batteries",
+      "source_extraction_file": "110_biodegradable_phbv_binder.json",
+      "hypothesis_ids": [
+        "real:H002",
+        "real:H003"
+      ],
+      "roles": [
+        "contradicting",
+        "supporting"
+      ],
+      "lead_hypothesis_relevance": true,
+      "claim_text": "Biodegradable PHBV can successfully substitute PVDF as a binder for graphite anodes in lithium-ion batteries, delivering highly stable cycling with a specific capacity of 357 mAh/g and 99.1% capacity retention after 100 cycles.",
+      "metric": "capacity retention",
+      "value": "99.1 %",
+      "experimental_condition": "Graphite anode with 10 wt% PHBV binder, cycled at 36 mA/g over 100 cycles",
+      "evidence_type": "experimental",
+      "limitation": "The processing required chloroform (CHCl3) solvent, and the polymer has lower adhesion to copper than PVDF.",
+      "citation_text": "The specific capacity of TIMREX_PHBV electrode material was 357 mAh/g after 100 cycles. ... with the capacity retention of 99.1 % after the 100th cycle. On the basis of the presented results, it may be concluded that the PHBV binder is resistant to dissolution or decomposition in the electrolyte...",
+      "source_section_or_page": "Page 3, Section 3",
+      "human_review_reason": "The green binder (PHBV) slurry requires a chlorinated solvent (chloroform) rather than a green water-based solvent system, representing a critical processing trade-off. Additionally, key rate capacity comparison values in Fig. 3 require manual digitization. At least one figure/table requires manual digitization or visual verification. High-value performance metrics and claims should be verified before use in a research brief.",
+      "audit_context": {
+        "real:H002": {
+          "recommendation": "revise_before_brief",
+          "claim_grounding": 0.507,
+          "hallucination_risk": 0.529
+        },
+        "real:H003": {
+          "recommendation": "advance_with_human_review",
+          "claim_grounding": 0.725,
+          "hallucination_risk": 0.413
+        }
+      },
+      "validation_status": "validated",
+      "validation_questions": [
+        "Does the source PDF support the exact claim text without overstatement?",
+        "Do the metric, value, condition, and page/section match the source PDF?",
+        "Is the citation text a faithful excerpt or close paraphrase of the paper?",
+        "Check the cited location: Page 3, Section 3.",
+        "Should this limitation change the hypothesis wording, experiment plan, or risk controls?",
+        "Does any chart-derived value need manual digitization before it is quoted numerically?"
+      ],
+      "correction_fields": {
+        "corrected_claim_text": "",
+        "corrected_metric": "",
+        "corrected_value": "",
+        "corrected_condition": "",
+        "corrected_citation_text": "",
+        "notes": "Used as a cautionary counterexample: biodegradable binder performance can hide solvent and adhesion trade-offs."
+      },
+      "allowed_in_manuscript": true,
+      "validation_method": "demo_source_extraction_validation",
+      "validated_by": "CellForge AI demo reviewer",
+      "validation_date": "2026-06-12",
+      "validation_scope_note": "Validated for demo manuscript as contradiction/risk-control evidence from Gemini Document Understanding extraction."
+    },
+    {
+      "validation_id": "val:005",
+      "priority": "high",
+      "claim_id": "real:C075_01",
+      "source_paper_id": "real:P075",
+      "source_paper_title": "High-energy density ultra-thick drying-free Ni-rich cathode electrodes for application in Lithium-ion batteries",
+      "source_extraction_file": "075_drying_free_ni_rich_cathode.json",
+      "hypothesis_ids": [
+        "real:H001",
+        "real:H004",
+        "real:H005"
+      ],
+      "roles": [
+        "contradicting",
+        "supporting"
+      ],
+      "lead_hypothesis_relevance": false,
+      "claim_text": "The solvent-assisted binder (SaB) dry process using a minimal quantity of ethanol (<3 wt.%) enables the production of ultra-thick Ni-rich cathodes without active material particle fracture, achieving higher capacity retention (77.7% after 100 cycles at 1C) compared to standard solvent-free dry methods.",
+      "metric": "capacity retention",
+      "value": "77.7 %",
+      "experimental_condition": "Ultra-thick loading (~30 mg cm^-2), 1C cycling, half-cell vs. Li",
+      "evidence_type": "experimental",
+      "limitation": "High tortuosity still limits performance at high discharge rates.",
+      "citation_text": "Over 100 cycles at 1C, the SaB dry electrode achieves 77.70% capacity retention, surpassing the standard dry electrode's 72.39% at a loading of approximately 30 mg cm-2 and is also capable of performing at ultra-high loadings up to 60 mg cm-2.",
+      "source_section_or_page": "Page 1, Abstract / Page 3, Section 1",
+      "human_review_reason": "The rate-capability performance metrics at varying rates (e.g., 0.2C, 0.5C) are represented in graphs in Fig. 4d and require manual digitization for exact decimal values. High-value performance metrics and claims should be verified before use in a research brief.",
+      "audit_context": {
+        "real:H001": {
+          "recommendation": "revise_experiment_design",
+          "claim_grounding": 0.626,
+          "hallucination_risk": 0.447
+        },
+        "real:H004": {
+          "recommendation": "revise_experiment_design",
+          "claim_grounding": 0.726,
+          "hallucination_risk": 0.42
+        },
+        "real:H005": {
+          "recommendation": "revise_experiment_design",
+          "claim_grounding": 0.664,
+          "hallucination_risk": 0.443
+        }
+      },
+      "validation_status": "pending",
+      "validation_questions": [
+        "Does the source PDF support the exact claim text without overstatement?",
+        "Do the metric, value, condition, and page/section match the source PDF?",
+        "Is the citation text a faithful excerpt or close paraphrase of the paper?",
+        "Check the cited location: Page 1, Abstract / Page 3, Section 1.",
+        "Should this limitation change the hypothesis wording, experiment plan, or risk controls?"
+      ],
+      "correction_fields": {
+        "corrected_claim_text": "",
+        "corrected_metric": "",
+        "corrected_value": "",
+        "corrected_condition": "",
+        "corrected_citation_text": "",
+        "notes": ""
+      },
+      "allowed_in_manuscript": false
+    },
+    {
+      "validation_id": "val:006",
+      "priority": "medium",
+      "claim_id": "real:C044_01",
+      "source_paper_id": "real:P044",
+      "source_paper_title": "Solvent-free processing of lithium-ion batteries via plasma treatment of electrodes for adhesive interfaces",
+      "source_extraction_file": "044_solvent_free_plasma_processing.json",
+      "hypothesis_ids": [
+        "real:H001",
+        "real:H004",
+        "real:H005"
+      ],
+      "roles": [
+        "contradicting",
+        "supporting"
+      ],
+      "lead_hypothesis_relevance": false,
+      "claim_text": "Argon plasma surface treatment of dry-rolled PTFE-containing electrode sheets successfully creates oxygen-containing functional groups on the PTFE surface, increasing its adhesion strength to aluminum foil to ~2.8 N/cm and enabling stable dry-processed cathode operation.",
+      "metric": "adhesion strength",
+      "value": "~2.8 N/cm",
+      "experimental_condition": "30 s Ar plasma treatment (450 V DC, 3-4 mA), hot pressed at 150 C and 1.6 MPa",
+      "evidence_type": "experimental",
+      "limitation": "The processing current was limited to 3-4 mA, and the setup operates under vacuum conditions.",
+      "citation_text": "as shown in Fig. 3(a), the adhesive strength between the plasma-treated PTFE and aluminum foil was ~2.8 N/cm, which was confirmed to be sufficient and equivalent to that between the plasma-treated PTFE and other materials reported in previous studies",
+      "source_section_or_page": "Page 4, Section 3.2",
+      "human_review_reason": "Specific rate capability values in Fig. 4(c) are plotted in a chart and cannot be read with 100% exact numerical precision from the text, requiring manual digitization. At least one figure/table requires manual digitization or visual verification. High-value performance metrics and claims should be verified before use in a research brief.",
+      "audit_context": {
+        "real:H001": {
+          "recommendation": "revise_experiment_design",
+          "claim_grounding": 0.626,
+          "hallucination_risk": 0.447
+        },
+        "real:H004": {
+          "recommendation": "revise_experiment_design",
+          "claim_grounding": 0.726,
+          "hallucination_risk": 0.42
+        },
+        "real:H005": {
+          "recommendation": "revise_experiment_design",
+          "claim_grounding": 0.664,
+          "hallucination_risk": 0.443
+        }
+      },
+      "validation_status": "pending",
+      "validation_questions": [
+        "Does the source PDF support the exact claim text without overstatement?",
+        "Do the metric, value, condition, and page/section match the source PDF?",
+        "Is the citation text a faithful excerpt or close paraphrase of the paper?",
+        "Check the cited location: Page 4, Section 3.2.",
+        "Does any chart-derived value need manual digitization before it is quoted numerically?"
+      ],
+      "correction_fields": {
+        "corrected_claim_text": "",
+        "corrected_metric": "",
+        "corrected_value": "",
+        "corrected_condition": "",
+        "corrected_citation_text": "",
+        "notes": ""
+      },
+      "allowed_in_manuscript": false
+    },
+    {
+      "validation_id": "val:007",
+      "priority": "medium",
+      "claim_id": "real:C081_01",
+      "source_paper_id": "real:P081",
+      "source_paper_title": "Comparative thermo-electrochemical study of lignin- and starch-derived carbon electrodes modified with Zn(TFSI)2 and ionic liquids for lithium-ion battery applications",
+      "source_extraction_file": "081_lignin_starch_thermo_electrochemical.json.json",
+      "hypothesis_ids": [
+        "real:H002",
+        "real:H004"
+      ],
+      "roles": [
+        "contradicting",
+        "supporting"
+      ],
+      "lead_hypothesis_relevance": false,
+      "claim_text": "Hydrothermal modification of kraft lignin-derived carbon using Zn(TFSI)2 significantly enhances lithium-ion transport kinetics and decreases charge-transfer resistance by introducing active zinc-ion and sulfonyl coordination sites, resulting in an exceptionally low activation energy of 15.3 kJ/mol.",
+      "metric": "activation energy",
+      "value": "15.3 kJ mol^-1",
+      "experimental_condition": "Carbonized lignin at 900 C modified with Zn(TFSI)2 under hydrothermal conditions at 140 C for 24 h",
+      "evidence_type": "experimental",
+      "limitation": "The efficacy is heavily dependent on the biopolymer precursor chemistry, as starch-derived carbons did not exhibit comparable kinetic improvements.",
+      "citation_text": "Notably, the Zn(TFSI)2-modified lignin-based carbon (LKN2H) exhibited the most favorable electrochemical properties, including the highest ionic conductivity and the lowest charge transfer resistance. This enhancement is attributed to the introduction of sulfonyl and Zn2+ coordination sites that facilitate ion transport.",
+      "source_section_or_page": "Page 2, Section 1 (Introduction) and Page 8, Table 2",
+      "human_review_reason": "High-value performance metrics and claims should be verified before use in a research brief.",
+      "audit_context": {
+        "real:H002": {
+          "recommendation": "revise_before_brief",
+          "claim_grounding": 0.507,
+          "hallucination_risk": 0.529
+        },
+        "real:H004": {
+          "recommendation": "revise_experiment_design",
+          "claim_grounding": 0.726,
+          "hallucination_risk": 0.42
+        }
+      },
+      "validation_status": "pending",
+      "validation_questions": [
+        "Does the source PDF support the exact claim text without overstatement?",
+        "Do the metric, value, condition, and page/section match the source PDF?",
+        "Is the citation text a faithful excerpt or close paraphrase of the paper?",
+        "Check the cited location: Page 2, Section 1 (Introduction) and Page 8, Table 2."
+      ],
+      "correction_fields": {
+        "corrected_claim_text": "",
+        "corrected_metric": "",
+        "corrected_value": "",
+        "corrected_condition": "",
+        "corrected_citation_text": "",
+        "notes": ""
+      },
+      "allowed_in_manuscript": false
+    },
+    {
+      "validation_id": "val:008",
+      "priority": "medium",
+      "claim_id": "real:C086_01",
+      "source_paper_id": "real:P086",
+      "source_paper_title": "Effect of carbon black properties on dry electrode processing of cathodes for lithium-ion batteries",
+      "source_extraction_file": "086_carbon_black_dry_electrode_processing.json",
+      "hypothesis_ids": [
+        "real:H001",
+        "real:H004",
+        "real:H005"
+      ],
+      "roles": [
+        "supporting"
+      ],
+      "lead_hypothesis_relevance": false,
+      "claim_text": "Dry-processed NMC811 cathodes utilizing carbon blacks with small primary particle sizes and high specific surface areas (such as LITX®MAX90) exhibit high mechanical compressibility and provide a cushion effect that mitigates active material particle cracking during calendering, resulting in exceptional long-term cycling stability (94% retention after 450 cycles).",
+      "metric": "capacity retention",
+      "value": "94 %",
+      "experimental_condition": "PTFE dry-coated cathode with 2 wt% LITX®MAX90, cycled at C/2 in single-layer pouch cells",
+      "evidence_type": "experimental",
+      "limitation": "The high surface area of these carbon blacks increases electrode ionic tortuosity and can promote secondary parasitic reactions.",
+      "citation_text": "Aging tests revealed a capacity retention of 94 % after 450 cycles at C/2 for the best additive but also as a process aid for the calendering step, influencing the compressibility of the composite granules, resulting in adapted process parameters.",
+      "source_section_or_page": "Page 1, Abstract / Page 9, Section 3.4",
+      "human_review_reason": "Specific numerical values in Fig. 6 (Minimum carbon black content vs CB type) are only presented in a chart and require manual digitization, and key trade-offs between electronic conductivity and ionic tortuosity are evaluated from multiple figures. At least one figure/table requires manual digitization or visual verification. High-value performance metrics and claims should be verified before use in a research brief.",
+      "audit_context": {
+        "real:H001": {
+          "recommendation": "revise_experiment_design",
+          "claim_grounding": 0.626,
+          "hallucination_risk": 0.447
+        },
+        "real:H004": {
+          "recommendation": "revise_experiment_design",
+          "claim_grounding": 0.726,
+          "hallucination_risk": 0.42
+        },
+        "real:H005": {
+          "recommendation": "revise_experiment_design",
+          "claim_grounding": 0.664,
+          "hallucination_risk": 0.443
+        }
+      },
+      "validation_status": "pending",
+      "validation_questions": [
+        "Does the source PDF support the exact claim text without overstatement?",
+        "Do the metric, value, condition, and page/section match the source PDF?",
+        "Is the citation text a faithful excerpt or close paraphrase of the paper?",
+        "Check the cited location: Page 1, Abstract / Page 9, Section 3.4.",
+        "Does any chart-derived value need manual digitization before it is quoted numerically?"
+      ],
+      "correction_fields": {
+        "corrected_claim_text": "",
+        "corrected_metric": "",
+        "corrected_value": "",
+        "corrected_condition": "",
+        "corrected_citation_text": "",
+        "notes": ""
+      },
+      "allowed_in_manuscript": false
+    },
+    {
+      "validation_id": "val:009",
+      "priority": "medium",
+      "claim_id": "real:C096_01",
+      "source_paper_id": "real:P096",
+      "source_paper_title": "Self-healable chitosan-based polymer binder for anode in lithium-ion batteries",
+      "source_extraction_file": "096_chitosan_binder_anode.json",
+      "hypothesis_ids": [
+        "real:H002"
+      ],
+      "roles": [
+        "supporting"
+      ],
+      "lead_hypothesis_relevance": false,
+      "claim_text": "Both coin and pouch cells fabricated with the bio-based binder achieved a specific capacity of 161.2 mAh g-1 and retained 81 % of their capacity after 250 cycles.",
+      "metric": "capacity retention",
+      "value": "81 %",
+      "experimental_condition": "0.5C cycling rate over 250 cycles",
+      "evidence_type": "experimental",
+      "limitation": "The dense network slightly limits the free volume for Li-ion transport.",
+      "citation_text": "Both coin and pouch cells fabricated with the bio-based binder achieved a specific capacity of 161.2 mAh g-1 and retained 81 % of their capacity after 250 cycles.",
+      "source_section_or_page": "Page 1, Abstract",
+      "human_review_reason": "High-value performance metrics and claims should be verified before use in a research brief.",
+      "audit_context": {
+        "real:H002": {
+          "recommendation": "revise_before_brief",
+          "claim_grounding": 0.507,
+          "hallucination_risk": 0.529
+        }
+      },
+      "validation_status": "pending",
+      "validation_questions": [
+        "Does the source PDF support the exact claim text without overstatement?",
+        "Do the metric, value, condition, and page/section match the source PDF?",
+        "Is the citation text a faithful excerpt or close paraphrase of the paper?",
+        "Check the cited location: Page 1, Abstract."
+      ],
+      "correction_fields": {
+        "corrected_claim_text": "",
+        "corrected_metric": "",
+        "corrected_value": "",
+        "corrected_condition": "",
+        "corrected_citation_text": "",
+        "notes": ""
+      },
+      "allowed_in_manuscript": false
+    },
+    {
+      "validation_id": "val:010",
+      "priority": "medium",
+      "claim_id": "real:C123_01",
+      "source_paper_id": "real:P123",
+      "source_paper_title": "One-step atmospheric microplasma synthesis of an NMC-type lithium-ion battery cathode",
+      "source_extraction_file": "123_ One-step atmospheric microplasma synthesis of an NMC-type lithium-ion.json",
+      "hypothesis_ids": [
+        "real:H001",
+        "real:H005"
+      ],
+      "roles": [
+        "contradicting",
+        "supporting"
+      ],
+      "lead_hypothesis_relevance": false,
+      "claim_text": "One-step atmospheric microplasma synthesis can produce crystalline, electrochemically active NMC-type lithium-ion battery cathode particles in less than one second without requiring an additional calcination step.",
+      "metric": "synthesis time",
+      "value": "< 1 s",
+      "experimental_condition": "Hollow-tube microplasma reactor, Ar and O2 carrier gases, liquid acetate precursor vapor, 3000 V at 25 kHz",
+      "evidence_type": "experimental",
+      "limitation": "Low discharge capacity (125 mAh/g) and contamination from electrode sputtering",
+      "citation_text": "This communication aims to highlight a nascent yet novel synthesis route: a one-step atmospheric microplasma process for synthesizing cathode particles in less than one second... all—without requiring an additional calcination step.",
+      "source_section_or_page": "Page 1, Abstract",
+      "human_review_reason": "High-value performance metrics and claims should be verified before use in a research brief.",
+      "audit_context": {
+        "real:H001": {
+          "recommendation": "revise_experiment_design",
+          "claim_grounding": 0.626,
+          "hallucination_risk": 0.447
+        },
+        "real:H005": {
+          "recommendation": "revise_experiment_design",
+          "claim_grounding": 0.664,
+          "hallucination_risk": 0.443
+        }
+      },
+      "validation_status": "pending",
+      "validation_questions": [
+        "Does the source PDF support the exact claim text without overstatement?",
+        "Do the metric, value, condition, and page/section match the source PDF?",
+        "Is the citation text a faithful excerpt or close paraphrase of the paper?",
+        "Check the cited location: Page 1, Abstract."
+      ],
+      "correction_fields": {
+        "corrected_claim_text": "",
+        "corrected_metric": "",
+        "corrected_value": "",
+        "corrected_condition": "",
+        "corrected_citation_text": "",
+        "notes": ""
+      },
+      "allowed_in_manuscript": false
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "description": "Deterministic CellForge hypotheses generated from Gemini-extracted real-paper claims. These are research proposal candidates, not validated conclusions.",
+  "source_corpus": "data\\real_evidence_corpus.json",
+  "generation_mode": "deterministic_template_from_real_claims",
+  "hypotheses": [
+    {
+      "id": "real:H001",
+      "title": "Atmospheric plasma-assisted dry cathode interfaces for lower-impact manufacturing",
+      "hypothesis": "Combining dry cathode processing with short-duration plasma surface activation will improve current-collector adhesion and cycling stability while reducing NMP solvent use and drying energy.",
+      "battery_chemistry": "lithium-ion",
+      "mechanism": "Plasma introduces polar surface groups that improve PTFE/current-collector adhesion, while optimized dry-processing additives reduce calendering damage and maintain conductive networks.",
+      "novelty_rationale": "The corpus contains separate evidence for plasma-enhanced dry-electrode adhesion and carbon-black-enabled dry cathode cycling stability, but not a unified roll-compatible interface strategy.",
+      "supporting_claim_ids": [
+        "real:C044_01",
+        "real:C086_01",
+        "real:C075_01"
+      ],
+      "contradicting_claim_ids": [
+        "real:C123_01"
+      ],
+      "proposed_experiment": "Fabricate NMC811 dry cathodes with PTFE binder and two carbon-black grades, apply 10-60 s atmospheric or low-vacuum Ar/O2 plasma before lamination, then compare adhesion, sheet resistance, tortuosity, particle cracking, rate capability, and capacity retention against untreated dry electrodes.",
+      "expected_contribution": "A practical route for solvent-free cathode manufacturing that explicitly links interface activation, calendering damage, and electrochemical durability.",
+      "metric_terms": [
+        "adhesion strength",
+        "capacity retention",
+        "tortuosity",
+        "calendering damage",
+        "NMP elimination"
+      ],
+      "scores": {
+        "evidence_strength": 0.95,
+        "novelty_gap": 0.88,
+        "feasibility": 0.56,
+        "human_validation_need": 1.0
+      },
+      "generation_mode": "deterministic_template_from_real_claims",
+      "status": "candidate_requires_evidence_audit"
+    },
+    {
+      "id": "real:H002",
+      "title": "Water-compatible bio-derived binder systems for graphite anodes",
+      "hypothesis": "A water-compatible hybrid of chitosan-derived self-healing chemistry and PHBV-like biodegradable binder design can retain graphite cycling stability while avoiding both PVDF/NMP and chlorinated-solvent processing.",
+      "battery_chemistry": "lithium-ion",
+      "mechanism": "Dynamic imine or hydrogen-bonding networks can maintain particle adhesion and tolerate volume changes, while biodegradable polymer segments provide mechanical integrity without fluorinated binder chemistry.",
+      "novelty_rationale": "Existing evidence supports chitosan self-healing binders and PHBV biodegradable binders separately; the gap is a binder platform that combines bio-derived durability with genuinely greener solvent processing.",
+      "supporting_claim_ids": [
+        "real:C096_01",
+        "real:C110_01"
+      ],
+      "contradicting_claim_ids": [
+        "real:C081_01"
+      ],
+      "proposed_experiment": "Prepare graphite anodes using aqueous chitosan/vanillin derivatives blended with PHBV-inspired biodegradable segments or waterborne PHBV dispersions. Benchmark against PVDF, pristine chitosan, and PHBV controls for adhesion, swelling, impedance, rate capability, capacity retention, and binder dissolution.",
+      "expected_contribution": "A validated path toward non-fluorinated, bio-derived graphite anode binders that does not move the environmental burden from binder chemistry to hazardous solvent use.",
+      "metric_terms": [
+        "capacity retention",
+        "adhesion",
+        "swelling",
+        "ionic conductivity",
+        "solvent toxicity"
+      ],
+      "scores": {
+        "evidence_strength": 0.85,
+        "novelty_gap": 0.84,
+        "feasibility": 0.7,
+        "human_validation_need": 1.0
+      },
+      "generation_mode": "deterministic_template_from_real_claims",
+      "status": "candidate_requires_evidence_audit"
+    },
+    {
+      "id": "real:H003",
+      "title": "Circular natural-graphite anodes with bio-based conductive surface repair",
+      "hypothesis": "Green-purified or regenerated natural graphite can recover high anode performance when paired with thin bio-derived carbon or conductive polymer coatings that stabilize SEI formation and electronic pathways.",
+      "battery_chemistry": "lithium-ion",
+      "mechanism": "Chemical-free purification reduces impurity-driven degradation, while thin carbon/polymer coatings repair surface defects, improve charge transfer, and reduce long-cycle capacity loss.",
+      "novelty_rationale": "The corpus links natural graphite purification, recycled graphite regeneration, and bio-based graphite coating, suggesting a circular anode route that has not yet been jointly optimized.",
+      "supporting_claim_ids": [
+        "real:C107_01",
+        "real:C107_02",
+        "real:C099_01"
+      ],
+      "contradicting_claim_ids": [
+        "real:C110_01"
+      ],
+      "proposed_experiment": "Compare natural graphite, regenerated spent graphite, and synthetic graphite baselines after non-thermal plasma purification and tannic-acid-derived carbon coating. Measure purity, ICE, SEI impedance, reversible capacity, 2C cycling retention, and process energy/chemical burden.",
+      "expected_contribution": "A circular-economy anode strategy that treats sustainability and electrochemical stability as coupled design targets.",
+      "metric_terms": [
+        "carbon purity",
+        "reversible capacity",
+        "capacity retention",
+        "initial Coulombic efficiency",
+        "process chemicals"
+      ],
+      "scores": {
+        "evidence_strength": 0.95,
+        "novelty_gap": 0.88,
+        "feasibility": 0.7,
+        "human_validation_need": 1.0
+      },
+      "generation_mode": "deterministic_template_from_real_claims",
+      "status": "candidate_requires_evidence_audit"
+    },
+    {
+      "id": "real:H004",
+      "title": "Biomass-derived carbon additives for dry-processed cathode transport control",
+      "hypothesis": "Functionalized biomass-derived carbons can serve as sustainable conductive/process additives in dry cathodes, improving ion-transport kinetics without increasing tortuosity as much as very high-surface-area carbon blacks.",
+      "battery_chemistry": "lithium-ion",
+      "mechanism": "Sulfonyl or metal-coordination sites from modified lignin carbons may improve interfacial ion transport, while carbon morphology can be tuned to cushion calendering stress and preserve conductive pathways.",
+      "novelty_rationale": "The evidence base currently separates lignin-derived carbon ion-transport benefits from carbon-black process-aid behavior in dry cathodes; testing biomass carbons as dry-processing additives is an underexplored bridge.",
+      "supporting_claim_ids": [
+        "real:C081_01",
+        "real:C086_01",
+        "real:C075_01"
+      ],
+      "contradicting_claim_ids": [
+        "real:C044_01"
+      ],
+      "proposed_experiment": "Synthesize lignin-derived carbon additives with controlled surface chemistry, blend them into PTFE-based dry NMC cathodes, and compare calenderability, electrode tortuosity, charge-transfer resistance, particle cracking, and long-cycle retention against commercial carbon blacks.",
+      "expected_contribution": "A lower-impact conductive additive design space for dry cathode manufacturing that explicitly balances mechanical processability and ion transport.",
+      "metric_terms": [
+        "activation energy",
+        "charge-transfer resistance",
+        "capacity retention",
+        "tortuosity",
+        "calendering"
+      ],
+      "scores": {
+        "evidence_strength": 0.95,
+        "novelty_gap": 0.88,
+        "feasibility": 0.56,
+        "human_validation_need": 1.0
+      },
+      "generation_mode": "deterministic_template_from_real_claims",
+      "status": "candidate_requires_evidence_audit"
+    },
+    {
+      "id": "real:H005",
+      "title": "Quality-controlled low-energy plasma synthesis for NMC cathode precursors",
+      "hypothesis": "Stabilizing atmospheric microplasma synthesis with contamination-resistant reactor materials and downstream dry-electrode process controls can improve the viability of calcination-free NMC cathode fabrication.",
+      "battery_chemistry": "lithium-ion",
+      "mechanism": "Stable plasma discharge should increase precursor conversion and crystal quality, while dry-electrode process optimization can isolate whether capacity losses originate from synthesis defects or electrode manufacturing artifacts.",
+      "novelty_rationale": "Sub-second NMC synthesis is promising but limited by low yield, contamination, and low initial capacity; coupling it with dry-electrode diagnostics offers a concrete path to separate material synthesis gaps from electrode-processing gaps.",
+      "supporting_claim_ids": [
+        "real:C123_01",
+        "real:C086_01",
+        "real:C044_01"
+      ],
+      "contradicting_claim_ids": [
+        "real:C075_01"
+      ],
+      "proposed_experiment": "Run a design-of-experiments study varying plasma waveform, electrode material, gas mixture, and precursor feed rate, then fabricate standardized dry cathodes to compare phase purity, Fe contamination, particle size, initial capacity, impedance, and 100-cycle retention.",
+      "expected_contribution": "A grounded assessment of whether calcination-free cathode synthesis can become a credible sustainable manufacturing path, rather than only a low-energy proof of concept.",
+      "metric_terms": [
+        "synthesis time",
+        "initial capacity",
+        "contamination",
+        "particle size",
+        "capacity retention"
+      ],
+      "scores": {
+        "evidence_strength": 0.95,
+        "novelty_gap": 0.88,
+        "feasibility": 0.56,
+        "human_validation_need": 1.0
+      },
+      "generation_mode": "deterministic_template_from_real_claims",
+      "status": "candidate_requires_evidence_audit"
+    }
+  ]
+}

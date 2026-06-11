@@ -1,0 +1,768 @@
+{
+  "description": "Real-paper evidence corpus generated from Google Cloud/Gemini document understanding outputs. Claims are extraction artifacts and require human validation before publication use.",
+  "source_directory": "data\\cloud_extractions",
+  "scope": "green and sustainable electrode materials/fabrication for lithium-ion batteries",
+  "papers": [
+    {
+      "id": "real:P044",
+      "title": "Solvent-free processing of lithium-ion batteries via plasma treatment of electrodes for adhesive interfaces",
+      "authors": [],
+      "year": null,
+      "venue": null,
+      "abstract": "This study introduces a solvent-free, plasma-assisted dry-processing method for fabricating lithium-ion battery electrodes. It resolves the poor adhesion issues of polytetrafluoroethylene (PTFE) binders to current collectors by applying a short-duration argon plasma treatment to the dry-rolled electrode sheets before hot-pressing. This process completely eliminates the need for toxic solvents like N-methyl-2-pyrrolidone (NMP) and intensive drying steps, while maintaining or improving electrochemical performance across LCO, LFP, and NMC chemistries.",
+      "paper_type": "Short communication",
+      "battery_chemistry": "lithium-ion",
+      "electrode_component": "cathode",
+      "green_strategy": "Solvent-free dry-electrode manufacturing that eliminates toxic organic solvents (NMP) and high-energy thermal drying processes, utilizing dry-powder mixing, rolling, and dry plasma surface activation.",
+      "fabrication_method": "Dry mixing of active materials, carbon black, pore former (adamantane), and PTFE binder; rolling into a freestanding sheet; vacuum sublimation of adamantane; surface Ar plasma treatment (450 V DC, 3-4 mA, 30 s); and hot pressing (150 C, 1.6 MPa, 1 min) onto Al current collector.",
+      "performance_metrics": [
+        {
+          "metric": "Adhesion strength to aluminum foil",
+          "value": "~2.8 N/cm",
+          "condition": "30 s argon plasma-treated PTFE/LCO cathode sheet, hot-pressed at 150 C, 1.6 MPa",
+          "comparison_baseline": "could not be measured because it peeled off immediately, without adhesion",
+          "source_section_or_page": "Page 4, Section 3.2"
+        },
+        {
+          "metric": "Capacity retention after 300 cycles",
+          "value": "83.2 %",
+          "condition": "Full cell configuration cycled at 1.0C rate",
+          "comparison_baseline": "81.0 % (for untreated electrode)",
+          "source_section_or_page": "Page 4, Section 3.3"
+        },
+        {
+          "metric": "Initial Coulombic efficiency",
+          "value": "approximately 76.8 %",
+          "condition": "Initial cycle at 1C (137 mA/g) using plasma-treated LCO cathode",
+          "comparison_baseline": "not stated in paper",
+          "source_section_or_page": "Page 4, Section 3.3"
+        },
+        {
+          "metric": "Plasma treatment duration",
+          "value": "30 s",
+          "condition": "DC voltage of 450 V, argon gas pressure 3.0 x 10^1 Pa",
+          "comparison_baseline": "not stated in paper",
+          "source_section_or_page": "Page 2, Section 2.2"
+        }
+      ],
+      "limitations": [
+        "The dry formulation contains approximately 80 % active material, which is lower than the highest loadings achievable with some state-of-the-art dry processes.",
+        "Requires a vacuum chamber environment for the plasma treatment step in this proof-of-concept setup, which limits continuous high-throughput roll-to-roll processing.",
+        "Relies on the use of adamantane as a pore-former, which requires an additional thermal vacuum sublimation step (<10 Pa, 120 C) to introduce porosity.",
+        "Relatively low initial Coulombic efficiency (~76.8% at 1C) attributed to irreversible SEI formation and initial activation processes."
+      ],
+      "figure_or_table_evidence": [
+        {
+          "figure_or_table": "Fig. 3",
+          "evidence_summary": "Displays (a) the stable adhesion strength of ~2.8 N/cm over 5 min, 1 day, and 1 week of exposure, (b) XPS O1s spectra demonstrating oxygen-containing functional groups after plasma treatment, and (c) water contact angle decreasing from 108 degrees (untreated) to 74-76 degrees after plasma treatment.",
+          "exact_values_available": true,
+          "needs_manual_digitization": false,
+          "source_page": "3"
+        },
+        {
+          "figure_or_table": "Fig. 4",
+          "evidence_summary": "Compares electrochemical performance of LCO cathodes. Fig. 4(b) shows full-cell cycling performance at 1C over 300 cycles, showing improved discharge capacity and capacity retention for the plasma-treated cathode. Fig. 4(c) illustrates rate capability up to 5C, displaying higher capacity retention at high C-rates for plasma-treated electrodes.",
+          "exact_values_available": false,
+          "needs_manual_digitization": true,
+          "source_page": "5"
+        }
+      ],
+      "confidence": 0.95,
+      "needs_human_review": true,
+      "human_review_reason": "Specific rate capability values in Fig. 4(c) are plotted in a chart and cannot be read with 100% exact numerical precision from the text, requiring manual digitization. At least one figure/table requires manual digitization or visual verification. High-value performance metrics and claims should be verified before use in a research brief.",
+      "source_extraction_file": "044_solvent_free_plasma_processing.json",
+      "source_type": "google_cloud_gemini_document_understanding",
+      "status": "extracted_needs_human_validation"
+    },
+    {
+      "id": "real:P075",
+      "title": "High-energy density ultra-thick drying-free Ni-rich cathode electrodes for application in Lithium-ion batteries",
+      "authors": [],
+      "year": null,
+      "venue": null,
+      "abstract": "The conventional slurry-based wet electrode manufacturing process of lithium-ion batteries is heavily constrained by toxic solvents (such as NMP), high drying costs, and low active material densities. This study introduces a solvent-assisted binder (SaB) dry electrode processing methodology utilizing less than 3 wt.% of a low-boiling-point, non-toxic ethanol solvent to facilitate binder (PTFE) fibrillation under shear forces during calendering. This allows the fabrication of ultra-thick, damage-free, and high-performance Ni-rich (NCM622) cathodes. SaB electrodes exhibit a capacity retention of 77.7% after 100 cycles at a high loading of approximately 30 mg cm⁻².",
+      "paper_type": "Original Research Paper",
+      "battery_chemistry": "lithium-ion",
+      "electrode_component": "cathode",
+      "green_strategy": "A drying-free, solvent-assisted dry electrode process utilizing a minimal amount of non-toxic ethanol (<3 wt.%) as a processing aid. This eliminates the massive energy consumption of drying lines and the toxic organic solvent N-methyl-2-pyrrolidone (NMP).",
+      "fabrication_method": "Solvent-assisted binder (SaB) dry-mixing and rolling method, where PTFE/ethanol binder is pre-blended in a 1:1 wt% ratio, mixed with NCM622 and CNT, rolled at 100 °C into a freestanding film, and hot-pressed onto current collectors.",
+      "performance_metrics": [
+        {
+          "metric": "Capacity retention after 100 cycles at 1C",
+          "value": "77.7 %",
+          "condition": "SaB dry cathode, ultra-thick loading (~30 mg cm⁻²), 2.7-4.3 V vs. Li/Li⁺",
+          "comparison_baseline": "72.39 % (standard dry-processed electrode)",
+          "source_section_or_page": "Page 1, Abstract / Page 6, Fig. 4b"
+        },
+        {
+          "metric": "Initial Specific Discharge Capacity",
+          "value": "approximately 185 mAh g⁻¹",
+          "condition": "At 0.1C, ultra-thick loading (~30 mg cm⁻²)",
+          "comparison_baseline": "approximately 180 mAh g⁻¹ (standard dry-processed electrode)",
+          "source_section_or_page": "Page 6, Fig. 4d"
+        },
+        {
+          "metric": "Full-cell Capacity Retention over 50 cycles",
+          "value": "94.46 %",
+          "condition": "Full-cell using SaB dry NCM622 cathode and Gr anode at 0.2C, loading 24.74 mg cm⁻²",
+          "comparison_baseline": "88.64 % (standard dry-processed full-cell)",
+          "source_section_or_page": "Page 7, Fig. 5g"
+        },
+        {
+          "metric": "Initial Coulombic Efficiency (ICE)",
+          "value": "94.80 %",
+          "condition": "At 0.1 C, ultra-thick SaB dry cathode",
+          "comparison_baseline": "94.37 % (standard dry-processed cathode)",
+          "source_section_or_page": "Page 6, Section 2.2"
+        }
+      ],
+      "limitations": [
+        "At higher charge-discharge rates, ultra-thick electrodes are severely limited by slow lithium-ion transport kinetics (high tortuosity).",
+        "Electrode testing reveals severe polarization issues and capacity fading during long-term cycling when the loading is pushed to extreme limits (>60 mg cm⁻²).",
+        "Dendrite formation and short-circuiting remain a concern under high-rate, high-loading testing conditions without specialized electrolyte or protective interface modifications."
+      ],
+      "figure_or_table_evidence": [
+        {
+          "figure_or_table": "Fig. 1",
+          "evidence_summary": "Schematically contrasts the conventional wet process, standard dry process, and SaB dry process, comparing the energy density versus electrode loading profiles.",
+          "exact_values_available": false,
+          "needs_manual_digitization": false,
+          "source_page": "2"
+        },
+        {
+          "figure_or_table": "Fig. 2",
+          "evidence_summary": "SEM and color-modified surface and cross-sectional images showing active material particle cracking in standard dry electrodes versus relatively uncracked particles and well-distributed fibrillated binder domains in SaB dry electrodes.",
+          "exact_values_available": true,
+          "needs_manual_digitization": false,
+          "source_page": "4"
+        },
+        {
+          "figure_or_table": "Fig. 3",
+          "evidence_summary": "Evaluates electrode porosity profiles and electrolyte wetting behaviors. Displays that the SaB dry electrode exhibits accelerated electrolyte penetration (wetting angles drop to 11.00° in 360s compared to 19.19° for standard dry electrodes).",
+          "exact_values_available": true,
+          "needs_manual_digitization": false,
+          "source_page": "5"
+        },
+        {
+          "figure_or_table": "Fig. 4",
+          "evidence_summary": "Presents half-cell performance data. (b) shows the cycle stability at 1C over 100 cycles, and (d) displays rate capabilities up to 1C.",
+          "exact_values_available": true,
+          "needs_manual_digitization": false,
+          "source_page": "6"
+        },
+        {
+          "figure_or_table": "Fig. 5",
+          "evidence_summary": "Displays full-cell characterization. (g) details the capacity retention and Coulombic efficiency of the SaB dry electrode compared to the standard dry electrode over 50 cycles at 0.2C.",
+          "exact_values_available": true,
+          "needs_manual_digitization": false,
+          "source_page": "7"
+        }
+      ],
+      "confidence": 0.98,
+      "needs_human_review": true,
+      "human_review_reason": "The rate-capability performance metrics at varying rates (e.g., 0.2C, 0.5C) are represented in graphs in Fig. 4d and require manual digitization for exact decimal values. High-value performance metrics and claims should be verified before use in a research brief.",
+      "source_extraction_file": "075_drying_free_ni_rich_cathode.json",
+      "source_type": "google_cloud_gemini_document_understanding",
+      "status": "extracted_needs_human_validation"
+    },
+    {
+      "id": "real:P081",
+      "title": "Comparative thermo-electrochemical study of lignin- and starch-derived carbon electrodes modified with Zn(TFSI)2 and ionic liquids for lithium-ion battery applications",
+      "authors": [],
+      "year": null,
+      "venue": null,
+      "abstract": "This study presents a comparative electrochemical investigation of carbon anodes derived from kraft lignin and wheat starch, modified via hydrothermal treatments or ionic liquids. The introduction of Zn(TFSI)2 onto lignin-derived carbon (LKN2H) successfully incorporates sulfonyl and zinc-ion functional groups on the surface, which significantly lowers the charge-transfer resistance (<300 Ohm), maximizes ionic conductivity (0.316 S/m), and achieves an exceptionally low activation energy (15.3 kJ/mol) for lithium-ion diffusion.",
+      "paper_type": "Original Research Paper",
+      "battery_chemistry": "lithium-ion",
+      "electrode_component": "anode",
+      "green_strategy": "Utilization of abundant, renewable biopolymer waste (kraft lignin and starch) as precursors for manufacturing sustainable carbon anodes, replacing fossil-based synthetic graphite.",
+      "fabrication_method": "Carbonization of biopolymers under nitrogen (900 °C for lignin, 600 °C for starch), followed by hydrothermal modification with Zn(TFSI)2 dissolved in distilled water at 140 °C for 24 h in a Teflon-lined autoclave.",
+      "performance_metrics": [
+        {
+          "metric": "Activation energy (Ed) for ion transport",
+          "value": "15.3 kJ mol^-1",
+          "condition": "Zn(TFSI)2 hydrothermally modified lignin-derived carbon (LKN2H)",
+          "comparison_baseline": "92.3 kJ mol^-1 (for unmodified lignin-derived carbon LKN2)",
+          "source_section_or_page": "Page 8, Table 2"
+        },
+        {
+          "metric": "Ionic conductivity (k)",
+          "value": "0.316 S m^-1",
+          "condition": "LKN2H carbon anode at 25 °C",
+          "comparison_baseline": "9.40 * 10^-14 S m^-1 (for LKN2)",
+          "source_section_or_page": "Page 8, Table 2"
+        },
+        {
+          "metric": "Charge-transfer resistance (Rct)",
+          "value": "<300 Ohm",
+          "condition": "LKN2H carbon anode",
+          "comparison_baseline": "500+ Ohm (for LKN2)",
+          "source_section_or_page": "Page 11, Table 4"
+        }
+      ],
+      "limitations": [
+        "Lignin carbon pre-treated with protic ionic liquid [C4Him][HSO4] (LK-IL 1) suffered from aggressive surface degradation, pore blockage, and highly elevated charge-transfer resistance (>600 Ohm).",
+        "Wheat starch-derived carbon modified with Zn(TFSI)2 (starchN2H) exhibited poor performance relative to lignin, displaying high activation energy (90.3 kJ/mol) and thermodynamic instability.",
+        "High thermal processing temperatures (up to 900 °C) are still required to carbonize the biopolymer precursors under an inert atmosphere."
+      ],
+      "figure_or_table_evidence": [
+        {
+          "figure_or_table": "Table 2",
+          "evidence_summary": "Summarizes average kinetic and thermodynamic parameters (Ed, A, k, dH, dG, dS, K) across all tested biocarbon electrodes, highlighting the superior transport properties of LKN2H.",
+          "exact_values_available": true,
+          "needs_manual_digitization": false,
+          "source_page": "8"
+        },
+        {
+          "figure_or_table": "Table 4",
+          "evidence_summary": "Provides a concise summary of the key electrochemical parameters including charge-transfer resistance (Rct) and activation energy (Ed) across the studied modified biocarbons.",
+          "exact_values_available": true,
+          "needs_manual_digitization": false,
+          "source_page": "11"
+        },
+        {
+          "figure_or_table": "Fig. 2",
+          "evidence_summary": "Presents Nyquist plots for LKN2, LKN2H, LK-IL 1, LK-IL 2, and starchN2H showing distinct temperature-dependent changes in interfacial charge-transfer arcs.",
+          "exact_values_available": true,
+          "needs_manual_digitization": false,
+          "source_page": "4"
+        }
+      ],
+      "confidence": 0.98,
+      "needs_human_review": true,
+      "human_review_reason": "High-value performance metrics and claims should be verified before use in a research brief.",
+      "source_extraction_file": "081_lignin_starch_thermo_electrochemical.json.json",
+      "source_type": "google_cloud_gemini_document_understanding",
+      "status": "extracted_needs_human_validation"
+    },
+    {
+      "id": "real:P086",
+      "title": "Effect of carbon black properties on dry electrode processing of cathodes for lithium-ion batteries",
+      "authors": [],
+      "year": null,
+      "venue": null,
+      "abstract": "Dry electrode processing of lithium-ion battery electrodes represents a highly promising, solvent-free manufacturing route that markedly reduces cost and carbon footprint compared to standard wet methods. This study systematically analyzes the impact of four different carbon black (CB) additives with varying physical properties on the dry calendering process and ultimate cell performance. Single-layer pouch cells using PTFE-bonded NMC811 cathodes demonstrated that tailored carbon black characteristics act both as conductive agents and as process aids during calendering, heavily influencing composite granule compressibility and active material particle cracking. The cells utilizing optimized carbon black achieved 94% capacity retention after 450 cycles at C/2.",
+      "paper_type": "Original Research Paper",
+      "battery_chemistry": "lithium-ion",
+      "electrode_component": "cathode",
+      "green_strategy": "Solvent-free (dry) electrode processing utilizing PTFE binder, completely eliminating toxic organic solvents like N-methyl-2-pyrrolidone (NMP) and high-energy drying lines.",
+      "fabrication_method": "Dry powder mixing, PTFE binder fibrillation via twin-screw extrusion, calendering into free-standing films (FSF), and roll-to-roll hot-lamination onto primed aluminum current collectors.",
+      "performance_metrics": [
+        {
+          "metric": "Capacity retention after 450 cycles at C/2",
+          "value": "94 %",
+          "condition": "Dry-coated cathode using LITX®MAX90 carbon black cycled at C/2 rate",
+          "comparison_baseline": "76 % (for dry-coated cathode using Super C65)",
+          "source_section_or_page": "Page 1, Abstract / Page 9, Section 3.4"
+        },
+        {
+          "metric": "Capacity retention after 450 cycles at C/2 (Li-435)",
+          "value": "approximately 89 %",
+          "condition": "Dry-coated cathode using Li-435 carbon black cycled at C/2 rate",
+          "comparison_baseline": "76 % (for dry-coated cathode using Super C65)",
+          "source_section_or_page": "Page 9, Section 3.4"
+        },
+        {
+          "metric": "Initial specific discharge capacity (LITX®MAX90)",
+          "value": "209.68 ± 0.35 mAh/g_NMC",
+          "condition": "0.05 C discharge rate",
+          "comparison_baseline": "208.40 ± 0.53 mAh/g_NMC (for Super C65)",
+          "source_section_or_page": "Page 9, Table 2"
+        },
+        {
+          "metric": "Initial Coulombic efficiency",
+          "value": "90.55 ± 0.34 %",
+          "condition": "For LITX®MAX90 dry cathode",
+          "comparison_baseline": "90.36 ± 0.13 % (for Super C65 dry cathode)",
+          "source_section_or_page": "Page 9, Table 2"
+        }
+      ],
+      "limitations": [
+        "High shear force and compaction during dry calendering can cause extensive secondary active material particle cracking, which increases the specific surface area and accelerates parasitic side reactions during cell cycling.",
+        "Smaller carbon black particles with higher specific surface areas (such as LITX®MAX90) increase the overall tortuosity of the dry electrode (tortuosity value of 2.11 vs 1.43 for Super C65), which can compromise rate capability.",
+        "Agglomeration of small carbon black particles can block electrolyte transport pathways, increasing ionic transport resistance within the dry electrode structure."
+      ],
+      "figure_or_table_evidence": [
+        {
+          "figure_or_table": "Table 1",
+          "evidence_summary": "Presents physical properties of the tested carbon blacks: Specific Surface Area (SSA), Primary Particle (PP) size, ID/IG Raman ratio, bulk density at 64 MPa, and electronic conductivity.",
+          "exact_values_available": true,
+          "needs_manual_digitization": false,
+          "source_page": "6"
+        },
+        {
+          "figure_or_table": "Fig. 4",
+          "evidence_summary": "Details composite resistivity (a), interface resistance (b), EIS Nyquist plots (c), and electrode tortuosity (d). Clearly shows that LITX®MAX90 achieves the lowest electronic resistivity (~9.27 Ω cm) but exhibits the highest tortuosity (2.11).",
+          "exact_values_available": true,
+          "needs_manual_digitization": false,
+          "source_page": "7"
+        },
+        {
+          "figure_or_table": "Fig. 6",
+          "evidence_summary": "Plots the minimum carbon black weight percentage required in the formulation to prevent active material particle cracking during the calendering process.",
+          "exact_values_available": false,
+          "needs_manual_digitization": true,
+          "source_page": "8"
+        },
+        {
+          "figure_or_table": "Table 2",
+          "evidence_summary": "Compares physical properties and initial electrochemical parameters of the manufactured dry-coated cathodes with 2 wt% of different carbon blacks, including areal capacity, density, porosity, Coulombic efficiency, and discharge capacity.",
+          "exact_values_available": true,
+          "needs_manual_digitization": false,
+          "source_page": "9"
+        },
+        {
+          "figure_or_table": "Fig. 7",
+          "evidence_summary": "Compares long-term electrochemical cycling (a) over 450 cycles at C/2, internal resistance growth (b), rate capability (c), and discharge potential profiles (d). Shows LITX®MAX90 maintaining 94% retention while Super C65 drops sharply.",
+          "exact_values_available": true,
+          "needs_manual_digitization": false,
+          "source_page": "10"
+        }
+      ],
+      "confidence": 0.98,
+      "needs_human_review": true,
+      "human_review_reason": "Specific numerical values in Fig. 6 (Minimum carbon black content vs CB type) are only presented in a chart and require manual digitization, and key trade-offs between electronic conductivity and ionic tortuosity are evaluated from multiple figures. At least one figure/table requires manual digitization or visual verification. High-value performance metrics and claims should be verified before use in a research brief.",
+      "source_extraction_file": "086_carbon_black_dry_electrode_processing.json",
+      "source_type": "google_cloud_gemini_document_understanding",
+      "status": "extracted_needs_human_validation"
+    },
+    {
+      "id": "real:P096",
+      "title": "Self-healable chitosan-based polymer binder for anode in lithium-ion batteries",
+      "authors": [],
+      "year": null,
+      "venue": null,
+      "abstract": "This study presents a bio-based and self-healable polymeric binder designed for use in graphite-based anodes to achieve enhanced battery performance. The binder was synthesized via a Schiff base reaction between chitosan and a vanillin-derived linker, forming imine bonds that establish a self-healable 3D network. The bio-based binder effectively holds the graphite particles together while providing excellent mechanical strength, thermal stability, and strong adhesion to the copper foil. Notably, it demonstrated self-healing behavior, with mechanical recovery exceeding 90% after damage, and achieved a capacity of 161.2 mAh g⁻¹ with 81% capacity retention after 250 cycles.",
+      "paper_type": "Research Paper",
+      "battery_chemistry": "lithium-ion",
+      "electrode_component": "anode",
+      "green_strategy": "Synthesis of a biodegradable, bio-based binder from chitosan (derived from seafood waste/chitin) and vanillin, eliminating the need for toxic fluorinated binders like PVDF and hazardous organic solvents like NMP.",
+      "fabrication_method": "Schiff base reaction at room temperature between chitosan and a vanillin-derived aldehyde cross-linker to form dynamic covalent imine networks, followed by slurry casting.",
+      "performance_metrics": [
+        {
+          "metric": "Adhesion strength to copper foil",
+          "value": "1.2 N",
+          "condition": "CSF2 binder formulation on graphite anode",
+          "comparison_baseline": "0.2 N for PVDF and 0.8 N for pristine chitosan",
+          "source_section_or_page": "Page 5, Section 2.5"
+        },
+        {
+          "metric": "Capacity retention after 250 cycles",
+          "value": "81 %",
+          "condition": "0.5C rate cycling in graphite coin cells",
+          "comparison_baseline": "73 % for PVDF binder and <70 % for pristine chitosan binder",
+          "source_section_or_page": "Page 7, Section 2.7 and Table 1 on Page 9"
+        },
+        {
+          "metric": "Mechanical recovery after damage",
+          "value": "exceeding 90 %",
+          "condition": "Tensile testing of self-healed hydrogels",
+          "comparison_baseline": "not stated in paper",
+          "source_section_or_page": "Page 1, Abstract"
+        },
+        {
+          "metric": "Maximum specific capacity (after activation)",
+          "value": "ca. 163 mAh g⁻¹",
+          "condition": "0.5C rate during cycling of CSF2-based anode",
+          "comparison_baseline": "ca. 129 mAh g⁻¹ for PVDF-based anode",
+          "source_section_or_page": "Page 7, Section 2.7"
+        }
+      ],
+      "limitations": [
+        "Dense polymeric network formed by imine bonds and the chitosan backbone restricts the free volume available for ion transport, resulting in lower ionic conductivity.",
+        "Trade-off between mechanical robustness, self-healing capability, and ionic conductivity of the chitosan-based binder."
+      ],
+      "figure_or_table_evidence": [
+        {
+          "figure_or_table": "Fig. 5",
+          "evidence_summary": "SEM cross-sectional images showing the thickness change of graphite electrodes after 20 cycles. The CSF2-based electrode expanded from 45 µm to 61.89 µm, while the PVDF-based electrode expanded to 80.20 µm, demonstrating that the CSF2 binder suppresses electrode swelling.",
+          "exact_values_available": true,
+          "needs_manual_digitization": false,
+          "source_page": "6"
+        },
+        {
+          "figure_or_table": "Table 1",
+          "evidence_summary": "Comprehensive comparison of electrochemical properties of CS, PVDF, and CSF2 binders, explicitly detailing initial capacity, capacity retention, cycling stability, Coulombic efficiency, rate capability, charge-discharge profiles, impedance, volume change, and self-healing ability.",
+          "exact_values_available": true,
+          "needs_manual_digitization": false,
+          "source_page": "9"
+        }
+      ],
+      "confidence": 0.98,
+      "needs_human_review": true,
+      "human_review_reason": "High-value performance metrics and claims should be verified before use in a research brief.",
+      "source_extraction_file": "096_chitosan_binder_anode.json",
+      "source_type": "google_cloud_gemini_document_understanding",
+      "status": "extracted_needs_human_validation"
+    },
+    {
+      "id": "real:P099",
+      "title": "A green route based on π-π interactions to coat graphite for high-rate and long-life anodes in lithium-ion batteries",
+      "authors": [],
+      "year": null,
+      "venue": null,
+      "abstract": "To address the limited rate performance and cycling stability of commercial graphite anodes, this study utilizes tannic acid (TA), an economical plant polyphenol, as a green carbon coating precursor. Benefiting from π-π stacking interactions and room-temperature cross-linking with formaldehyde in an alkaline solution, a uniform TA polymer layer is coated onto the graphite surface. Subsequent pyrolysis at 700 °C yields carbon-coated graphite (G@C) with a ~5 nm amorphous carbon layer. The G@C anode exhibits improved Li-ion diffusion kinetics, suppressed volume expansion, and enhanced electrochemical performance, delivering a capacity of 103.7 mAh g⁻¹ after 500 cycles at 2C.",
+      "paper_type": "Original Research Report",
+      "battery_chemistry": "lithium-ion",
+      "electrode_component": "anode",
+      "green_strategy": "Uses natural plant-derived tannic acid (TA) as a non-toxic, low-cost carbon precursor instead of coal tar pitches or toxic organic solvents (like toluene or tetrahydrofuran) for carbon coating. The coating process is carried out in deionized water and ethanol at ambient temperature and pressure.",
+      "fabrication_method": "Water-and-ethanol-based wet-chemical coating using tannic acid and formaldehyde cross-linker in ammonia solution under ambient conditions, followed by calcination (pyrolysis) at 700 °C for 3 h in argon.",
+      "performance_metrics": [
+        {
+          "metric": "Specific capacity at 2C (after 500 cycles)",
+          "value": "103.7 mAh g⁻¹",
+          "condition": "Charged/discharged at 2C rate over 500 cycles in 1 M LiPF₆ (EC:DMC:EMC = 1:1:1 vol% + 1% VC)",
+          "comparison_baseline": "68.7 mAh g⁻¹",
+          "source_section_or_page": "Page 1, Abstract / Page 4, Section 3.2"
+        },
+        {
+          "metric": "Capacity retention after 500 cycles at 2C",
+          "value": "89%",
+          "condition": "Charged/discharged at 2C rate over 500 cycles",
+          "comparison_baseline": "85%",
+          "source_section_or_page": "Page 1, Abstract / Page 4, Section 3.2"
+        },
+        {
+          "metric": "Reversible specific capacity at 0.1C",
+          "value": "363.1 mAh g⁻¹",
+          "condition": "0.1C current rate, voltage window 0.005-2 V vs. Li/Li⁺",
+          "comparison_baseline": "359.9 mAh g⁻¹ (for pristine graphite)",
+          "source_section_or_page": "Page 4, Section 3.2"
+        },
+        {
+          "metric": "Initial Coulombic Efficiency (ICE)",
+          "value": "84.64%",
+          "condition": "0.1C current rate first cycle",
+          "comparison_baseline": "87.15% (for pristine graphite)",
+          "source_section_or_page": "Page 4, Section 3.2"
+        }
+      ],
+      "limitations": [
+        "The initial Coulombic efficiency (ICE) of the carbon-coated graphite (G@C) decreases from 87.15% to 84.64% compared to pristine graphite, which is attributed to the increased specific surface area of the carbon coating and subsequent irreversible capacity loss from SEI layer formation.",
+        "The coating process requires formaldehyde as a cross-linking agent, which is a hazardous chemical, although used in small liquid quantities.",
+        "The synthesis still requires high-temperature pyrolysis (calcination) at 700 °C under inert argon atmosphere for 3 hours, which carries an thermal energy cost."
+      ],
+      "figure_or_table_evidence": [
+        {
+          "figure_or_table": "Fig. 1",
+          "evidence_summary": "Presents a schematic of the G@C manufacturing process, highlighting the step-by-step assembly of TA and formaldehyde onto graphite via π-π stacking followed by calcination to form the G@C anode.",
+          "exact_values_available": false,
+          "needs_manual_digitization": false,
+          "source_page": "2"
+        },
+        {
+          "figure_or_table": "Fig. 2",
+          "evidence_summary": "Characterization of the coating via XPS (a-c), XRD (d), Raman (e), SEM (f, g), and TEM (h, i). Shows a highly uniform, amorphous carbon coating layer with a thickness of approximately 5 nm on the graphite surface.",
+          "exact_values_available": true,
+          "needs_manual_digitization": false,
+          "source_page": "3"
+        },
+        {
+          "figure_or_table": "Fig. 3",
+          "evidence_summary": "Electrochemical performance evaluations of G and G@C anodes. Specifically, (c) displays C-rates (0.2C, 0.5C, 1C, 2C, 3C, 5C) where G@C consistently outperforms G, and (d) shows the specific discharge capacity and capacity retention over 500 cycles at 2C.",
+          "exact_values_available": true,
+          "needs_manual_digitization": false,
+          "source_page": "4"
+        },
+        {
+          "figure_or_table": "Fig. 4",
+          "evidence_summary": "Kinetics studies including EIS Nyquist plots (a, b), magnitude of impedance elements (c), GITT curves (d), and calculated Li⁺ diffusion coefficients (e). Demonstrates that the G@C anode has lower charge transfer resistance (Rct) and higher lithium-ion diffusivity.",
+          "exact_values_available": false,
+          "needs_manual_digitization": true,
+          "source_page": "5"
+        }
+      ],
+      "confidence": 0.98,
+      "needs_human_review": true,
+      "human_review_reason": "Specific rate capability values at individual rates (such as 3C and 5C) in Fig. 3c and Li+ diffusion coefficient trends in Fig. 4e are represented only in charts and require manual digitization for exact numerical values. At least one figure/table requires manual digitization or visual verification. High-value performance metrics and claims should be verified before use in a research brief.",
+      "source_extraction_file": "099_green_graphite_coating.json",
+      "source_type": "google_cloud_gemini_document_understanding",
+      "status": "extracted_needs_human_validation"
+    },
+    {
+      "id": "real:P107",
+      "title": "Natural graphite in making ecofriendly lithium-ion batteries: Challenges, current status, and future outlooks",
+      "authors": [],
+      "year": null,
+      "venue": null,
+      "abstract": "This review paper examines the role of natural graphite (NG) as a sustainable and cost-effective anode material for lithium-ion batteries compared to synthetic graphite. It analyzes green purification methods (such as non-thermal plasma and electrochemical methods) to eliminate the hazardous hydrofluoric acid (HF) conventionally used, compares the environmental footprints and costs of natural versus synthetic graphite, and evaluates current methodologies for recycling and reusing spent graphite anodes to promote a circular economy.",
+      "paper_type": "Review Paper",
+      "battery_chemistry": "lithium-ion",
+      "electrode_component": "anode",
+      "green_strategy": "Utilization of natural graphite to replace energy-intensive synthetic graphite; development of green purification technologies (electrochemical and non-thermal plasma) to replace toxic hydrofluoric acid (HF) treatments; and recycling/regeneration of spent graphite anodes using mild organic acids and low-temperature annealing.",
+      "fabrication_method": "Green purification and recycling techniques including flotation, non-thermal plasma (NTP) treatment, electrochemical purification, and organic-acid leaching/polymer-coating of spent graphite.",
+      "performance_metrics": [
+        {
+          "metric": "Raw material cost",
+          "value": "$5000–10,000 per tonne",
+          "condition": "Natural graphite production",
+          "comparison_baseline": "$10,000–20,000 per tonne (for synthetic graphite)",
+          "source_section_or_page": "Page 1, Introduction"
+        },
+        {
+          "metric": "Purity of non-thermal plasma purified graphite",
+          "value": "exceeding 99.99%",
+          "condition": "Low bulk temperature non-thermal plasma (NTP) treatment",
+          "comparison_baseline": "less than 90% (raw natural graphite ore)",
+          "source_section_or_page": "Page 17, Section 4.1.7"
+        },
+        {
+          "metric": "Reversible capacity of regenerated spent graphite",
+          "value": "353 mAh/g",
+          "condition": "At 0.1C rate, regenerated with a conductive HOS-PFM polymer coating",
+          "comparison_baseline": "342 mAh/g (uncoated regenerated graphite)",
+          "source_section_or_page": "Page 24-25, Section 6"
+        },
+        {
+          "metric": "Coulombic efficiency of regenerated spent graphite",
+          "value": "99.93%",
+          "condition": "Regenerated with a conductive HOS-PFM polymer coating",
+          "comparison_baseline": "99.60% (uncoated regenerated graphite)",
+          "source_section_or_page": "Page 25, Section 6"
+        },
+        {
+          "metric": "Reversible capacity of oxidized recycled graphite (RGO500)",
+          "value": "130 mAh/g",
+          "condition": "At 1C cycle rate, after controlled pyrolysis of recycled graphite (RGO500)",
+          "comparison_baseline": "not stated in paper",
+          "source_section_or_page": "Page 26, Section 6"
+        },
+        {
+          "metric": "Initial Coulombic Efficiency (ICE) of oxidized recycled graphite (RGO500)",
+          "value": "exceeding 92%",
+          "condition": "Controlled pyrolysis of recycled graphite",
+          "comparison_baseline": "~80% (untreated recycled graphite)",
+          "source_section_or_page": "Page 26, Section 6"
+        }
+      ],
+      "limitations": [
+        "Natural graphite exhibits lower initial Coulombic efficiency (85–90%) compared to synthetic graphite (90–95%) due to its high surface area and edge plane exposure.",
+        "Conventional purification of natural graphite relies on highly toxic, corrosive hydrofluoric acid (HF), causing substantial environmental water contamination and high waste-treatment costs.",
+        "Innovative green purification methods like non-thermal plasma and electrochemical treatments face limitations regarding scalability, high equipment costs, and operational throughput.",
+        "Spent graphite recycling is often complicated by binder residues, solid-electrolyte interphase (SEI) contaminants, and transition metal impurities that degrade performance when reused."
+      ],
+      "figure_or_table_evidence": [
+        {
+          "figure_or_table": "Table 4",
+          "evidence_summary": "Provides a comprehensive side-by-side comparison of natural graphite versus synthetic graphite parameters, highlighting differences in crystallinity, processing complexity, cost, environmental impact, specific capacity, and initial Coulombic efficiency.",
+          "exact_values_available": true,
+          "needs_manual_digitization": false,
+          "source_page": "11"
+        },
+        {
+          "figure_or_table": "Fig. 12",
+          "evidence_summary": "Presents a structured schematic comparing the main advantages and disadvantages of natural graphite purification methods (flotation, thermal, HF acid, alkali roasting, chlorination, electrochemical, and non-thermal plasma).",
+          "exact_values_available": false,
+          "needs_manual_digitization": false,
+          "source_page": "17"
+        },
+        {
+          "figure_or_table": "Fig. 18",
+          "evidence_summary": "Schematically outlines the regeneration pathways of spent graphite from spent lithium-ion batteries using acid treatment (acetic acid), alkali treatment (KOH), and thermal gas treatment under N2.",
+          "exact_values_available": false,
+          "needs_manual_digitization": false,
+          "source_page": "25"
+        },
+        {
+          "figure_or_table": "Fig. 19",
+          "evidence_summary": "Displays electrochemical testing and cycle performance of oxidized recycled graphite (RGO500) and untreated recycled graphite (RG). Chart (h) shows half-cell cycle stability at 1C, highlighting that RGO500 maintains ~130 mAh/g capacity over 300 cycles.",
+          "exact_values_available": true,
+          "needs_manual_digitization": false,
+          "source_page": "26"
+        }
+      ],
+      "confidence": 0.95,
+      "needs_human_review": true,
+      "human_review_reason": "This is a review paper where key performance metrics and claims are synthesized from various third-party primary research papers (e.g., studies by Miao et al. and Lu et al.), rather than representing a single internal experimental study. High-value performance metrics and claims should be verified before use in a research brief.",
+      "source_extraction_file": "107_natural_graphite_ecofriendly.json",
+      "source_type": "google_cloud_gemini_document_understanding",
+      "status": "extracted_needs_human_validation"
+    },
+    {
+      "id": "real:P110",
+      "title": "Poly(hydroxybutyrate-co-hydroxyvalerate) as a biodegradable binder in a negative electrode material for lithium-ion batteries",
+      "authors": [],
+      "year": null,
+      "venue": null,
+      "abstract": "This study evaluates poly(hydroxybutyrate-co-hydroxyvalerate) (PHBV), a biodegradable plant-derived and microbial thermoplastic polyester, as an eco-friendly binder alternative to toxic polyvinylidene fluoride (PVDF) for graphite negative electrodes in lithium-ion batteries. PHBV-bound graphite electrodes demonstrate highly comparable specific capacities, cycle stability, and lithium-ion diffusion coefficients to PVDF-bound baselines, indicating its high potential to improve sustainability in battery manufacturing.",
+      "paper_type": "Full Length Article",
+      "battery_chemistry": "lithium-ion",
+      "electrode_component": "negative electrode (anode)",
+      "green_strategy": "Substitution of toxic, non-biodegradable synthetic fluorinated binders (PVDF) with a biodegradable, bio-derived, and compostable biopolymer (PHBV).",
+      "fabrication_method": "Slurry casting of graphite (80 wt%), carbon black conductive additive (10 wt%), and PHBV binder (10 wt%) in chloroform (CHCl3) solvent onto a copper current collector, followed by drying under vacuum at 90 °C for 24 h.",
+      "performance_metrics": [
+        {
+          "metric": "Specific capacity at 36 mA/g after 100 cycles",
+          "value": "357 mAh/g",
+          "condition": "At current density of 36 mA/g, potential range 0.005 V to 3.0 V vs Li/Li+",
+          "comparison_baseline": "not stated in paper",
+          "source_section_or_page": "Page 3, Section 3"
+        },
+        {
+          "metric": "Capacity retention after 100 cycles",
+          "value": "99.1 %",
+          "condition": "Cycled at 36 mA/g",
+          "comparison_baseline": "not stated in paper",
+          "source_section_or_page": "Page 3, Section 3"
+        },
+        {
+          "metric": "Capacity recovery on returning to initial rate",
+          "value": "over 90 %",
+          "condition": "Returned to C/20 rate after high-rate testing (up to 10C)",
+          "comparison_baseline": "not stated in paper",
+          "source_section_or_page": "Page 3, Section 3"
+        },
+        {
+          "metric": "Lithium-ion diffusion coefficient (D_Li)",
+          "value": "10^-9 to 10^-7 cm^2/s",
+          "condition": "Determined via Galvanostatic Intermittent Titration Technique (GITT)",
+          "comparison_baseline": "similar order of magnitude as PVDF",
+          "source_section_or_page": "Page 6, top of left column / Page 5, Fig. 7"
+        }
+      ],
+      "limitations": [
+        "The current fabrication protocol requires chloroform (CHCl3) as a solvent to dissolve PHBV, which is a volatile, toxic chlorinated organic solvent.",
+        "PHBV exhibits lower adhesion strength to the copper current collector compared to PVDF, which may result in a loss of electrical contact over very long-term cycling.",
+        "Poor rate capability at high discharge rates (4C, 10C), though a similar decline is observed for the PVDF benchmark due to electrode thickness transport limitations."
+      ],
+      "figure_or_table_evidence": [
+        {
+          "figure_or_table": "Fig. 3",
+          "evidence_summary": "Displays charge/discharge cycling performance of TIMREX_PHBV and TIMREX_PVDF at varying current densities, showing highly similar discharge capacity profiles.",
+          "exact_values_available": false,
+          "needs_manual_digitization": true,
+          "source_page": "3"
+        },
+        {
+          "figure_or_table": "Fig. 4",
+          "evidence_summary": "Shows the extended cycle life of the TIMREX_PHBV electrode over 100 cycles at a current density of 36 mA/g, maintaining a specific capacity of 357 mAh/g.",
+          "exact_values_available": true,
+          "needs_manual_digitization": false,
+          "source_page": "4"
+        },
+        {
+          "figure_or_table": "Fig. 7",
+          "evidence_summary": "Plots the chemical diffusion coefficient of lithium ions as a function of potential, illustrating that PHBV and PVDF binders yield comparable kinetic properties.",
+          "exact_values_available": false,
+          "needs_manual_digitization": true,
+          "source_page": "5"
+        }
+      ],
+      "confidence": 0.95,
+      "needs_human_review": true,
+      "human_review_reason": "The green binder (PHBV) slurry requires a chlorinated solvent (chloroform) rather than a green water-based solvent system, representing a critical processing trade-off. Additionally, key rate capacity comparison values in Fig. 3 require manual digitization. At least one figure/table requires manual digitization or visual verification. High-value performance metrics and claims should be verified before use in a research brief.",
+      "source_extraction_file": "110_biodegradable_phbv_binder.json",
+      "source_type": "google_cloud_gemini_document_understanding",
+      "status": "extracted_needs_human_validation"
+    },
+    {
+      "id": "real:P123",
+      "title": "One-step atmospheric microplasma synthesis of an NMC-type lithium-ion battery cathode",
+      "authors": [],
+      "year": null,
+      "venue": null,
+      "abstract": "The paper demonstrates an ultra-fast (less than one second) synthesis method for crystalline NMC-type lithium-ion battery cathode particles using a one-step atmospheric microplasma hollow-tube reactor. This process completely bypasses the conventional, energy-intensive calcination steps (which typically require temperatures exceeding 700 °C for hours).",
+      "paper_type": "Short Communication",
+      "battery_chemistry": "lithium-ion",
+      "electrode_component": "cathode",
+      "green_strategy": "Elimination of energy-intensive high-temperature calcination steps (>700 °C for hours) via ultra-fast, sub-second atmospheric microplasma synthesis.",
+      "fabrication_method": "One-step atmospheric microplasma synthesis using a hollow-tube reactor",
+      "performance_metrics": [
+        {
+          "metric": "Synthesis duration",
+          "value": "less than one second",
+          "condition": "Atmospheric microplasma hollow-tube reactor",
+          "comparison_baseline": "Conventional calcination at >700 °C for hours",
+          "source_section_or_page": "Page 1, Abstract"
+        },
+        {
+          "metric": "Initial discharge capacity",
+          "value": "approximately 125 mAh/g",
+          "condition": "C/10 charge/discharge rate, 2.8–4.4 V vs. Li/Li+ in Gen-2 electrolyte (1.2 M LiPF6 in 3:7 wt:wt EC:EMC)",
+          "comparison_baseline": "Typical commercial NMC cathodes exhibit higher capacity (e.g., 160-200 mAh/g) but require hours of calcination",
+          "source_section_or_page": "Page 5, Section 3.3"
+        },
+        {
+          "metric": "Particle size diameter",
+          "value": "0.1 to 3 µm",
+          "condition": "Spherical hollow-tube microplasma reaction product",
+          "comparison_baseline": "Nanometer range typically observed in low/mid-vacuum plasmas",
+          "source_section_or_page": "Page 2, Section 3.1"
+        }
+      ],
+      "limitations": [
+        "Inconsistent plasma discharge during synthesis (arc-like plasma instead of stable glow discharge).",
+        "Electrode sputtering/erosion causing iron contamination in the synthesized materials.",
+        "Exceedingly small product yield, making reliable and uniform material production challenging with the current setup.",
+        "Lower-than-expected initial discharge capacity (~125 mAh/g) compared to standard NMC cathodes due to low crystal quality and unreacted precursor."
+      ],
+      "figure_or_table_evidence": [
+        {
+          "figure_or_table": "Fig. 1",
+          "evidence_summary": "Provides a schematic of the hollow-tube reactor setup (a) and cartoon of the reaction vessel (b) illustrating how the metal acetate liquid precursor vapor undergoes atmospheric plasma treatment.",
+          "exact_values_available": false,
+          "needs_manual_digitization": false,
+          "source_page": "2"
+        },
+        {
+          "figure_or_table": "Fig. 2",
+          "evidence_summary": "SEM and EDX spectra demonstrating spherical particle morphology (0.1–3 µm) and confirming the elemental presence of Ni, Mn, and Co in the correct stoichiometric ratio of the NMC precursor.",
+          "exact_values_available": true,
+          "needs_manual_digitization": false,
+          "source_page": "3"
+        },
+        {
+          "figure_or_table": "Fig. 3",
+          "evidence_summary": "XRD diffraction data indicating the products are at least partially crystalline hexagonal NMC-type phases before and after electrochemical cycling.",
+          "exact_values_available": false,
+          "needs_manual_digitization": false,
+          "source_page": "4"
+        },
+        {
+          "figure_or_table": "Fig. 5",
+          "evidence_summary": "Shows discharge capacity over 10 cycles (a) starting around 125 mAh/g and declining to ~110 mAh/g, alongside dQ/dV plots (b, c) highlighting the active redox peaks resulting from the plasma-processed materials.",
+          "exact_values_available": true,
+          "needs_manual_digitization": false,
+          "source_page": "6"
+        }
+      ],
+      "confidence": 0.95,
+      "needs_human_review": true,
+      "human_review_reason": "High-value performance metrics and claims should be verified before use in a research brief.",
+      "source_extraction_file": "123_ One-step atmospheric microplasma synthesis of an NMC-type lithium-ion.json",
+      "source_type": "google_cloud_gemini_document_understanding",
+      "status": "extracted_needs_human_validation"
+    }
+  ],
+  "issues": [
+    {
+      "filename": "036_electrode_calendering_review.json.json",
+      "issue": "empty_file"
+    }
+  ],
+  "quality_summary": {
+    "extracted_paper_count": 9,
+    "extracted_claim_count": 10,
+    "skipped_or_invalid_file_count": 1,
+    "human_review_claim_count": 10,
+    "claimless_paper_ids": [],
+    "approach_type_counts": {
+      "bio-based carbon coating": 1,
+      "bio-based self-healing polymer binder": 1,
+      "biodegradable biopolymer binder": 1,
+      "biomass-derived carbon modification": 1,
+      "calcination-free/low-energy synthesis": 1,
+      "green purification of natural graphite": 1,
+      "recycled graphite anode material": 1,
+      "solvent-assisted dry processing": 1,
+      "solvent-free processing": 2
+    },
+    "electrode_component_counts": {
+      "anode": 4,
+      "cathode": 4,
+      "negative electrode (anode)": 1
+    },
+    "quality_gate": "usable_for_demo_retrieval_and_hypothesis_generation",
+    "publication_readiness": "not_publication_ready_without_human_validation"
+  }
+}

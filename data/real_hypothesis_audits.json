@@ -1,0 +1,149 @@
+{
+  "description": "Evidence audit for deterministic real-paper CellForge hypotheses.",
+  "summary": {
+    "adapter": "local_real_evidence_auditor",
+    "hypotheses": 5,
+    "advance_with_human_review": 1,
+    "revise_experiment_design": 3,
+    "revise_before_brief": 1,
+    "avg_hallucination_risk": 0.45,
+    "avg_claim_grounding": 0.65,
+    "source_hypotheses": "data\\real_hypotheses.json",
+    "source_corpus": "data\\real_evidence_corpus.json"
+  },
+  "audits": [
+    {
+      "hypothesis_id": "real:H001",
+      "citation_coverage": 1.0,
+      "claim_grounding": 0.626,
+      "contradiction_coverage": 0.5,
+      "evidence_strength": 0.95,
+      "novelty_gap": 0.88,
+      "feasibility": 0.455,
+      "human_review_pressure": 1.0,
+      "hallucination_risk": 0.447,
+      "unsupported_claims": [
+        "All cited real-paper claims are extraction artifacts requiring human validation.",
+        "Hypothesis uses directional performance language that must remain proposal-level until experimentally validated."
+      ],
+      "contradiction_notes": [
+        "real:C123_01 (real:P123): Low discharge capacity (125 mAh/g) and contamination from electrode sputtering"
+      ],
+      "supporting_claim_ids": [
+        "real:C044_01",
+        "real:C086_01",
+        "real:C075_01"
+      ],
+      "contradicting_claim_ids": [
+        "real:C123_01"
+      ],
+      "recommendation": "revise_experiment_design"
+    },
+    {
+      "hypothesis_id": "real:H002",
+      "citation_coverage": 0.667,
+      "claim_grounding": 0.507,
+      "contradiction_coverage": 0.5,
+      "evidence_strength": 0.87,
+      "novelty_gap": 0.84,
+      "feasibility": 0.665,
+      "human_review_pressure": 1.0,
+      "hallucination_risk": 0.529,
+      "unsupported_claims": [
+        "All cited real-paper claims are extraction artifacts requiring human validation."
+      ],
+      "contradiction_notes": [
+        "real:C081_01 (real:P081): The efficacy is heavily dependent on the biopolymer precursor chemistry, as starch-derived carbons did not exhibit comparable kinetic improvements."
+      ],
+      "supporting_claim_ids": [
+        "real:C096_01",
+        "real:C110_01"
+      ],
+      "contradicting_claim_ids": [
+        "real:C081_01"
+      ],
+      "recommendation": "revise_before_brief"
+    },
+    {
+      "hypothesis_id": "real:H003",
+      "citation_coverage": 1.0,
+      "claim_grounding": 0.725,
+      "contradiction_coverage": 0.5,
+      "evidence_strength": 0.9,
+      "novelty_gap": 0.92,
+      "feasibility": 0.595,
+      "human_review_pressure": 1.0,
+      "hallucination_risk": 0.413,
+      "unsupported_claims": [
+        "All cited real-paper claims are extraction artifacts requiring human validation.",
+        "Hypothesis uses directional performance language that must remain proposal-level until experimentally validated."
+      ],
+      "contradiction_notes": [
+        "real:C110_01 (real:P110): The processing required chloroform (CHCl3) solvent, and the polymer has lower adhesion to copper than PVDF."
+      ],
+      "supporting_claim_ids": [
+        "real:C107_01",
+        "real:C107_02",
+        "real:C099_01"
+      ],
+      "contradicting_claim_ids": [
+        "real:C110_01"
+      ],
+      "recommendation": "advance_with_human_review"
+    },
+    {
+      "hypothesis_id": "real:H004",
+      "citation_coverage": 1.0,
+      "claim_grounding": 0.726,
+      "contradiction_coverage": 0.5,
+      "evidence_strength": 0.95,
+      "novelty_gap": 0.92,
+      "feasibility": 0.49,
+      "human_review_pressure": 1.0,
+      "hallucination_risk": 0.42,
+      "unsupported_claims": [
+        "All cited real-paper claims are extraction artifacts requiring human validation.",
+        "Hypothesis uses directional performance language that must remain proposal-level until experimentally validated."
+      ],
+      "contradiction_notes": [
+        "real:C044_01 (real:P044): The processing current was limited to 3-4 mA, and the setup operates under vacuum conditions."
+      ],
+      "supporting_claim_ids": [
+        "real:C081_01",
+        "real:C086_01",
+        "real:C075_01"
+      ],
+      "contradicting_claim_ids": [
+        "real:C044_01"
+      ],
+      "recommendation": "revise_experiment_design"
+    },
+    {
+      "hypothesis_id": "real:H005",
+      "citation_coverage": 1.0,
+      "claim_grounding": 0.664,
+      "contradiction_coverage": 0.5,
+      "evidence_strength": 0.95,
+      "novelty_gap": 0.88,
+      "feasibility": 0.42,
+      "human_review_pressure": 1.0,
+      "hallucination_risk": 0.443,
+      "unsupported_claims": [
+        "All cited real-paper claims are extraction artifacts requiring human validation.",
+        "Hypothesis uses directional performance language that must remain proposal-level until experimentally validated."
+      ],
+      "contradiction_notes": [
+        "real:C075_01 (real:P075): High tortuosity still limits performance at high discharge rates."
+      ],
+      "supporting_claim_ids": [
+        "real:C123_01",
+        "real:C086_01",
+        "real:C044_01"
+      ],
+      "contradicting_claim_ids": [
+        "real:C075_01"
+      ],
+      "recommendation": "revise_experiment_design"
+    }
+  ]
+}

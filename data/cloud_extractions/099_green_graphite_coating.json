@@ -1,0 +1,91 @@
+{
+"title": "A green route based on \u03c0-\u03c0 interactions to coat graphite for high-rate and long-life anodes in lithium-ion batteries",
+"abstract_summary": "To address the limited rate performance and cycling stability of commercial graphite anodes, this study utilizes tannic acid (TA), an economical plant polyphenol, as a green carbon coating precursor. Benefiting from \u03c0-\u03c0 stacking interactions and room-temperature cross-linking with formaldehyde in an alkaline solution, a uniform TA polymer layer is coated onto the graphite surface. Subsequent pyrolysis at 700 \u00b0C yields carbon-coated graphite (G@C) with a ~5 nm amorphous carbon layer. The G@C anode exhibits improved Li-ion diffusion kinetics, suppressed volume expansion, and enhanced electrochemical performance, delivering a capacity of 103.7 mAh g\u207b\u00b9 after 500 cycles at 2C.",
+"paper_type": "Original Research Report",
+"electrode_component": "anode",
+"green_strategy": "Uses natural plant-derived tannic acid (TA) as a non-toxic, low-cost carbon precursor instead of coal tar pitches or toxic organic solvents (like toluene or tetrahydrofuran) for carbon coating. The coating process is carried out in deionized water and ethanol at ambient temperature and pressure.",
+"battery_chemistry": "lithium-ion",
+"fabrication_method": "Water-and-ethanol-based wet-chemical coating using tannic acid and formaldehyde cross-linker in ammonia solution under ambient conditions, followed by calcination (pyrolysis) at 700 \u00b0C for 3 h in argon.",
+"performance_metrics": [
+{
+"metric": "Specific capacity at 2C (after 500 cycles)",
+"value": "103.7 mAh g\u207b\u00b9",
+"condition": "Charged/discharged at 2C rate over 500 cycles in 1 M LiPF\u2086 (EC:DMC:EMC = 1:1:1 vol% + 1% VC)",
+"comparison_baseline": "68.7 mAh g\u207b\u00b9",
+"source_section_or_page": "Page 1, Abstract / Page 4, Section 3.2"
+},
+{
+"metric": "Capacity retention after 500 cycles at 2C",
+"value": "89%",
+"condition": "Charged/discharged at 2C rate over 500 cycles",
+"comparison_baseline": "85%",
+"source_section_or_page": "Page 1, Abstract / Page 4, Section 3.2"
+},
+{
+"metric": "Reversible specific capacity at 0.1C",
+"value": "363.1 mAh g\u207b\u00b9",
+"condition": "0.1C current rate, voltage window 0.005-2 V vs. Li/Li\u207a",
+"comparison_baseline": "359.9 mAh g\u207b\u00b9 (for pristine graphite)",
+"source_section_or_page": "Page 4, Section 3.2"
+},
+{
+"metric": "Initial Coulombic Efficiency (ICE)",
+"value": "84.64%",
+"condition": "0.1C current rate first cycle",
+"comparison_baseline": "87.15% (for pristine graphite)",
+"source_section_or_page": "Page 4, Section 3.2"
+}
+],
+"limitations": [
+"The initial Coulombic efficiency (ICE) of the carbon-coated graphite (G@C) decreases from 87.15% to 84.64% compared to pristine graphite, which is attributed to the increased specific surface area of the carbon coating and subsequent irreversible capacity loss from SEI layer formation.",
+"The coating process requires formaldehyde as a cross-linking agent, which is a hazardous chemical, although used in small liquid quantities.",
+"The synthesis still requires high-temperature pyrolysis (calcination) at 700 \u00b0C under inert argon atmosphere for 3 hours, which carries an thermal energy cost."
+],
+"figure_or_table_evidence": [
+{
+"figure_or_table": "Fig. 1",
+"evidence_summary": "Presents a schematic of the G@C manufacturing process, highlighting the step-by-step assembly of TA and formaldehyde onto graphite via \u03c0-\u03c0 stacking followed by calcination to form the G@C anode.",
+"exact_values_available": false,
+"needs_manual_digitization": false,
+"source_page": "2"
+},
+{
+"figure_or_table": "Fig. 2",
+"evidence_summary": "Characterization of the coating via XPS (a-c), XRD (d), Raman (e), SEM (f, g), and TEM (h, i). Shows a highly uniform, amorphous carbon coating layer with a thickness of approximately 5 nm on the graphite surface.",
+"exact_values_available": true,
+"needs_manual_digitization": false,
+"source_page": "3"
+},
+{
+"figure_or_table": "Fig. 3",
+"evidence_summary": "Electrochemical performance evaluations of G and G@C anodes. Specifically, (c) displays C-rates (0.2C, 0.5C, 1C, 2C, 3C, 5C) where G@C consistently outperforms G, and (d) shows the specific discharge capacity and capacity retention over 500 cycles at 2C.",
+"exact_values_available": true,
+"needs_manual_digitization": false,
+"source_page": "4"
+},
+{
+"figure_or_table": "Fig. 4",
+"evidence_summary": "Kinetics studies including EIS Nyquist plots (a, b), magnitude of impedance elements (c), GITT curves (d), and calculated Li\u207a diffusion coefficients (e). Demonstrates that the G@C anode has lower charge transfer resistance (Rct) and higher lithium-ion diffusivity.",
+"exact_values_available": false,
+"needs_manual_digitization": true,
+"source_page": "5"
+}
+],
+"candidate_research_claims": [
+{
+"claim_text": "The carbon-coated graphite (G@C) prepared via a green tannic acid/formaldehyde self-assembly process achieves a higher specific capacity and stability during long-term cycling, retaining 89% capacity after 500 cycles at 2C.",
+"battery_chemistry": "lithium-ion",
+"approach_type": "bio-based carbon coating",
+"metric": "capacity retention",
+"value": "89%",
+"experimental_condition": "500 cycles at 2C rate, EC:DMC:EMC (1:1:1 vol%) + 1% VC electrolyte",
+"evidence_type": "experimental",
+"limitation": "The initial Coulombic efficiency (ICE) of G@C drops to 84.64% compared to 87.15% for pristine graphite.",
+"citation_text": "After 500 cycles at 2C, the specific capacity of G@C was 103.7 mAh g\u207b\u00b9, with a retention of 89%. However, G exhibited only 68.7 mAh g\u207b\u00b9 and 85% retention under identical conditions.",
+"source_section_or_page": "Page 1, Abstract / Page 4, Section 3.2"
+}
+],
+"confidence": 0.98,
+"needs_human_review": true,
+"human_review_reason": "Specific rate capability values at individual rates (such as 3C and 5C) in Fig. 3c and Li+ diffusion coefficient trends in Fig. 4e are represented only in charts and require manual digitization for exact numerical values."
+}
