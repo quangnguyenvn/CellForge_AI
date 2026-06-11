@@ -1,0 +1,29 @@
+Clipchamp voice setting:
+- Language: English
+- Voice: male
+- Speed: medium
+- Duration target: 2 minutes 20 seconds to 2 minutes 50 seconds
+
+Voice-over script:
+
+Hi, this is CellForge AI, a self-auditing research agent for green lithium-ion battery materials.
+
+The real problem is that battery researchers face too many papers, too many experimental claims, and too much risk of generating a research idea that sounds plausible but is not properly grounded. CellForge AI is not a normal paper-search chatbot. It is a multi-step agent workflow that ingests literature, extracts structured claims, benchmarks retrieval, generates research hypotheses, audits each hypothesis, traces the process with Arize, and only then exports a research proposal package.
+
+For this demo, the research scope is narrowed to green electrode materials and fabrication methods for lithium-ion batteries. The agent reads Gemini Document Understanding extraction artifacts, builds a real evidence corpus, and runs a retrieval benchmark over expected papers and claims.
+
+Next, CellForge AI generates five candidate research hypotheses. The key step is the evidence audit. Each hypothesis is scored for citation coverage, claim grounding, contradiction coverage, evidence strength, novelty gap, feasibility, and hallucination risk. This is what makes CellForge AI different from a regular RAG assistant: it does not simply answer. It evaluates whether the proposed research direction is supported by evidence before recommending it.
+
+In Arize AX, every major agent decision becomes inspectable. The trace view shows evidence loading, retrieval, hypothesis generation, evaluator spans for each hypothesis, and a self-introspection span. The self-introspection stage selects hypothesis H003 because it has stronger grounding and lower hallucination risk than the alternatives.
+
+The selected hypothesis is circular natural-graphite anodes with bio-based conductive surface repair. The proposed direction combines non-thermal plasma purification for natural or recycled graphite with a bio-derived carbon coating that may repair surface defects and stabilize the solid electrolyte interphase.
+
+CellForge AI also keeps risk visible. For example, the PHBV binder evidence shows strong cycling performance, but it also uses chloroform and has lower adhesion than PVDF. Instead of ignoring this, the agent treats it as contradiction and risk-control evidence.
+
+After the audit, CellForge applies a human validation gate. In this demo, four critical claims are validated from Gemini Document Understanding artifacts and internal consistency checks. For a real journal paper, a human researcher would still verify the source PDFs and publisher references before submission.
+
+Finally, Gemini Pro preview generates the research brief, and the repository exports a manuscript draft plus a molecular interface schematic. The output is not an automatically publishable final paper. It is an evidence-backed research proposal package that a human researcher can validate, edit, and develop into a real paper.
+
+The broader vision is that this workflow can support many research domains beyond batteries: solar materials, catalysts, carbon capture, biomedical materials, and semiconductors. The pattern is general: retrieve evidence, extract claims, generate hypotheses, audit grounding, validate, and draft.
+
+CellForge AI starts with green battery materials because the future of clean energy, electric vehicles, and sustainable industry depends heavily on better materials and cleaner battery manufacturing.

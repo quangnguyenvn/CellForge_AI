@@ -1,0 +1,43 @@
+1
+00:00:00,000 --> 00:00:12,000
+Hi, this is CellForge AI, a self-auditing research agent for green lithium-ion battery materials.
+
+2
+00:00:12,000 --> 00:00:29,000
+Battery researchers face too many papers, too many experimental claims, and too much risk of generating a plausible but ungrounded research idea.
+
+3
+00:00:29,000 --> 00:00:47,000
+CellForge AI is not a normal paper-search chatbot. It is a multi-step agent workflow that extracts claims, benchmarks retrieval, generates hypotheses, audits them, and exports a proposal package.
+
+4
+00:00:47,000 --> 00:01:04,000
+For this demo, the scope is green electrode materials and fabrication methods for lithium-ion batteries. The agent uses Gemini extraction artifacts to build a real evidence corpus.
+
+5
+00:01:04,000 --> 00:01:23,000
+The key step is the evidence audit. Each hypothesis is scored for citation coverage, claim grounding, contradiction coverage, evidence strength, novelty, feasibility, and hallucination risk.
+
+6
+00:01:23,000 --> 00:01:41,000
+In Arize AX, every major agent decision is inspectable: retrieval, hypothesis generation, evaluator spans, and self-introspection.
+
+7
+00:01:41,000 --> 00:01:58,000
+The self-introspection stage selects H003: circular natural-graphite anodes with bio-based conductive surface repair.
+
+8
+00:01:58,000 --> 00:02:15,000
+The agent also keeps risk visible. PHBV binder evidence has strong cycling performance, but it uses chloroform and has lower adhesion than PVDF.
+
+9
+00:02:15,000 --> 00:02:32,000
+After the audit, CellForge applies a human validation gate. In this demo, four critical claims are validated from Gemini extraction artifacts and consistency checks.
+
+10
+00:02:32,000 --> 00:02:49,000
+Finally, Gemini Pro preview generates the research brief, and the repository exports a manuscript draft plus a molecular interface schematic.
+
+11
+00:02:49,000 --> 00:03:05,000
+This is not an automatically publishable final paper. It is an evidence-backed research proposal package for a human researcher to validate and develop.
