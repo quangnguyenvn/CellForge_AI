@@ -93,7 +93,7 @@ def slides() -> list[dict]:
             "subtitle": "CellForge AI turns EV battery literature into evidence-backed research hypotheses.",
             "bullets": ["Green lithium-ion battery materials", "Not a chatbot: a traced multi-step agent workflow", "Output: proposal package, not an automatic final paper"],
             "footer": "README.md",
-            "duration": 12,
+            "duration": 11,
         },
         {
             "title": "Real-world research problem",
